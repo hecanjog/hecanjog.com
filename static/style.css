@@ -1,0 +1,26 @@
+main {
+    width: 40rem;
+    margin: 0 auto;
+}
+
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.frame::after, .post::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.frame img, .post figure {
+    float: left;    
+    margin-right: 1rem;
+}
+
+.post figure {
+    width: 125px;
+    margin-right: 4rem;
+}

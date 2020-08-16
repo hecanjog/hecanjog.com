@@ -1,0 +1,60 @@
+Title: Listening - Sunday, Nov 3rd 2019 
+Date: 2019-11-03 18:00
+Category: Listening
+Tags: listening
+Summary: Annette Vande Gorne
+
+
+![Exils](/images/exils.jpg)
+
+- [Annette Vande Gorne – Exils (2008 Empreintes DIGITALes)](https://www.discogs.com/Annette-Vande-Gorne-Exils/release/6565177)
+
+
+My CD player is either broken or needs a better cleaning than a wipe-down and spray with the air compressor. :-/ So no CDs for me for a minute I guess.
+
+I spent a little too long this morning looking into standalone units that have USB support for FLAC playback... but they're all way too expensive. 
+If I can't recover my boombox then I might experiment with a $30 CD-ROM attached to an unused raspberry pi. I have a little LCD I'm not using too, 
+so I could turn this into a proper standalone [moc](http://moc.daper.net/) device... but I'm bummed because the boombox was working out totally fine and it's only about 
+five years old.
+
+I have a bunch of digital stuff on deck to listen to though! (And records and tapes and... yeah so not really a crying shame or anything.)
+
+Yesterday I enjoyed a late night listen to the "new" (to me anyway) Francis Dhomont album which was surprisingly smeared-over with 
+narration in French and German. It's the third part of a long-in-progress suite of some sort so probably if I was familiar with the 
+first two parts the narration wouldn't have come as a surprise? Some really cool vocal processing, and underneath it all great sound 
+shapes as always. I think I prefer his fully instrumental stuff but then I had no idea what was being said either, so knowing French 
+and German probably would have changed my listening a lot. (I was actually reading while I listened.)
+
+I also enjoyed a headphone listen (I rarely do that anymore!) to the most recent Keith Fullerton Whitman bandcamp offering, which is 
+basically a dump of recordings of concerts he's played recently. I couldn't help but feel like it all could have been edited down into 
+a really tight 40 minute album -- there is at least that much fantastic material in the ~2.5 hour dump -- but I also really enjoyed the 
+raw snapshot of what he's up to on the stage recently. I hope a more concise offering from this sound-world emerges at some point but 
+it was a fun journey anyway. I also especially liked the soundcheck track that made the quad setup a bit more explicit -- who is that
+jamming along on the sax-that-sounds-like-a-violin in the background?
+
+So, this Annette Vande Gorne album, _Exils_? Excuse my French (and my stupid joke) but it's _fucking awesome_.
+
+It's hard to call out favorite moments, there isn't really any down trend in quality anywhere and it's a solid ~80 minutes of music which in itself 
+is sort of a feat. On the one hand this is a collection of mostly unrelated pieces, written at different times with different scopes and deliveries -- 
+on the other: there _is_ a theme for the album which is "exile", and even without knowing that the music just flows naturally together and 
+the whole thing feels like a massive tome more than an album. It's an album the way that _Don Quixote_ is a novel, maybe.
+
+I guess it's funny that despite the amazing selection of completely acousmatic instrumental selections, it's the voice-driven tracks that I think 
+stood out the most for me. _Fragments de lettre à un habitant du Centre_ (_Fragments from a Letter to a Resident of the Centre_) features a really 
+punk rock voice performance by Éveline Legrand and is all thunder and rumblings of thunder to come. 
+
+Probably my favorite track of them all is the ~22 minute voice and field recording epic _Exil, chant II_ from 1983 and updated in 2006 with another great 
+but much more subtle reading from Vande Gorne herself. I had to take a break from listening after this one, at the hour mark completely saturated with 
+information I think this album needs most of a day to best listen. Next time I'll take in each track with a generous interval to let it soak in between. 
+It's not just the density of information, it's the shift from world to world between tracks which sound both of a kind and yet tell completely different stories.
+Even just listening to the first hour uninterrupted was almost dizzying.
+
+I still wish I could understand what was actually being _said_ in these. _Exil, chant II_ is apparantly about: 
+
+> A French poet and ex-ambassador whose possessions and family have been taken hostage by the Nazis during World War 2 tells, while in exile on a Maine island, 
+> of the inner destitution of the exile and the universal conceit of war actions: Exil, chant II.
+
+And really that mood comes through, even without reading the summary until after listening as I did.
+
+The last two shorter tracks felt like a little coda after all that. This is an amazing record I'm sure I'll be coming back to quite a lot.
+

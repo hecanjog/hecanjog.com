@@ -1,0 +1,12 @@
+*.swp
+*.swo
+*.pyc
+
+/build/
+/dist/
+/*.egg-info/
+
+engine/__pycache__
+
+venv
+.cache

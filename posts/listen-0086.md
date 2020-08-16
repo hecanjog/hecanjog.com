@@ -1,0 +1,25 @@
+Title: Listening - Tuesday, Jan 28th 2020
+Date: 2020-01-28 18:00
+Category: Listening
+Tags: listening
+Summary: Collections of Colonies of Bees, Man Or Astro-Man?, Spill
+
+
+![Rance](/images/rance.jpg)
+
+- [Collections Of Colonies Of Bees – Rance (2000 Crouton)](https://www.discogs.com/Collections-Of-Colonies-Of-Bees-Rance/release/613235)
+- [Man Or Astro-Man? – Eeviac: Operational Index And Reference Guide, Including Other Modern Computational Devices (1999 Touch And Go)](https://www.discogs.com/Man-Or-Astro-Man-Eeviac-Operational-Index-And-Reference-Guide-Including-Other-Modern-Computational-D/master/54680)
+- [Spill – Fluoresce (2012 Monotype)](https://www.discogs.com/Spill-Fluoresce/release/3545752)
+
+
+This early Coco Bees album is one of my favorites -- heavy on the guitar-stuttering tricks Chris Rosenau has perfected over the years, abstract without veering too far from what it is abstracting... 
+Jon Mueller sounds like a young man on this! I didn't remember him singing on it, but there is no contemporary chant-style intonation here, just pure teen heart-throb indie crooning.
+
+I haven't heard Man Or Astro-Man? since the 90s -- they were one of those bands I'd hear at band rehearsal or listen to with friends but I never fully got into myself. I guess not much has changed. 
+Funny since I've developed a love of surf music as an adult -- well, I guess it's more accurate to say I've developed a love for Alan Jenkins surf projects... and Man Or Astro-Man? has plenty 
+of studio electronics smeared here and there, a cheeky sense of humor... I don't know. It doesn't really work for me for some reason. I almost turned the album off several times. The one highlight was 
+track 9 which was a 90 second pop song that sounded like it was recorded inside of a dumpster, during a dumpster fire. That was very nice! Points also for the cheeky robot synth ending, but I might not 
+come back to another Man Or Astro-Man? album for another 20 years or so...
+
+Spill's _Fluoresce_ is hard to describe, but Tony Buck's skittery drums and Magda Mayas' crystalline pianos and misc implements are a match made in heaven. They have two other records I haven't heard yet!
+

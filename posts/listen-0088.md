@@ -1,0 +1,30 @@
+Title: Listening - Thursday, Jan 30th 2020
+Date: 2020-01-30 18:00
+Category: Listening
+Tags: listening
+Summary: Autechre
+
+
+![NTS Session 3](/images/ae3.jpg)
+
+- [Autechre – NTS Session 3 (2018 Warp)](https://www.discogs.com/Autechre-NTS-Session-3/master/1350964)
+
+
+"There's _another_ side left?" was a question I found myself asking throughout the day as I listened to this. 
+In a weak moment sometime in 2018 I pre-ordered the vinyl box set. I like Autechre a lot -- top Autechre is 
+fantastic and classic. I'll be replaying Chiastic Slide and Cicli Suite and EP7 and others until I die, I'm 
+sure... but I'm skeptical of this data-dump trend generally. 
+
+This three-record set which is only 1/4 of the full release could have easily been whittled down to a nice EP, 
+with maybe a few b-sides leaked out here and there on the side. There are some very nice moments, I prefer the 
+more textural outings on this collection, and other volumes in the NTS series have some of the best IDM-slurp-swarms 
+they've ever accomplished. Still, it's all buried under basically mediocre filler that should have hit the 
+cutting room floor.
+
+Are we having a similar moment when CDs really took off in the 90s, capacity had hit 80 minutes and every 
+artist or label felt obligated to fill every release to the very brim of those 80 minutes? Just because digital 
+delivery systems allow you to fairly easily release 10 hours of music at once doesn't mean it needs to be so!
+
+That said, I'm thankful for extremely long-form outings like Calineczka's _Music not for Airports_ or Terre 
+Thaemlitz' haunting but beautiful _Deproduction_... I just wish these NTS Sessions felt as essential in their 
+length as those.

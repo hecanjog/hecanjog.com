@@ -1,0 +1,16 @@
+Title: Listening - Wednesday, Oct 30th 2019 
+Date: 2019-10-30 18:00
+Category: Listening
+Tags: listening
+Summary: Angel Olsen / Steve Gunn
+
+
+![Angel Olsen / Steve Gunn](/images/angel.jpg)
+
+- [Angel Olsen / Steve Gunn – Live At Pickathon: Angel Olsen / Steve Gunn (2016 Easy Sound)](https://www.discogs.com/Angel-Olsen-Steve-Gunn-Live-At-Pickathon-Angel-Olsen-Steve-Gunn/master/1141641)
+
+I basically just listened to a bunch of overnight renders of a longform algorithmic thing I started recently while I worked today,
+so I didn't even make it to side two (the Steve Gunn side) of this Angel Olsen / Steve Gunn split yet. 
+
+The Angel Olsen side is wonderful though, several of the songs overlap with the record of hers I already have (and know, and love) but it was fun to hear a few new things and the arrangements 
+on this LP are way different than the originals. Love that flangy guitar! Pretty nice recording for a live / festival recording, too. Looking forward to the Gunn side tomorrow.

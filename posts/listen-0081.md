@@ -1,0 +1,39 @@
+Title: Listening - Wednesday, Jan 22nd 2020
+Date: 2020-01-22 18:00
+Category: Listening
+Tags: listening
+Summary: Shalabi Effect, Autechre
+
+
+![Shalabi Effect](/images/se.jpg)
+
+- [Shalabi Effect – Shalabi Effect: Disc 1 (2000 Alien8 Recordings)](https://www.discogs.com/Shalabi-Effect-Shalabi-Effect/release/350964)
+- [Autechre - Chiastic Slide (1996 Warp)](https://www.discogs.com/Autechre-Chiastic-Slide/master/1348)
+
+
+_Shalabi Effect_ was a dorm room touchstone. My friend introduced me to this record. I remember just hanging out and comparing our personal 
+lists of mind-blowing albums, listening and geeking out on our favorite moments. Do people do that sort of thing still? I hope so! Also, of 
+course, we both played in a freeform electroacoustic jam band at the time so this album wasn't just a cool thing, it was _research_ 
+for us.
+
+Despite that and its influence on me at the time, I never spent a ton of time with it on my own. A couple years ago when everyone decided that 
+CDs were no good anymore I started trolling discogs for classic albums being dumped for pennies... (People are still dumping their CDs like garbage so 
+if you're one of those people who doesn't hate CDs, be advised.) Anyway I hadn't thought about that album at all since college but I wanted 
+to give it another chance.
+
+Today I played the first disc five times in a row and I think the whole thing finally might have really clicked for me. It was an especially 
+productive work day, and I think I owe at least some of that focus and productivity to this album. I had the experience over & over of putting 
+the record on, getting absorbed in some work, and then noticing the album was over and I guess another 65 minutes had passed. The first few times 
+I replayed it were just to try to pin it down enough in my mind that I might be able to write something about it later on, but eventually I got 
+sucked into the magical rhythm of it dilating time over & over.
+
+_Shalabi Effect_ has some heritage with American jam bands like The Grateful Dead or even Phish, to my ears. Those moments aren't totally pervasive 
+but there's plenty of juicy psych guitar for the lover of the classic 70s style freak out. Still, the vibe of the record is a much more atmospheric tambura-like 
+undulation of guitar and synths and textural percussion that really does a great job of stirring up a meditative vortex and sucking you into a timeless 
+spin for a rewarding but hazy 65 minutes.
+
+I was a little afraid to play disc two so soon after. _Chiastic Slide_ and a healthy interval of silence made a nice chaser to that experience though. 
+I think _Chiastic Slide_ gets better every time I listen to it. Somehow it always surprises me how good it is -- that rhythmic modulation in the opening 
+track, oof! The sound design is gorgeous on this one too. They were at the top of their game in 1996.
+
+

@@ -1,0 +1,27 @@
+Title: Listening - Monday, Nov 4th 2019 
+Date: 2019-11-04 18:00
+Category: Listening
+Tags: listening
+Summary: Various Yemeni Artists, The Hub
+
+
+![Qat, Coffee & Qambus: Raw 45s From Yemen](/images/qat.jpg)
+
+- [Various – Qat, Coffee & Qambus: Raw 45s From Yemen (2013 Dust-to-Digital)](https://www.discogs.com/Various-Qat-Coffee-Qambus-Raw-45s-From-Yemen/master/603030)
+- [Various - Hub Music (1987 Antelope)](https://www.discogs.com/Various-Hub-Music/release/1510471)
+
+
+Well, my CD player issue is sorted out for now. I hooked up my DVD player (duh) as a headless player in the short term while I figure it out, but 
+that means I can listen to _Qat, Coffee & Qambus_ which just arrived in the mail today.
+
+I was pretty excited to hear this having just finished an interesting book about Yemen by Tim Mackintosh-Smith this year. It barely touches on the 
+music -- and from what I gather music is either outlawed or frowned upon in some areas of Yemen, but there were mentions of percussion ensembles 
+and dances-that-aren't-called dances sprinkled through the book. I wonder if the opening track on this is an example of that percussive dance/not-dance 
+style. At any rate this is a solid compilation. Chris Menist's liner notes are helpful but didn't answer the questions raised in Mackintosh-Smith's book 
+either -- or I'm misunderstanding things, which is more likely.
+
+I haven't played this tape of The Hub before they were The Hub in a while -- I also haven't digitized it yet so I guess I'm always a little afraid it'll get 
+eaten for some unknown reason. It's a good one to come back to though and next time I'll digitize it! That extended Tim Perkis / John Bischoff / Mark Trayle 
+jam at the end is still the highlight for me but it's solid early digital skronk all around.
+
+

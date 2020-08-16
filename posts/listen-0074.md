@@ -1,0 +1,48 @@
+Title: Listening - Monday, Jan 13th 2020
+Date: 2020-01-13 18:00
+Category: Listening
+Tags: listening
+Summary: Helado Negro, Michael Pisaro & Greg Stuart, Milton Nascimento & Lô Borges, Various Electroacoustic Artists, Sukora
+
+
+![Musique Électroacoustique - Electroacoustic Music](/images/radiocanada.jpg)
+
+- [Helado Negro – This Is How You Smile (2019 Rvng Intl.)](https://www.discogs.com/Helado-Negro-This-Is-How-You-Smile/master/1516974)
+- [Michael Pisaro & Greg Stuart – Ricefall (2010 Gravity Wave)](https://www.discogs.com/Michael-Pisaro-Greg-Stuart-Ricefall-2/release/2570857)
+- [Milton Nascimento & Lô Borges – Clube Da Esquina (1972 Odeon)](https://www.discogs.com/Milton-Nascimento-L%C3%B4-Borges-Clube-Da-Esquina/master/167258)
+- [Various – Musique Électroacoustique - Electroacoustic Music - Disc 1 (1990 Radio Canada International)](https://www.discogs.com/Various-Musique-%C3%89lectroacoustique-Electroacoustic-Music/release/906249)
+- [Sukora – Ice Cream Day! Nice Day! (2019 Tristes Tropiques)](https://www.discogs.com/Sukora-Ice-Cream-Day-Nice-Day/release/13847056)
+
+
+Helado Negro's _This Is How You Smile_ keeps growing on me each listen. I slept on it last year mostly, and I sometimes have a hard time finding a way in 
+to records which are to my ears a collection of individual projects. Meaning, I guess: a singles collection 
+with interstitial tracks and transitions placed around each island of a song. That's not a dig, singles make economic sense now more than ever so it seems. 
+Maybe that doesn't apply at all to this album, but for working musicians fighting for stream counts it seems like 
+a common tactic is to work piece-by-piece, drip the release and try to maintain attention in an oversaturated culture. Anyway the songs are _so good_, the production 
+reveals itself to be more nuanced every time I play it, and I mean who cares if it's a just a collection of good stuff and wasn't composed as one lilting stroke 
+of sound in the old fashion. It's a really strong collection of songs and it's my pleasure to find a way into hearing them being a collection as such -- which, I'm 
+expecting to happen naturally over further listens.
+
+I realized recently I'd never heard the Pisaro & Stuart duo _Ricefall_ before -- squidco had a sale, and now I'm a proud owner of 
+a very loud and present disc of amplified rice. The textures in this recording are top notch computer music -- except of course, they're not at all. 
+I couldn't help daydreaming of software implementations of these sounds though -- the entire thing is really sharp, detailed, microgestures seething 
+constantly under the surface as I guess you'd expect when you're dealing with hundreds of thousands of little percussive events! I'd call it a top notch 
+album of analog granular synthesis.
+
+Milton Nascimento & Lô Borges' _Clube Da Esquina_ is still an epic, gorgeous jaw-dropping classic. I can't write about it yet.
+
+Another cold listen of the day was the first disc of a compilation of electroacoustic music from Canada. I grabbed it because I thought I didn't have 
+the Dhomont piece on it (it turns out I do have it, but it's a really really excellent one) but I was excited to find the comp spans decades from the 50s 
+to the 90s and I've already got a few new names I'll need to explore further -- like [Alcides Lanza](https://www.discogs.com/artist/750087-Alcides-Lanza) 
+whose _… There Is A Way To Sing It…_ was one of the highlights of this disc for me.
+
+I also finally pulled this new Sukora album off the shelf for a proper listen. It's probably the best lowercase/silent album I've heard since I popped my first 
+Bernhard Günter CD into the player. There's almost nothing there, but there's not _nothing_ there either. Excursions like this are wonderful excuses to do 
+close listening to your current environment, but the album managed to be almost not there and at the same time create a framed experience for me that was 
+more concrete than just active listening. There are rumbles, there are whisps of distant (high) tones and there are lots of little plops and ploops. It 
+gave me the impression of being in an empty cave, I imagined I was hearing the slow drip from a stalactite forming. Each plop was an impulse tracing the 
+shape of the space being superimposed onto my apartment.
+
+Next time, headphones.
+
+
