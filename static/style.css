@@ -3,9 +3,42 @@ main {
     margin: 0 auto;
 }
 
+@keyframes colorshift {
+    0% {
+        color: #560fff;
+    }
+
+    50% {
+        color: #f80fff;
+    }
+
+    100% {
+        color: #560fff;
+    }
+}
+
+@keyframes colorshiftimg {
+    0% {
+        -webkit-filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
+        filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
+    }
+
+    50% {
+        -webkit-filter: invert(18%) sepia(90%) saturate(3713%) hue-rotate(291deg) brightness(119%) contrast(116%);
+        filter: invert(18%) sepia(90%) saturate(3713%) hue-rotate(291deg) brightness(119%) contrast(116%);
+    }
+
+    100% {
+        -webkit-filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
+        filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
+    }
+}
+
+
 p, a, h1, h2, h3, h4, li, figcaption {
     font-family: Georgia, serif;
     color: #560fff;
+    animation: colorshift 16s ease infinite;
 }
 
 p, a {
@@ -26,6 +59,7 @@ img {
     image-rendering: crisp-edges;
     -webkit-filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
     filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
+    animation: colorshiftimg 11s ease infinite;
 }
 
 .frame::after, .post::after {
