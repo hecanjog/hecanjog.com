@@ -1,6 +1,9 @@
-main {
-    width: 40rem;
-    margin: 0 auto;
+@font-face {
+    font-family: 'kuraleregular';
+    src: url('fonts/kurale-regular-webfont.woff2') format('woff2'),
+         url('fonts/kurale-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @keyframes colorshift {
@@ -17,31 +20,14 @@ main {
     }
 }
 
-@keyframes colorshiftimg {
-    0% {
-        -webkit-filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
-        filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
-    }
-
-    50% {
-        -webkit-filter: invert(18%) sepia(90%) saturate(3713%) hue-rotate(291deg) brightness(119%) contrast(116%);
-        filter: invert(18%) sepia(90%) saturate(3713%) hue-rotate(291deg) brightness(119%) contrast(116%);
-    }
-
-    100% {
-        -webkit-filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
-        filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
-    }
+main {
+    width: 40rem;
+    margin: 0 auto;
 }
-
 
 p, a, h1, h2, h3, h4, li, figcaption {
-    font-family: Georgia, serif;
-    color: #560fff;
-    animation: colorshift 16s ease infinite;
-}
-
-p, a {
+    font-family: 'kuraleregular', serif;
+    color: #111;
     line-height: 1.5;
 }
 
@@ -57,9 +43,6 @@ img {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
-    -webkit-filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
-    filter: invert(12%) sepia(100%) saturate(7498%) hue-rotate(263deg) brightness(96%) contrast(112%);
-    animation: colorshiftimg 11s ease infinite;
 }
 
 .frame::after, .post::after {
@@ -87,4 +70,13 @@ nav ul li {
     display: inline-block;
     margin-right: 0.5rem;
     font-size: 120%;
+
+}
+
+h1 a {
+    animation: colorshift 12s ease infinite;
+}
+
+nav a {
+    animation: colorshift 16s ease infinite;
 }
