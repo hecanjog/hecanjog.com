@@ -2,3 +2,4 @@
 2020-08-21T12:57-05:00	There are lots of cool clients and tools for twtxt... but I think I'd rather play with rolling my own given how simple the format is for everything. I suppose that's the point. :-)
 2020-08-22T16:18-05:00	Might cobble together a little personal twtxt timeline today...
 2020-08-22T16:58-05:00	It's extremely basic but I like that I could cobble together a twtxt feed reader so easily. I'd like better formatting & mention support, but it's something!
+2020-08-22T17:06-05:00	I don't think I'll drop mastodon soon, but I love that I could "join" a social network so to speak by writing a few dozen lines of code.

@@ -1,5 +1,6 @@
 import sys
 import urllib.request
+import textwrap
 
 FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
@@ -24,7 +25,8 @@ def parsefeed(url, feed):
             date, content = tuple(post.split('\t'))
             posts += [{'url': url, 'date': date, 'content': content}]
         except ValueError as e:
-            print(post, e)
+            pass
+            #print(post, e)
     return sorted(posts, key=lambda x: x['date'])
 
 def getlast(feeds, limit=5):
@@ -41,8 +43,10 @@ def printposts(posts):
     print(' ::::::::::::::::')
     print()
     for post in posts:
+        content = '\n'.join(textwrap.wrap(post['content'], 80))
+        content = textwrap.indent(content, '  | ')
         print('%s:' % post['url'])
-        print('  - %s' % post['content'])
+        print(content)
         print()
 
 if __name__ == '__main__':
