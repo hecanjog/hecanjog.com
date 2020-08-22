@@ -45,7 +45,8 @@ def printposts(posts):
     for post in posts:
         content = '\n'.join(textwrap.wrap(post['content'], 80))
         content = textwrap.indent(content, '  | ')
-        print('%s:' % post['url'])
+        print(post['url'])
+        print(post['date'])
         print(content)
         print()
 
