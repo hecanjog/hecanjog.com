@@ -31,8 +31,12 @@ class Post:
 
         self.html = pypandoc.convert_text(self.markdown, 'html5', format='md')
 
+        if 'Status' not in self.headers:
+            self.headers['Status'] = 'public'
+
         for k in self.headers.keys():
             setattr(self, k.lower(), self.headers[k])
+
 
 def load_template():
     now = datetime.now()
@@ -62,9 +66,9 @@ def build_posts():
 
     # Listening Journal
     listening = []
-    for p in Path('./posts').glob('*.md'):
+    for p in Path('./posts/listening/').glob('*.md'):
         post = Post(p)
-        if 'listening' in post.tags:
+        if post.status.lower() != 'draft':
             listening += [ post ]
 
     listening.sort(key=lambda p: p.date, reverse=True)    
@@ -75,6 +79,28 @@ def build_posts():
             print('Listening: %s - %s' % (p.title, p.datestring))
             html.write('<hr/>')
             html.write('<div class="listening post">')
+            html.write('<h3>%s</h3>' % p.title)
+            p.html = p.html.replace('/images/', 'img/')
+            html.write(p.html)
+            html.write('</div>')
+
+        html.write(footer)
+
+    # Blog
+    blog = []
+    for p in Path('./posts/blog/').glob('*.md'):
+        post = Post(p)
+        if post.status.lower() != 'draft':
+            blog += [ post ]
+
+    blog.sort(key=lambda p: p.date, reverse=True)    
+    with open('static/blog.html', 'w', encoding='utf-8') as html:
+        html.write(header)
+        html.write('<h2>Blog</h2>')
+        for p in blog:
+            print('Blog: %s - %s' % (p.title, p.datestring))
+            html.write('<hr/>')
+            html.write('<div class="blog post">')
             html.write('<h3>%s</h3>' % p.title)
             p.html = p.html.replace('/images/', 'img/')
             html.write(p.html)
