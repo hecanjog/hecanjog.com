@@ -1,4 +1,13 @@
 ::: {.frame .highlighted}
+![](img/622-363.jpg)
+
+[+622, +363 \[2020\]](https://hecanjog.bandcamp.com/album/622-363)
+-------------------------------------------------------------------------
+
+A single trombone note expanded via pulsar synthesis and various processing into a slow chorale.
+:::
+
+::: {.frame}
 ![](img/fourfootlers.jpg)
 
 [Fourfootlers \[2020\]](https://hecanjog.bandcamp.com/album/fourfootlers)

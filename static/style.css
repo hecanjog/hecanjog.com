@@ -45,6 +45,12 @@ img {
     image-rendering: crisp-edges;
 }
 
+.frame {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #560fff;
+}
+
 .frame::after, .post::after {
     content: '';
     display: block;
