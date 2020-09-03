@@ -1,0 +1,59 @@
+Title: Listening - Monday, August 31st 2020
+Date: 2020-08-31 18:00
+Category: Listening
+Tags: listening
+Summary: Yo La Tengo
+
+
+![We Have Amnesia Sometimes](/images/yolatengohasamnesia.jpg)
+
+- [Yo La Tengo - We Have Amnesia Sometimes (2020 Matador)](https://www.discogs.com/Yo-La-Tengo-We-Have-Amnesia-Sometimes/master/1796135)
+
+
+I stopped writing in this listening journal back in February. Of course I kept listening, but at some point 
+the idea of trying to write about everything I listen to started to weigh poorly on my listening choices. I 
+don't need to write about everything I listen to, so I won't. 
+
+Going forward I'll just write something here when it feels like fun. Not because I have anything special to say 
+per se, or because the things I listen to have some special weight but just because I feel like writing a little bit.
+I felt like writing a little bit today. :-)
+
+I also haven't been listening to very much music for the past few weeks -- the happy exception being the new routine of 
+Sunday listening club meetings with a small group of friends.
+
+Most of this new Yo La Tengo album has been sitting on my hard drive unplayed for quite a while. Between the time I 
+picked up three of the tracks on bandcamp and now they've collated it into an album and even pressed an LP. So, 
+I accidentally listened to two tracks out of order before I realized there were more, and everything had been collected. 
+
+I've heard very little of Yo La Tengo's music. In high school, their _and then nothing turned itself inside out_ record 
+was coveted by friends, and I did spend some time with it because of their enthusiasm. Last year, I picked up a dirt cheap 
+copy of it on discogs curious to revisit -- and honestly I'll have to spend more time with it to feel like I have anything 
+to say. It still didn't really hit me in a particular way, but I remember it as a nice album anyway.
+
+I was curious about these tracks now called _We Have Amnesia Sometimes_ partly because I'd like to give this band another chance, 
+partly because Marc Weidenbaum wrote something nice about one of them, partly because I wanted to 
+see what had or hadn't changed in the 20 years since _nothing turned itself inside out_, but mostly because these songs 
+are all just recordings from improvisations / jams during their normal rehearsals. I was aware of their reputation as 
+improvisers and being a rock band I assume they get into the psych/jam band territory as improvisers which is something 
+I generally enjoy even from groups that aren't the most skillful improvisers, whatever that means.
+
+Based on the titles (and from what I remember of the pace of the releases on bandcamp when they were coming out as singles) I 
+think each track is a curated moment from some part of that day's rehearsal, one for each day of the week Monday through Friday. 
+If I had to pick a favorite, Wednesday's _James Gets Up And Watches Mourning Birds With Abraham_ has a nice Arnold Dreyblatt 
+drive to it and feels maybe the most composed of the bunch. On the whole though all of these tracks follow essentially the 
+same pattern which is well-worn by jam bands of all walks: settle into a droning groove & do a bit of solo work on top. 
+The lone exception being the final track which is mostly drum-free, but otherwise essentially follows the same pattern.
+Nothing on this album jumps out at me to validate the praise I've heard about their skill for improvisation, but that's not to 
+say the songs don't hang together or that it sounds like they aren't listening to each other, etc. For me these are best 
+listened to not as improvisations really but just as what they are: a rock band nicely screwing around in their rehearsal space.
+(And the louder I play these, the better they sound -- probably the best listening experience would be on a mono PA system cranked up 
+at least enough to match the volume of a rock drummer in a mid-sized room.) To be honest I might enjoy these more if they were all three or
+four times as long and had enough time to actually sprawl out into the meditative jam zones they tease.
+
+Thankfully they had the good sense to stop after a week's worth of recording though. This is a nice snapshot in time, and I think 
+I'll come back to it next time I feel like playing their music, but it would quickly fall over on itself as a never-ending 
+series. I don't really feel like there are any tracks on here that stand out as something extremely special, but that's 
+also the charm of the collection. I'd like to hear documents like this in the future from them, but let some time pass. 
+Yo La Tengo, are you listening? ;-) It could be a nice yearly event to set down these relaxed interstitial moments in the workshop.
+This window into their rehearsal space is fun and pleasant in a way that a highly polished worked-over studio album could never be.
+

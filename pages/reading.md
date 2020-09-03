@@ -21,7 +21,7 @@ Everything else is queued to read, or in some cases re-read.
 
 ### Comic Books / Graphic Novels
 
-- **Mary Safro - _Drugs & Wires_**
+- <del>Mary Safro - _Drugs & Wires_</del>
 - <del>Jamie Hernández - _Maggie The Mechanic_</del>
 - <del>John Pound - _Ran Dum_</del>
 
@@ -32,6 +32,7 @@ Everything else is queued to read, or in some cases re-read.
 ### Music History / Theory / Practice
 
 - **Curtis Roads - _Composers and the Computer_**
+- **Martin Roberts - _Fantasma_**
 - Daphne Oram - _An Individual Note of Music, Sound and Electronics_
 - Annette Vande Gorne - _Treatise on Writing Acousmatic Music on Fixed Media_
 - Jliat - _Bad Music_
