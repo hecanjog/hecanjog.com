@@ -1,31 +1,22 @@
 import sys
 import urllib.request
 import textwrap
+from datetime import datetime, timedelta, timezone
+
+from dateutil.parser import parse as parsedate
 
 FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
     'https://wiki.xxiivv.com/twtxt.txt', 
     'https://timmorgan.org/twtxt.txt',
-    'https://abliss.keybase.pub/twtxt.txt#7a778276dd852edc65217e759cba637a28b4426b',
-    'https://akraut.keybase.pub/twtxt.txt',
-    'https://dev.exherbo.org/~alip/twtxt.txt',
-    'http://autoalk.tk/twtxt/autoalk.txt',
-    'https://benaiah.me/twtxt.txt',
     'https://buckket.org/twtxt.txt',
-    'http://pestilenz.org/~ckeen/twtxt.txt',
-    'http://clementd-files.cellar.services.clever-cloud.com/twtxt.txt',
-    'https://davebucklin.com/twtxt.txt',
-    'https://yourtilde.com/~deepend/twtxt.txt',
-    'http://edsu.github.io/twtxt/twtxt.txt',
     'https://txt.eli.li/twtxt/twtxt.txt',
-    'http://escowles.github.io/tw.txt',
     'https://feg-ffb.de/twtxt.txt',
     'https://www.frogorbits.com/twtxt.txt',
     'https://fundor333.com/twtxt.txt',
     'https://gbmor.dev/twtxt.txt',
     'https://tilde.pt/~gil/twtxt.txt',
     'https://hjertnes.social/twtxt.txt',
-    'https://jb55.com/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
     'http://ctrl-c.club/~jlj/tw.txt',
     'https://johanbove.info/twtxt.txt',
@@ -34,53 +25,65 @@ FOLLOWING = [
     'https://kernel-pancake.nl/twtxt.txt',
     'https://koehr.in/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
-    'https://www.gkbrk.com/twtxt.txt',
+    #'https://www.gkbrk.com/twtxt.txt',
     'https://tilde.town/~lucidiot/twtxt.txt',
     'https://tilde.pt/~marado/twtxt.txt',
     'https://domgoergen.com/twtxt/mdom.txt',
     'https://mdosch.de/twtxt.txt',
     'https://tilde.club/~melyanna/twtxt.txt',
-    'https://tilde.town/~mr_woggle/twtxt.txt',
-    'http://nblade.sdf.org/twtxt/twtxt.txt',
     'https://karl.theharrisclan.net/twtxt.txt',
     'https://pbat.ch/twtxt.txt',
-    'http://pelmel.org/twtxt.txt',
     'https://prologic.github.io/twtxt.txt',
     'https://lublin.se/twtxt.txt',
     'http://twtxt.xyz/user/8c2b4bbfa328944ba.txt',
-    'http://ruebot.github.io/twtxt/twtxt.txt',
-    'https://codevoid.de/tw.txt',
+    #'https://codevoid.de/tw.txt',
     'https://sixbitproxywax.com/twtxt.txt',
-    'http://scott.vranesh-fallin.com/twtxt.txt',
-    'https://twtxt.lpho.de/twtxt.txt',
-    'https://grex.org/~tfurrows/twtxt.txt',
-    'https://tilde.team/~tildebeast/twtxt/twtxt.txt',
+    #'https://twtxt.lpho.de/twtxt.txt',
     'https://twtxt.rosaelefanten.org/',
     'https://lublin.se/twet.txt',
-    'https://buckket.org/twtxt_news.txt',
-    'https://vinc.cc/twtxt.txt',
     'https://tilde.town/~von/twtxt.txt',
     'https://xandkar.net/twtxt.txt',
 ]
 
+OLD = 2
+
+def convertdate(date):
+    date = parsedate(date)
+    if not date.tzinfo:
+        date = date.replace(tzinfo=timezone.utc)
+    return date
+
 def getfeeds():
+    now = datetime.now(timezone.utc)
+    old = now - timedelta(days=OLD)
+
     feeds = []
     for url in FOLLOWING:
         try:
-            with urllib.request.urlopen(url) as f:
-                feeds += [(url, f.read().decode('utf-8'))]
+            with urllib.request.urlopen(url) as conn:
+                updated = convertdate(conn.headers['last-modified'])
+                if updated > old:
+                    feeds += [(url, conn.read().decode('utf-8'))]
+                    print(url)
+                else:
+                    print('  OLD::', url)
         except Exception as e:
-            print(e, url)
+            print('  ERR::', e, url)
     return feeds
 
 def parsefeed(url, feed):
+    now = datetime.now(timezone.utc)
+    old = now - timedelta(days=OLD)
+
     posts = []
     for post in feed.splitlines():
         if len(post) == 0 or  post[0] == '#' or post[0] == '\n' or post.strip() == '':
             continue
         try:
             date, content = tuple(post.split('\t'))
-            posts += [{'url': url, 'date': date, 'content': content}]
+            date = convertdate(date)
+            if date > old:
+                posts += [{'url': url, 'date': date, 'content': content}]
         except ValueError as e:
             pass
             #print(post, e)
