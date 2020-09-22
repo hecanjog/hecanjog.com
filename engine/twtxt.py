@@ -9,43 +9,25 @@ FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
     'https://wiki.xxiivv.com/twtxt.txt', 
     'https://timmorgan.org/twtxt.txt',
-    'https://buckket.org/twtxt.txt',
     'https://txt.eli.li/twtxt/twtxt.txt',
     'https://feg-ffb.de/twtxt.txt',
     'https://www.frogorbits.com/twtxt.txt',
     'https://fundor333.com/twtxt.txt',
-    'https://gbmor.dev/twtxt.txt',
-    'https://tilde.pt/~gil/twtxt.txt',
     'https://hjertnes.social/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
     'http://ctrl-c.club/~jlj/tw.txt',
-    'https://johanbove.info/twtxt.txt',
     'https://enotty.dk/twtxt.txt',
     'https://enotty.dk/kasdk.txt',
-    'https://kernel-pancake.nl/twtxt.txt',
     'https://koehr.in/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
-    #'https://www.gkbrk.com/twtxt.txt',
     'https://tilde.town/~lucidiot/twtxt.txt',
-    'https://tilde.pt/~marado/twtxt.txt',
-    'https://domgoergen.com/twtxt/mdom.txt',
     'https://mdosch.de/twtxt.txt',
     'https://tilde.club/~melyanna/twtxt.txt',
-    'https://karl.theharrisclan.net/twtxt.txt',
     'https://pbat.ch/twtxt.txt',
-    'https://prologic.github.io/twtxt.txt',
-    'https://lublin.se/twtxt.txt',
-    'http://twtxt.xyz/user/8c2b4bbfa328944ba.txt',
-    #'https://codevoid.de/tw.txt',
-    'https://sixbitproxywax.com/twtxt.txt',
-    #'https://twtxt.lpho.de/twtxt.txt',
-    'https://twtxt.rosaelefanten.org/',
-    'https://lublin.se/twet.txt',
-    'https://tilde.town/~von/twtxt.txt',
-    'https://xandkar.net/twtxt.txt',
 ]
 
-OLD = 2
+OLD = 30
+HIDE = 7
 
 def convertdate(date):
     date = parsedate(date)
@@ -73,7 +55,7 @@ def getfeeds():
 
 def parsefeed(url, feed):
     now = datetime.now(timezone.utc)
-    old = now - timedelta(days=OLD)
+    old = now - timedelta(days=HIDE)
 
     posts = []
     for post in feed.splitlines():
