@@ -16,12 +16,12 @@ Organizations you can support:
 <hr/>
 
 ::: {.frame .highlighted}
-![](img/622-363.jpg)
+![](img/pianosolo.jpg)
 
-[+622, +363 \[2020\]](https://hecanjog.bandcamp.com/album/622-363)
+[Piano Solo 43a from _Three Walks_ \[2020\]](https://hecanjog.bandcamp.com/album/piano-solo-43a-from-three-walks)
 -------------------------------------------------------------------------
 
-A single trombone note expanded via pulsar synthesis and various processing into a slow chorale.
+Solo version of a procedural piano part from _Three Walks_.
 :::
 
 

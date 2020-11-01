@@ -12,3 +12,5 @@
 2020-09-05T23:46-05:00	Hm, I sorta want to re-read Foucault's Pendulum already.
 2020-09-20T19:26-05:00	Capping off the evening with The Second Dream of the High-Tension Line Stepdown Transformer From the Four Dreams of China.
 2020-09-22T17:36-05:00	Happiness is a readable process list in htop
+2020-09-28T21:58-05:00	I'm doing a thing that involves working with an external MIDI module (really, just another computer) for the first time in a long while. The realtime flow is weird, and makes want to set up some automated recording dealy so I can more easily fit everything into my usual workflow...
+2020-09-28T22:50-05:00	Oh, OK that was actually really easy to set up. I can just run a MIDI playback script and end up with a local recording of an external module. Not super interesting but quite nice! :-)

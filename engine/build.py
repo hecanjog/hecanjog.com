@@ -1,5 +1,6 @@
 from datetime import datetime
 from pathlib import Path
+import sys
 
 import pypandoc
 
@@ -61,7 +62,32 @@ def build_pages():
             converted = pypandoc.convert_file(str(source), 'html5', format='md')
             html.write(header + converted + footer)
 
-def build_posts():
+def build_blog_posts():
+    header, footer = load_template()
+
+    # Blog
+    blog = []
+    for p in Path('./posts/blog/').glob('*.md'):
+        post = Post(p)
+        if post.status.lower() != 'draft':
+            blog += [ post ]
+
+    blog.sort(key=lambda p: p.date, reverse=True)    
+    with open('static/blog.html', 'w', encoding='utf-8') as html:
+        html.write(header)
+        html.write('<h2>Blog</h2>')
+        for p in blog:
+            print('Blog: %s - %s' % (p.title, p.datestring))
+            html.write('<hr/>')
+            html.write('<div class="blog post">')
+            html.write('<h3>%s</h3>' % p.title)
+            p.html = p.html.replace('/images/', 'img/')
+            html.write(p.html)
+            html.write('</div>')
+
+        html.write(footer)
+
+def build_listening_posts():
     header, footer = load_template()
 
     # Listening Journal
@@ -86,30 +112,15 @@ def build_posts():
 
         html.write(footer)
 
-    # Blog
-    blog = []
-    for p in Path('./posts/blog/').glob('*.md'):
-        post = Post(p)
-        if post.status.lower() != 'draft':
-            blog += [ post ]
-
-    blog.sort(key=lambda p: p.date, reverse=True)    
-    with open('static/blog.html', 'w', encoding='utf-8') as html:
-        html.write(header)
-        html.write('<h2>Blog</h2>')
-        for p in blog:
-            print('Blog: %s - %s' % (p.title, p.datestring))
-            html.write('<hr/>')
-            html.write('<div class="blog post">')
-            html.write('<h3>%s</h3>' % p.title)
-            p.html = p.html.replace('/images/', 'img/')
-            html.write(p.html)
-            html.write('</div>')
-
-        html.write(footer)
-
 
 if __name__ == '__main__':
-    build_pages()
-    build_posts()
+    if sys.argv[1] == 'blog':
+        build_blog_posts()
+
+    if sys.argv[1] == 'listening':
+        build_listening_posts()
+
+    if sys.argv[1] == 'pages':
+        build_pages()
+
     print('done!')

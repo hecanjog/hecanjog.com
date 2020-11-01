@@ -33,6 +33,7 @@ Everything else is queued to read, or in some cases re-read.
 
 - **Curtis Roads - _Composers and the Computer_**
 - **Martin Roberts - _Fantasma_**
+- **Derek Bailey - _Improvisation_**
 - Daphne Oram - _An Individual Note of Music, Sound and Electronics_
 - Annette Vande Gorne - _Treatise on Writing Acousmatic Music on Fixed Media_
 - Jliat - _Bad Music_
@@ -56,6 +57,6 @@ Everything else is queued to read, or in some cases re-read.
 ### Critical Theory
 
 - Ibram X. Kendi - _How to be an antiracist_
-- Peter Kropotkin - _The Conquest of Bread_ 
+- **Peter Kropotkin - _The Conquest of Bread_**
 
 

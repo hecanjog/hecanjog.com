@@ -1,16 +1,18 @@
-.PHONY: build deploy images txt feed
+.PHONY: blog pages listening deploy images
 
 images:
 	./scripts/makebw.sh
 
-build:
-	./venv/bin/python3 -m engine.build
+pages:
+	./venv/bin/python3 -m engine.build pages
 
-txt:
-	./scripts/twtxt.sh
+blog:
+	./venv/bin/python3 -m engine.build blog
 
-feed:
-	./venv/bin/python3 -m engine.twtxt --feed
+listening:
+	./venv/bin/python3 -m engine.build listening
+
+all: images pages blog listening
 
 deploy:
 	rsync -avz static/ deploy@radio.af:/srv/www/hecanjog.com
