@@ -1,6 +1,8 @@
 from datetime import datetime
 from pathlib import Path
 import sys
+import re
+import unicodedata
 
 import pypandoc
 
@@ -24,6 +26,9 @@ class Post:
                     elif k == 'Date':
                         self.headers[k] = datetime.strptime(v.strip(), '%Y-%m-%d %H:%M')
                         self.datestring = v.strip()
+                        self.year = self.headers[k].year
+                        self.month = self.headers[k].month
+                        self.day = self.headers[k].day
                     else:
                         self.headers[k] = v.strip()
                 else:
@@ -37,6 +42,11 @@ class Post:
 
         for k in self.headers.keys():
             setattr(self, k.lower(), self.headers[k])
+
+        slug = unicodedata.normalize('NFKD', self.title).encode('ascii', 'ignore').decode('ascii')
+        slug = re.sub('[-\s]+', '-', re.sub('[^\w\s-]', '', slug).strip().lower())
+        self.slug = '%04d%02d%02d-%s' % (self.year, self.month, self.day, slug)
+        self.permalink = '/posts/%s.html' % (self.slug)
 
 
 def load_template():
@@ -65,6 +75,9 @@ def build_pages():
 def build_blog_posts():
     header, footer = load_template()
 
+    with open('templates/blog.html', 'r', encoding='utf-8') as f:
+        bloghome = f.read()
+
     # Blog
     blog = []
     for p in Path('./posts/blog/').glob('*.md'):
@@ -75,15 +88,25 @@ def build_blog_posts():
     blog.sort(key=lambda p: p.date, reverse=True)    
     with open('static/blog.html', 'w', encoding='utf-8') as html:
         html.write(header)
-        html.write('<h2>Blog</h2>')
+
+        bloglist = '<ul class="bloglist">'
         for p in blog:
-            print('Blog: %s - %s' % (p.title, p.datestring))
-            html.write('<hr/>')
-            html.write('<div class="blog post">')
-            html.write('<h3>%s</h3>' % p.title)
-            p.html = p.html.replace('/images/', 'img/')
-            html.write(p.html)
-            html.write('</div>')
+            bloglist += '<li><h2><a href="%s">%s</a></h2><p class="byline">Posted on %s</p></li>' % (p.permalink, p.title, p.datestring)
+            with open('static/posts/%s.html' % p.slug, 'w', encoding='utf-8') as blogpagehtml:
+                print('Blog: %s - %s' % (p.title, p.datestring))
+                blogpagehtml.write(header)
+                blogpagehtml.write('<div class="blog post">')
+                blogpagehtml.write('<h2>%s</h2>' % p.title)
+                blogpagehtml.write('<p class="byline">Posted on %s</p>' % p.datestring)
+                blogpagehtml.write('<hr/>')
+                p.html = p.html.replace('/images/', 'img/')
+                blogpagehtml.write(p.html)
+                blogpagehtml.write('</div>')
+                blogpagehtml.write(footer)
+        bloglist += '</ul>'
+
+        bloghome = bloghome.replace('$BLOGLIST', bloglist)
+        html.write(bloghome)
 
         html.write(footer)
 
