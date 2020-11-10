@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-POSTTIME=`date -Im`
+POSTTIME=`date -Is`
 TMPFILE=/tmp/$POSTTIME.twtxt.txt
 vim $TMPFILE
 if test -f "$TMPFILE"; then

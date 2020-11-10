@@ -7,7 +7,6 @@ from dateutil.parser import parse as parsedate
 
 FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
-    'https://wiki.xxiivv.com/twtxt.txt', 
     'https://timmorgan.org/twtxt.txt',
     'https://txt.eli.li/twtxt/twtxt.txt',
     'https://feg-ffb.de/twtxt.txt',
@@ -24,9 +23,10 @@ FOLLOWING = [
     'https://mdosch.de/twtxt.txt',
     'https://tilde.club/~melyanna/twtxt.txt',
     'https://pbat.ch/twtxt.txt',
+    'https://xandkar.net/twtxt.txt',
 ]
 
-OLD = 30
+OLD = 90
 HIDE = 7
 
 def convertdate(date):
@@ -48,7 +48,7 @@ def getfeeds():
                     feeds += [(url, conn.read().decode('utf-8'))]
                     print(url)
                 else:
-                    print('  OLD::', url)
+                    print('  NO UPDATES IN %s DAYS::' % OLD, url)
         except Exception as e:
             print('  ERR::', e, url)
     return feeds
@@ -75,7 +75,10 @@ def getlast(feeds, limit=5):
     posts = []
     for url, feed in feeds:
         feedposts = parsefeed(url, feed)
-        posts += feedposts[-limit:]
+        if limit is not None:
+            posts += feedposts[-limit:]
+        else:
+            posts += feedposts
     return sorted(posts, key=lambda x: x['date'])
 
 def printposts(posts):
@@ -98,6 +101,6 @@ if __name__ == '__main__':
 
     if sys.argv[1] == '--feed':
         feeds = getfeeds()
-        posts = getlast(feeds, 5)
+        posts = getlast(feeds, None)
         printposts(posts)
 
