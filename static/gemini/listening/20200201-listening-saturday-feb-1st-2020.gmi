@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# listening
 ## Listening - Saturday, Feb 1st 2020
 Posted on 2020-02-01 18:00
 

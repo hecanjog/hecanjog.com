@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# blog
 ## Blue Sky Research - Inshore Waters EP
 Posted on 2003-11-22 3:22
 

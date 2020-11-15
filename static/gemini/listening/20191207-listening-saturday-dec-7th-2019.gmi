@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# listening
 ## Listening - Saturday, Dec 7th 2019
 Posted on 2019-12-07 18:00
 

@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# blog
 ## Euroshield 1 with Teensy 3.6 and cli builds on Arch Linux
 Posted on 2019-09-24 21:00
 

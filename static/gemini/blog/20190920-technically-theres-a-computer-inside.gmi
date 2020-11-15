@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# blog
 ## Technically There's a Computer Inside
 Posted on 2019-09-20 15:25
 

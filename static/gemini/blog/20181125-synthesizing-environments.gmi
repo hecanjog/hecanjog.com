@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# blog
 ## Synthesizing Environments
 Posted on 2018-11-25 20:00
 

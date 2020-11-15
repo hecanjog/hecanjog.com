@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# blog
 ## Eric Lyon - Red Velvet
 Posted on 2004-5-22 22:51
 

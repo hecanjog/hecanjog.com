@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# listening
 ## Listening - Monday, Sept 23rd 2019
 Posted on 2019-09-23 18:00
 

@@ -149,7 +149,7 @@ def build_posts(name):
         gmi.write(gmi_header)
         postslist = ''
         for p in posts:
-            postslist += '=> /%s/%s.gmi %s\nPosted on %s\n' % (name, p.slug, p.title, p.datestring)
+            postslist += '=> /%s/%s.gmi %s\nPosted on %s\n\n' % (name, p.slug, p.title, p.datestring)
         postshome = postshome.replace('$%sLIST' % name.upper(), postslist)
         gmi.write(postshome)
         gmi.write(gmi_footer)
@@ -159,7 +159,6 @@ def build_posts(name):
         with open('static/gemini/%s/%s.gmi' % (name, p.slug), 'w', encoding='utf-8') as postspagegmi:
             print('%s: %s - %s' % (name, p.title, p.datestring))
             postspagegmi.write(gmi_header)
-            postspagegmi.write('# %s\n' % name)
             postspagegmi.write('## %s\n' % p.title)
             postspagegmi.write('Posted on %s\n\n' % p.datestring)
             p.gmi = p.gmi.replace('/images/', '/img/')

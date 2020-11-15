@@ -4,7 +4,6 @@
 => /blog.gmi Blog
 
 
-# blog
 ## South Seas Development So Far
 Posted on 2018-11-18 20:00
 

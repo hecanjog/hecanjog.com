@@ -12,6 +12,5 @@ I'm a computer musician based in Minnesota.
 
 Sometimes I use
 => https://merveilles.town/@hecanjog mastodon
-.
 
 => /twtxt.txt twtxt feed
