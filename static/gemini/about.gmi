@@ -1,0 +1,29 @@
+# Computermusiker 
+
+* 
+=> /about.html About
+
+* 
+=> /projects.html Projects
+
+* 
+=> /reading.html Reading
+
+* 
+=> /listening.html Listening
+
+* 
+=> /blog.html Blog
+
+* 
+=> https://hecanjog.bandcamp.com/subscribe Subscribe
+
+I'm a computer musician based in Minnesota.
+
+=> mailto:erik@hecanjog.com I am OK with email.
+
+=> http://pippi.world I make open source computer music software.
+
+Sometimes I use
+=> https://merveilles.town/@hecanjog mastodon
+.

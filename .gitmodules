@@ -1,0 +1,3 @@
+[submodule "vendor/gemini-pandoc-lua-filter"]
+	path = vendor/gemini-pandoc-lua-filter
+	url = git@github.com:hecanjog/gemini-pandoc-lua-filter.git

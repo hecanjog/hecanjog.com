@@ -1,0 +1,48 @@
+# Computermusiker 
+
+* 
+=> /about.html About
+
+* 
+=> /projects.html Projects
+
+* 
+=> /reading.html Reading
+
+* 
+=> /listening.html Listening
+
+* 
+=> /blog.html Blog
+
+* 
+=> https://hecanjog.bandcamp.com/subscribe Subscribe
+
+## Technically There's a Computer Inside
+
+Posted on 2019-09-20 15:25
+
+--------------------------------------------------------------------------------
+
+[Modular button-mashing]
+
+Taking my first steps with the
+=> https://starling.space Starling Via (Scanner)
+today. Whatever the modular version of button mashing is called, that’s
+what I’m doing so far. Got the 2hp MIDI module spitting out signals
+coming from a python script running on my synth computer and using that
+to modulate… something on the Via.
+
+The Koma Field Kit is sending its FM radio out into the Via, and its LFO
+out pitched up into audio range. The other main source of pitch is the
+DC motor which is driven by the output from the Via, and is miced with
+an induction mic and a contact mic, all of it sitting on top of a
+speaker which is outputing the main signal from the field kit.
+
+The envelope follower is tracking the aux out on the field kit channels
+and is patched into the search input of the radio.
+
+The overall rhythm in the shifting timbre is coming from the Via being
+modulated with the MIDI script. I’m just throwing notes at it
+willy-nilly, I have no idea what I’m actually telling it to do but this
+is a fun first step!

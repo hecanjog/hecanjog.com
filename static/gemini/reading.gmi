@@ -1,0 +1,96 @@
+# Computermusiker 
+
+* 
+=> /about.html About
+
+* 
+=> /projects.html Projects
+
+* 
+=> /reading.html Reading
+
+* 
+=> /listening.html Listening
+
+* 
+=> /blog.html Blog
+
+* 
+=> https://hecanjog.bandcamp.com/subscribe Subscribe
+
+# Reading Lists
+
+Items in bold text are currently being read. Items in ~~strikethrough~~
+have been read. Everything else is queued to read, or in some cases
+re-read.
+
+--------------------------------------------------------------------------------
+
+## Literature
+
+### Fiction & Mythology
+
+* James Joyce - Finnegans Wake
+
+* J. A. B. Van Buitenen - The Mahabharata, Volume 1
+
+* Italo Calvino - The Baron in the Trees
+
+* Click Nilson - Collected Rewritings
+
+### History
+
+* Herodotus - The Histories
+
+### Comic Books / Graphic Novels
+
+* ~~Mary Safro - Drugs & Wires~~
+
+* ~~Jamie Hernández - Maggie The Mechanic~~
+
+* ~~John Pound - Ran Dum~~
+
+--------------------------------------------------------------------------------
+
+## Music
+
+### Music History / Theory / Practice
+
+* Curtis Roads - Composers and the Computer
+
+* Martin Roberts - Fantasma
+
+* Derek Bailey - Improvisation
+
+* Daphne Oram - An Individual Note of Music, Sound and Electronics
+
+* Annette Vande Gorne - Treatise on Writing Acousmatic Music on Fixed
+Media
+
+* Jliat - Bad Music
+
+--------------------------------------------------------------------------------
+
+## Technical
+
+### Computer Music / DSP / Math / Physics / Electronics
+
+* Silvanus P. Thompson - Calculus Made Easy
+
+* Hermann Helmholtz - On the Sensations of Tone
+
+### Programming / Computer Science
+
+* Ben Klemens - 21st Century C
+
+* Jens Gustedt - Modern C
+
+* Steve Oualline - Practical C Programming
+
+* Dominik Picheta - Nim in Action
+
+### Critical Theory
+
+* Ibram X. Kendi - How to be an antiracist
+
+* Peter Kropotkin - The Conquest of Bread
