@@ -10,7 +10,17 @@ I'm a computer musician based in Minnesota.
 
 => http://pippi.world I make open source computer music software.
 
+…and
+=> /projects.gmi open source computer music
+with it.
+
 Sometimes I use
 => https://merveilles.town/@hecanjog mastodon
+
+I do radio sometimes.
+
+Some recent generative work for radio is on
+=> https://phonography.radio.af Aleatoric Forest
+right now.
 
 => /twtxt.txt twtxt feed

@@ -85,6 +85,7 @@ def build_pages():
         print('Building GMI: %s to %s' % (source, dest))
         with open(dest, 'w', encoding='utf-8') as gmi:
             converted = pypandoc.convert_file(str(source), 'plain', format='md', extra_args=['--lua-filter=/home/hecanjog/sites/hecanjog.com/vendor/gemini-pandoc-lua-filter/gemini.lua'])
+            converted = converted.replace('.html', '.gmi')
             gmi.write(gmi_header + converted + gmi_footer)
 
 
