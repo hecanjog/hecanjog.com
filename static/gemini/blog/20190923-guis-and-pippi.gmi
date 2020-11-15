@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## GUIs and Pippi
-
 Posted on 2019-09-23 09:00
-
---------------------------------------------------------------------------------
 
 One of the projects I’m working on now involves a lot of what I guess
 you’d call traditional sequencing: rhythms better expressed as pattern
@@ -189,3 +173,5 @@ on now. I’m really excited to tackle the DAW part of this though, which
 I think will lead to some interesting possibilities on the macro level
 that I wouldn’t otherwise think of just working with my usual scripts,
 or a set of fixed-render blocks in Arduor.
+
+=> /twtxt.txt twtxt feed

@@ -1,59 +1,29 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
-* 
-=> /blog/20190924-euroshield-1-with-teensy-36-and-cli-builds-on-arch-linux.html Euroshield 1 with Teensy 3.6 and cli builds on Arch Linux
+=> /blog/20190924-euroshield-1-with-teensy-36-and-cli-builds-on-arch-linux.gmi Euroshield 1 with Teensy 3.6 and cli builds on Arch Linux
 Posted on 2019-09-24 21:00
-
-* 
-=> /blog/20190923-guis-and-pippi.html GUIs and Pippi
+=> /blog/20190923-guis-and-pippi.gmi GUIs and Pippi
 Posted on 2019-09-23 09:00
-
-* 
-=> /blog/20190920-technically-theres-a-computer-inside.html Technically There's a Computer Inside
+=> /blog/20190920-technically-theres-a-computer-inside.gmi Technically There's a Computer Inside
 Posted on 2019-09-20 15:25
-
-* 
-=> /blog/20181202-generating-stories.html Generating Stories
+=> /blog/20181202-generating-stories.gmi Generating Stories
 Posted on 2018-12-2 20:00
-
-* 
-=> /blog/20181125-synthesizing-environments.html Synthesizing Environments
+=> /blog/20181125-synthesizing-environments.gmi Synthesizing Environments
 Posted on 2018-11-25 20:00
-
-* 
-=> /blog/20181118-south-seas-development-so-far.html South Seas Development So Far
+=> /blog/20181118-south-seas-development-so-far.gmi South Seas Development So Far
 Posted on 2018-11-18 20:00
-
-* 
-=> /blog/20040522-eric-lyon-red-velvet.html Eric Lyon - Red Velvet
+=> /blog/20040522-eric-lyon-red-velvet.gmi Eric Lyon - Red Velvet
 Posted on 2004-5-22 22:51
-
-* 
-=> /blog/20031122-blue-sky-research-inshore-waters-ep.html Blue Sky Research - Inshore Waters EP
+=> /blog/20031122-blue-sky-research-inshore-waters-ep.gmi Blue Sky Research - Inshore Waters EP
 Posted on 2003-11-22 3:22
-
-* 
-=> /blog/20031118-erik-bunger-variations-on-a-theme-by-lou-reed.html Erik Bünger - Variations on a Theme by Lou Reed
+=> /blog/20031118-erik-bunger-variations-on-a-theme-by-lou-reed.gmi Erik Bünger - Variations on a Theme by Lou Reed
 Posted on 2003-11-18 15:22
-
-* 
-=> /blog/20031117-allegorical-power-series-vi.html Allegorical Power Series VI
+=> /blog/20031117-allegorical-power-series-vi.gmi Allegorical Power Series VI
 Posted on 2003-11-17 23:44
+
+
+=> /twtxt.txt twtxt feed

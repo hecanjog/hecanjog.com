@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Nov 3rd 2019
-
 Posted on 2019-11-03 18:00
-
---------------------------------------------------------------------------------
 
 [Exils]
 
@@ -110,3 +94,5 @@ until after listening as I did.
 
 The last two shorter tracks felt like a little coda after all that. This
 is an amazing record I’m sure I’ll be coming back to quite a lot.
+
+=> /twtxt.txt twtxt feed

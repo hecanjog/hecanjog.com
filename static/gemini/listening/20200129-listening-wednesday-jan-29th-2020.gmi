@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Jan 29th 2020
-
 Posted on 2020-01-29 18:00
-
---------------------------------------------------------------------------------
 
 [Born To Love]
 
@@ -69,3 +53,5 @@ That said, before giving it a chance, I assumed the whole record would
 be a series of forgettable genre exercises. There are some seriously
 great songs and breaks in here, with the standard content disclaimer for
 the over-the-top schlocky narrative premise.
+
+=> /twtxt.txt twtxt feed

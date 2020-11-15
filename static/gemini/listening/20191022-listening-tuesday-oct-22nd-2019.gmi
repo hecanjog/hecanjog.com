@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Oct 22nd 2019
-
 Posted on 2019-10-22 18:00
-
---------------------------------------------------------------------------------
 
 [Coldness]
 
@@ -34,3 +18,5 @@ Posted on 2019-10-22 18:00
 
 * 
 => https://ideologikal.bandcamp.com/album/horizon Fahmi Mursyid - Horizon (2019 Self-released)
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Oct 16th 2019
-
 Posted on 2019-10-16 18:00
-
---------------------------------------------------------------------------------
 
 [The Falconer’s Arm I]
 
@@ -37,3 +21,5 @@ Posted on 2019-10-16 18:00
 
 * 
 => https://fullspectrumrecords.bandcamp.com/album/disposition Antony Widoff - Disposition (2019 Full Spectrum)
+
+=> /twtxt.txt twtxt feed

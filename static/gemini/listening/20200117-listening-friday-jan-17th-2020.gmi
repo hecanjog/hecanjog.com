@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Jan 17th 2020
-
 Posted on 2020-01-17 18:00
-
---------------------------------------------------------------------------------
 
 [Désormais]
 
@@ -93,3 +77,5 @@ Given this is closer to an EP-length outing at about 33 minutes, I’m
 hoping there is a follow-up in the pipeline that reaches back to some of
 that post-rock band laptop reimagining that I miss dearly in Drown
 Variations.
+
+=> /twtxt.txt twtxt feed

@@ -1,22 +1,8 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
-
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
 
 []
 
@@ -316,3 +302,5 @@ My first contribution to the wonderful Hippocamp netlabel.
 ## We All Have Hot Chocolate Tummies and Frozen Faces [2003] 
 
 First outing under the He Can Jog monkier.
+
+=> /twtxt.txt twtxt feed

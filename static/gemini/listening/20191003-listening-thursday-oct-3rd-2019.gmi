@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Oct 3rd 2019
-
 Posted on 2019-10-03 18:00
-
---------------------------------------------------------------------------------
 
 [Weightless]
 
@@ -31,3 +15,5 @@ Posted on 2019-10-03 18:00
 
 * 
 => https://www.discogs.com/Anth%C3%A9ne-Weightless/release/13155448 Anthéne – Weightless (2019 Home Normal)
+
+=> /twtxt.txt twtxt feed

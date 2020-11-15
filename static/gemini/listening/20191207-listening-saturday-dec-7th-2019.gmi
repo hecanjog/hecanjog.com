@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Dec 7th 2019
-
 Posted on 2019-12-07 18:00
-
---------------------------------------------------------------------------------
 
 [🐄]
 
@@ -31,3 +15,5 @@ Posted on 2019-12-07 18:00
 
 * 
 => https://leberger.bandcamp.com/album/--2 Le Berger - 🐄 (2019 Self-released)
+
+=> /twtxt.txt twtxt feed

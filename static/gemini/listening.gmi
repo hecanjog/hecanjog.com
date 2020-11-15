@@ -1,383 +1,191 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
-* 
-=> /listening/20200831-listening-monday-august-31st-2020.html Listening - Monday, August 31st 2020
+=> /listening/20200831-listening-monday-august-31st-2020.gmi Listening - Monday, August 31st 2020
 Posted on 2020-08-31 18:00
-
-* 
-=> /listening/20200201-listening-saturday-feb-1st-2020.html Listening - Saturday, Feb 1st 2020
+=> /listening/20200201-listening-saturday-feb-1st-2020.gmi Listening - Saturday, Feb 1st 2020
 Posted on 2020-02-01 18:00
-
-* 
-=> /listening/20200131-listening-friday-jan-31st-2020.html Listening - Friday, Jan 31st 2020
+=> /listening/20200131-listening-friday-jan-31st-2020.gmi Listening - Friday, Jan 31st 2020
 Posted on 2020-01-31 18:00
-
-* 
-=> /listening/20200130-listening-thursday-jan-30th-2020.html Listening - Thursday, Jan 30th 2020
+=> /listening/20200130-listening-thursday-jan-30th-2020.gmi Listening - Thursday, Jan 30th 2020
 Posted on 2020-01-30 18:00
-
-* 
-=> /listening/20200129-listening-wednesday-jan-29th-2020.html Listening - Wednesday, Jan 29th 2020
+=> /listening/20200129-listening-wednesday-jan-29th-2020.gmi Listening - Wednesday, Jan 29th 2020
 Posted on 2020-01-29 18:00
-
-* 
-=> /listening/20200128-listening-tuesday-jan-28th-2020.html Listening - Tuesday, Jan 28th 2020
+=> /listening/20200128-listening-tuesday-jan-28th-2020.gmi Listening - Tuesday, Jan 28th 2020
 Posted on 2020-01-28 18:00
-
-* 
-=> /listening/20200127-listening-monday-jan-27th-2020.html Listening - Monday, Jan 27th 2020
+=> /listening/20200127-listening-monday-jan-27th-2020.gmi Listening - Monday, Jan 27th 2020
 Posted on 2020-01-27 18:00
-
-* 
-=> /listening/20200125-listening-saturday-jan-25th-2020.html Listening - Saturday, Jan 25th 2020
+=> /listening/20200125-listening-saturday-jan-25th-2020.gmi Listening - Saturday, Jan 25th 2020
 Posted on 2020-01-25 18:00
-
-* 
-=> /listening/20200124-listening-friday-jan-24th-2020.html Listening - Friday, Jan 24th 2020
+=> /listening/20200124-listening-friday-jan-24th-2020.gmi Listening - Friday, Jan 24th 2020
 Posted on 2020-01-24 18:00
-
-* 
-=> /listening/20200123-listening-thursday-jan-23rd-2020.html Listening - Thursday, Jan 23rd 2020
+=> /listening/20200123-listening-thursday-jan-23rd-2020.gmi Listening - Thursday, Jan 23rd 2020
 Posted on 2020-01-23 18:00
-
-* 
-=> /listening/20200122-listening-wednesday-jan-22nd-2020.html Listening - Wednesday, Jan 22nd 2020
+=> /listening/20200122-listening-wednesday-jan-22nd-2020.gmi Listening - Wednesday, Jan 22nd 2020
 Posted on 2020-01-22 18:00
-
-* 
-=> /listening/20200121-listening-tuesday-jan-21st-2020.html Listening - Tuesday, Jan 21st 2020
+=> /listening/20200121-listening-tuesday-jan-21st-2020.gmi Listening - Tuesday, Jan 21st 2020
 Posted on 2020-01-21 18:00
-
-* 
-=> /listening/20200120-listening-monday-jan-20th-2020.html Listening - Monday, Jan 20th 2020
+=> /listening/20200120-listening-monday-jan-20th-2020.gmi Listening - Monday, Jan 20th 2020
 Posted on 2020-01-20 18:00
-
-* 
-=> /listening/20200118-listening-saturday-jan-18th-2020.html Listening - Saturday, Jan 18th 2020
+=> /listening/20200118-listening-saturday-jan-18th-2020.gmi Listening - Saturday, Jan 18th 2020
 Posted on 2020-01-18 18:00
-
-* 
-=> /listening/20200117-listening-friday-jan-17th-2020.html Listening - Friday, Jan 17th 2020
+=> /listening/20200117-listening-friday-jan-17th-2020.gmi Listening - Friday, Jan 17th 2020
 Posted on 2020-01-17 18:00
-
-* 
-=> /listening/20200116-listening-thursday-jan-16th-2020.html Listening - Thursday, Jan 16th 2020
+=> /listening/20200116-listening-thursday-jan-16th-2020.gmi Listening - Thursday, Jan 16th 2020
 Posted on 2020-01-16 18:00
-
-* 
-=> /listening/20200114-listening-tuesday-jan-14th-2020.html Listening - Tuesday, Jan 14th 2020
+=> /listening/20200114-listening-tuesday-jan-14th-2020.gmi Listening - Tuesday, Jan 14th 2020
 Posted on 2020-01-14 18:00
-
-* 
-=> /listening/20200113-listening-monday-jan-13th-2020.html Listening - Monday, Jan 13th 2020
+=> /listening/20200113-listening-monday-jan-13th-2020.gmi Listening - Monday, Jan 13th 2020
 Posted on 2020-01-13 18:00
-
-* 
-=> /listening/20200112-listening-sunday-jan-12th-2020.html Listening - Sunday, Jan 12th 2020
+=> /listening/20200112-listening-sunday-jan-12th-2020.gmi Listening - Sunday, Jan 12th 2020
 Posted on 2020-01-12 18:00
-
-* 
-=> /listening/20200109-listening-thursday-jan-9th-2020.html Listening - Thursday, Jan 9th 2020
+=> /listening/20200109-listening-thursday-jan-9th-2020.gmi Listening - Thursday, Jan 9th 2020
 Posted on 2020-01-09 18:00
-
-* 
-=> /listening/20200101-listening-wednesday-jan-1st-2020.html Listening - Wednesday, Jan 1st 2020
+=> /listening/20200101-listening-wednesday-jan-1st-2020.gmi Listening - Wednesday, Jan 1st 2020
 Posted on 2020-01-01 18:00
-
-* 
-=> /listening/20191214-listening-saturday-dec-14th-2019.html Listening - Saturday, Dec 14th 2019
+=> /listening/20191214-listening-saturday-dec-14th-2019.gmi Listening - Saturday, Dec 14th 2019
 Posted on 2019-12-14 18:00
-
-* 
-=> /listening/20191212-listening-thursday-dec-12th-2019.html Listening - Thursday, Dec 12th 2019
+=> /listening/20191212-listening-thursday-dec-12th-2019.gmi Listening - Thursday, Dec 12th 2019
 Posted on 2019-12-12 18:00
-
-* 
-=> /listening/20191211-listening-wednesday-dec-11th-2019.html Listening - Wednesday, Dec 11th 2019
+=> /listening/20191211-listening-wednesday-dec-11th-2019.gmi Listening - Wednesday, Dec 11th 2019
 Posted on 2019-12-11 18:00
-
-* 
-=> /listening/20191209-listening-monday-dec-9th-2019.html Listening - Monday, Dec 9th 2019
+=> /listening/20191209-listening-monday-dec-9th-2019.gmi Listening - Monday, Dec 9th 2019
 Posted on 2019-12-09 18:00
-
-* 
-=> /listening/20191208-listening-sunday-dec-8th-2019.html Listening - Sunday, Dec 8th 2019
+=> /listening/20191208-listening-sunday-dec-8th-2019.gmi Listening - Sunday, Dec 8th 2019
 Posted on 2019-12-08 18:00
-
-* 
-=> /listening/20191207-listening-saturday-dec-7th-2019.html Listening - Saturday, Dec 7th 2019
+=> /listening/20191207-listening-saturday-dec-7th-2019.gmi Listening - Saturday, Dec 7th 2019
 Posted on 2019-12-07 18:00
-
-* 
-=> /listening/20191205-listening-thursday-dec-5th-2019.html Listening - Thursday, Dec 5th 2019
+=> /listening/20191205-listening-thursday-dec-5th-2019.gmi Listening - Thursday, Dec 5th 2019
 Posted on 2019-12-05 18:00
-
-* 
-=> /listening/20191204-listening-wednesday-dec-4th-2019.html Listening - Wednesday, Dec 4th 2019
+=> /listening/20191204-listening-wednesday-dec-4th-2019.gmi Listening - Wednesday, Dec 4th 2019
 Posted on 2019-12-04 18:00
-
-* 
-=> /listening/20191125-listening-monday-nov-25th-2019.html Listening - Monday, Nov 25th 2019
+=> /listening/20191125-listening-monday-nov-25th-2019.gmi Listening - Monday, Nov 25th 2019
 Posted on 2019-11-25 18:00
-
-* 
-=> /listening/20191123-listening-saturday-nov-23rd-2019.html Listening - Saturday, Nov 23rd 2019
+=> /listening/20191123-listening-saturday-nov-23rd-2019.gmi Listening - Saturday, Nov 23rd 2019
 Posted on 2019-11-23 18:00
-
-* 
-=> /listening/20191122-listening-friday-nov-22nd-2019.html Listening - Friday, Nov 22nd 2019
+=> /listening/20191122-listening-friday-nov-22nd-2019.gmi Listening - Friday, Nov 22nd 2019
 Posted on 2019-11-22 18:00
-
-* 
-=> /listening/20191121-listening-thursday-nov-21st-2019.html Listening - Thursday, Nov 21st 2019
+=> /listening/20191121-listening-thursday-nov-21st-2019.gmi Listening - Thursday, Nov 21st 2019
 Posted on 2019-11-21 18:00
-
-* 
-=> /listening/20191120-listening-wednesday-nov-20th-2019.html Listening - Wednesday, Nov 20th 2019
+=> /listening/20191120-listening-wednesday-nov-20th-2019.gmi Listening - Wednesday, Nov 20th 2019
 Posted on 2019-11-20 18:00
-
-* 
-=> /listening/20191119-listening-tuesday-nov-19th-2019.html Listening - Tuesday, Nov 19th 2019
+=> /listening/20191119-listening-tuesday-nov-19th-2019.gmi Listening - Tuesday, Nov 19th 2019
 Posted on 2019-11-19 18:00
-
-* 
-=> /listening/20191118-listening-monday-nov-18th-2019.html Listening - Monday, Nov 18th 2019
+=> /listening/20191118-listening-monday-nov-18th-2019.gmi Listening - Monday, Nov 18th 2019
 Posted on 2019-11-18 18:00
-
-* 
-=> /listening/20191116-listening-saturday-nov-16th-2019.html Listening - Saturday, Nov 16th 2019
+=> /listening/20191116-listening-saturday-nov-16th-2019.gmi Listening - Saturday, Nov 16th 2019
 Posted on 2019-11-16 18:00
-
-* 
-=> /listening/20191115-listening-friday-nov-15th-2019.html Listening - Friday, Nov 15th 2019
+=> /listening/20191115-listening-friday-nov-15th-2019.gmi Listening - Friday, Nov 15th 2019
 Posted on 2019-11-15 18:00
-
-* 
-=> /listening/20191114-listening-thursday-nov-14th-2019.html Listening - Thursday, Nov 14th 2019
+=> /listening/20191114-listening-thursday-nov-14th-2019.gmi Listening - Thursday, Nov 14th 2019
 Posted on 2019-11-14 18:00
-
-* 
-=> /listening/20191112-listening-tuesday-nov-12th-2019.html Listening - Tuesday, Nov 12th 2019
+=> /listening/20191112-listening-tuesday-nov-12th-2019.gmi Listening - Tuesday, Nov 12th 2019
 Posted on 2019-11-12 18:00
-
-* 
-=> /listening/20191110-listening-sunday-nov-10th-2019.html Listening - Sunday, Nov 10th 2019
+=> /listening/20191110-listening-sunday-nov-10th-2019.gmi Listening - Sunday, Nov 10th 2019
 Posted on 2019-11-10 18:00
-
-* 
-=> /listening/20191105-listening-tuesday-nov-5th-2019.html Listening - Tuesday, Nov 5th 2019
+=> /listening/20191105-listening-tuesday-nov-5th-2019.gmi Listening - Tuesday, Nov 5th 2019
 Posted on 2019-11-05 18:00
-
-* 
-=> /listening/20191104-listening-monday-nov-4th-2019.html Listening - Monday, Nov 4th 2019
+=> /listening/20191104-listening-monday-nov-4th-2019.gmi Listening - Monday, Nov 4th 2019
 Posted on 2019-11-04 18:00
-
-* 
-=> /listening/20191103-listening-sunday-nov-3rd-2019.html Listening - Sunday, Nov 3rd 2019
+=> /listening/20191103-listening-sunday-nov-3rd-2019.gmi Listening - Sunday, Nov 3rd 2019
 Posted on 2019-11-03 18:00
-
-* 
-=> /listening/20191102-listening-saturday-nov-2nd-2019.html Listening - Saturday, Nov 2nd 2019
+=> /listening/20191102-listening-saturday-nov-2nd-2019.gmi Listening - Saturday, Nov 2nd 2019
 Posted on 2019-11-02 18:00
-
-* 
-=> /listening/20191101-listening-friday-nov-1st-2019.html Listening - Friday, Nov 1st 2019
+=> /listening/20191101-listening-friday-nov-1st-2019.gmi Listening - Friday, Nov 1st 2019
 Posted on 2019-11-01 18:00
-
-* 
-=> /listening/20191031-listening-thursday-oct-31st-2019.html Listening - Thursday, Oct 31st 2019
+=> /listening/20191031-listening-thursday-oct-31st-2019.gmi Listening - Thursday, Oct 31st 2019
 Posted on 2019-10-31 18:00
-
-* 
-=> /listening/20191030-listening-wednesday-oct-30th-2019.html Listening - Wednesday, Oct 30th 2019
+=> /listening/20191030-listening-wednesday-oct-30th-2019.gmi Listening - Wednesday, Oct 30th 2019
 Posted on 2019-10-30 18:00
-
-* 
-=> /listening/20191029-listening-tuesday-oct-29th-2019.html Listening - Tuesday, Oct 29th 2019
+=> /listening/20191029-listening-tuesday-oct-29th-2019.gmi Listening - Tuesday, Oct 29th 2019
 Posted on 2019-10-29 18:00
-
-* 
-=> /listening/20191022-listening-tuesday-oct-22nd-2019.html Listening - Tuesday, Oct 22nd 2019
+=> /listening/20191022-listening-tuesday-oct-22nd-2019.gmi Listening - Tuesday, Oct 22nd 2019
 Posted on 2019-10-22 18:00
-
-* 
-=> /listening/20191021-listening-monday-oct-21st-2019.html Listening - Monday, Oct 21st 2019
+=> /listening/20191021-listening-monday-oct-21st-2019.gmi Listening - Monday, Oct 21st 2019
 Posted on 2019-10-21 18:00
-
-* 
-=> /listening/20191020-listening-sunday-oct-20th-2019.html Listening - Sunday, Oct 20th 2019
+=> /listening/20191020-listening-sunday-oct-20th-2019.gmi Listening - Sunday, Oct 20th 2019
 Posted on 2019-10-20 18:00
-
-* 
-=> /listening/20191018-listening-friday-oct-18th-2019.html Listening - Friday, Oct 18th 2019
+=> /listening/20191018-listening-friday-oct-18th-2019.gmi Listening - Friday, Oct 18th 2019
 Posted on 2019-10-18 18:00
-
-* 
-=> /listening/20191017-listening-thursday-oct-17th-2019.html Listening - Thursday, Oct 17th 2019
+=> /listening/20191017-listening-thursday-oct-17th-2019.gmi Listening - Thursday, Oct 17th 2019
 Posted on 2019-10-17 18:00
-
-* 
-=> /listening/20191016-listening-wednesday-oct-16th-2019.html Listening - Wednesday, Oct 16th 2019
+=> /listening/20191016-listening-wednesday-oct-16th-2019.gmi Listening - Wednesday, Oct 16th 2019
 Posted on 2019-10-16 18:00
-
-* 
-=> /listening/20191015-listening-tuesday-oct-15th-2019.html Listening - Tuesday, Oct 15th 2019
+=> /listening/20191015-listening-tuesday-oct-15th-2019.gmi Listening - Tuesday, Oct 15th 2019
 Posted on 2019-10-15 18:00
-
-* 
-=> /listening/20191014-listening-monday-oct-14th-2019.html Listening - Monday, Oct 14th 2019
+=> /listening/20191014-listening-monday-oct-14th-2019.gmi Listening - Monday, Oct 14th 2019
 Posted on 2019-10-14 18:00
-
-* 
-=> /listening/20191013-listening-sunday-oct-13th-2019.html Listening - Sunday, Oct 13th 2019
+=> /listening/20191013-listening-sunday-oct-13th-2019.gmi Listening - Sunday, Oct 13th 2019
 Posted on 2019-10-13 18:00
-
-* 
-=> /listening/20191010-listening-thursday-oct-10th-2019.html Listening - Thursday, Oct 10th 2019
+=> /listening/20191010-listening-thursday-oct-10th-2019.gmi Listening - Thursday, Oct 10th 2019
 Posted on 2019-10-10 18:00
-
-* 
-=> /listening/20191009-listening-wednesday-oct-9th-2019.html Listening - Wednesday, Oct 9th 2019
+=> /listening/20191009-listening-wednesday-oct-9th-2019.gmi Listening - Wednesday, Oct 9th 2019
 Posted on 2019-10-09 18:00
-
-* 
-=> /listening/20191008-listening-tuesday-oct-8th-2019.html Listening - Tuesday, Oct 8th 2019
+=> /listening/20191008-listening-tuesday-oct-8th-2019.gmi Listening - Tuesday, Oct 8th 2019
 Posted on 2019-10-08 18:00
-
-* 
-=> /listening/20191007-listening-monday-oct-7th-2019.html Listening - Monday, Oct 7th 2019
+=> /listening/20191007-listening-monday-oct-7th-2019.gmi Listening - Monday, Oct 7th 2019
 Posted on 2019-10-07 18:01
-
-* 
-=> /listening/20191006-listening-sunday-oct-6th-2019.html Listening - Sunday, Oct 6th 2019
+=> /listening/20191006-listening-sunday-oct-6th-2019.gmi Listening - Sunday, Oct 6th 2019
 Posted on 2019-10-06 18:00
-
-* 
-=> /listening/20191004-listening-friday-oct-4th-2019.html Listening - Friday, Oct 4th 2019
+=> /listening/20191004-listening-friday-oct-4th-2019.gmi Listening - Friday, Oct 4th 2019
 Posted on 2019-10-04 18:00
-
-* 
-=> /listening/20191003-listening-thursday-oct-3rd-2019.html Listening - Thursday, Oct 3rd 2019
+=> /listening/20191003-listening-thursday-oct-3rd-2019.gmi Listening - Thursday, Oct 3rd 2019
 Posted on 2019-10-03 18:00
-
-* 
-=> /listening/20191002-listening-wednesday-oct-2nd-2019.html Listening - Wednesday, Oct 2nd 2019
+=> /listening/20191002-listening-wednesday-oct-2nd-2019.gmi Listening - Wednesday, Oct 2nd 2019
 Posted on 2019-10-02 18:00
-
-* 
-=> /listening/20191001-listening-tuesday-oct-1st-2019.html Listening - Tuesday, Oct 1st 2019
+=> /listening/20191001-listening-tuesday-oct-1st-2019.gmi Listening - Tuesday, Oct 1st 2019
 Posted on 2019-10-01 18:00
-
-* 
-=> /listening/20190930-listening-monday-sept-30th-2019.html Listening - Monday, Sept 30th 2019
+=> /listening/20190930-listening-monday-sept-30th-2019.gmi Listening - Monday, Sept 30th 2019
 Posted on 2019-09-30 18:00
-
-* 
-=> /listening/20190929-listening-sunday-sept-29th-2019.html Listening - Sunday, Sept 29th 2019
+=> /listening/20190929-listening-sunday-sept-29th-2019.gmi Listening - Sunday, Sept 29th 2019
 Posted on 2019-09-29 18:00
-
-* 
-=> /listening/20190928-listening-saturday-sept-28th-2019.html Listening - Saturday, Sept 28th 2019
+=> /listening/20190928-listening-saturday-sept-28th-2019.gmi Listening - Saturday, Sept 28th 2019
 Posted on 2019-09-28 18:00
-
-* 
-=> /listening/20190927-listening-friday-sept-27th-2019.html Listening - Friday, Sept 27th 2019
+=> /listening/20190927-listening-friday-sept-27th-2019.gmi Listening - Friday, Sept 27th 2019
 Posted on 2019-09-27 18:00
-
-* 
-=> /listening/20190926-listening-thursday-sept-26th-2019.html Listening - Thursday, Sept 26th 2019
+=> /listening/20190926-listening-thursday-sept-26th-2019.gmi Listening - Thursday, Sept 26th 2019
 Posted on 2019-09-26 18:00
-
-* 
-=> /listening/20190925-listening-wednesday-sept-25th-2019.html Listening - Wednesday, Sept 25th 2019
+=> /listening/20190925-listening-wednesday-sept-25th-2019.gmi Listening - Wednesday, Sept 25th 2019
 Posted on 2019-09-25 18:00
-
-* 
-=> /listening/20190924-listening-tuesday-sept-24th-2019.html Listening - Tuesday, Sept 24th 2019
+=> /listening/20190924-listening-tuesday-sept-24th-2019.gmi Listening - Tuesday, Sept 24th 2019
 Posted on 2019-09-24 18:00
-
-* 
-=> /listening/20190923-listening-monday-sept-23rd-2019.html Listening - Monday, Sept 23rd 2019
+=> /listening/20190923-listening-monday-sept-23rd-2019.gmi Listening - Monday, Sept 23rd 2019
 Posted on 2019-09-23 18:00
-
-* 
-=> /listening/20190922-listening-sunday-sept-22nd-2019.html Listening - Sunday, Sept 22nd 2019
+=> /listening/20190922-listening-sunday-sept-22nd-2019.gmi Listening - Sunday, Sept 22nd 2019
 Posted on 2019-09-22 18:00
-
-* 
-=> /listening/20190921-listening-saturday-sept-21st-2019.html Listening - Saturday, Sept 21st 2019
+=> /listening/20190921-listening-saturday-sept-21st-2019.gmi Listening - Saturday, Sept 21st 2019
 Posted on 2019-09-21 18:00
-
-* 
-=> /listening/20190920-listening-friday-sept-20th-2019.html Listening - Friday, Sept 20th 2019
+=> /listening/20190920-listening-friday-sept-20th-2019.gmi Listening - Friday, Sept 20th 2019
 Posted on 2019-09-20 18:00
-
-* 
-=> /listening/20190919-listening-thursday-sept-19th-2019.html Listening - Thursday, Sept 19th 2019
+=> /listening/20190919-listening-thursday-sept-19th-2019.gmi Listening - Thursday, Sept 19th 2019
 Posted on 2019-09-19 18:00
-
-* 
-=> /listening/20190918-listening-wednesday-sept-18th-2019.html Listening - Wednesday, Sept 18th 2019
+=> /listening/20190918-listening-wednesday-sept-18th-2019.gmi Listening - Wednesday, Sept 18th 2019
 Posted on 2019-09-18 18:00
-
-* 
-=> /listening/20190917-listening-tuesday-sept-17th-2019.html Listening - Tuesday, Sept 17th 2019
+=> /listening/20190917-listening-tuesday-sept-17th-2019.gmi Listening - Tuesday, Sept 17th 2019
 Posted on 2019-09-17 18:00
-
-* 
-=> /listening/20190916-listening-monday-sept-16th-2019.html Listening - Monday, Sept 16th 2019
+=> /listening/20190916-listening-monday-sept-16th-2019.gmi Listening - Monday, Sept 16th 2019
 Posted on 2019-09-16 18:00
-
-* 
-=> /listening/20190915-listening-sunday-sept-15th-2019.html Listening - Sunday, Sept 15th 2019
+=> /listening/20190915-listening-sunday-sept-15th-2019.gmi Listening - Sunday, Sept 15th 2019
 Posted on 2019-09-15 18:00
-
-* 
-=> /listening/20190914-listening-saturday-sept-14th-2019.html Listening - Saturday, Sept 14th 2019
+=> /listening/20190914-listening-saturday-sept-14th-2019.gmi Listening - Saturday, Sept 14th 2019
 Posted on 2019-09-14 18:00
-
-* 
-=> /listening/20190913-listening-friday-sept-13th-2019.html Listening - Friday, Sept 13th 2019
+=> /listening/20190913-listening-friday-sept-13th-2019.gmi Listening - Friday, Sept 13th 2019
 Posted on 2019-09-13 18:00
-
-* 
-=> /listening/20190912-listening-thursday-sept-12th-2019.html Listening - Thursday, Sept 12th 2019
+=> /listening/20190912-listening-thursday-sept-12th-2019.gmi Listening - Thursday, Sept 12th 2019
 Posted on 2019-09-12 18:00
-
-* 
-=> /listening/20190911-listening-wednesday-sept-11th-2019.html Listening - Wednesday, Sept 11th 2019
+=> /listening/20190911-listening-wednesday-sept-11th-2019.gmi Listening - Wednesday, Sept 11th 2019
 Posted on 2019-09-11 18:00
-
-* 
-=> /listening/20190910-listening-tuesday-sept-10th-2019.html Listening - Tuesday, Sept 10th 2019
+=> /listening/20190910-listening-tuesday-sept-10th-2019.gmi Listening - Tuesday, Sept 10th 2019
 Posted on 2019-09-10 15:00
-
-* 
-=> /listening/20190909-listening-monday-sept-9th-2019.html Listening - Monday, Sept 9th 2019
+=> /listening/20190909-listening-monday-sept-9th-2019.gmi Listening - Monday, Sept 9th 2019
 Posted on 2019-09-9 15:00
-
-* 
-=> /listening/20190908-listening-sunday-sept-8th-2019.html Listening - Sunday, Sept 8th 2019
+=> /listening/20190908-listening-sunday-sept-8th-2019.gmi Listening - Sunday, Sept 8th 2019
 Posted on 2019-09-8 23:00
-
-* 
-=> /listening/20190907-listening-saturday-sept-7th-2019.html Listening - Saturday, Sept 7th 2019
+=> /listening/20190907-listening-saturday-sept-7th-2019.gmi Listening - Saturday, Sept 7th 2019
 Posted on 2019-09-7 23:00
+
+
+=> /twtxt.txt twtxt feed

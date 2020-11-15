@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Jan 25th 2020
-
 Posted on 2020-01-25 18:00
-
---------------------------------------------------------------------------------
 
 [3/4]
 
@@ -34,3 +18,5 @@ Posted on 2020-01-25 18:00
 
 * 
 => https://www.discogs.com/Radboud-Mens-Matthijs-Kouw-34/release/12442579 Radboud Mens & Matthijs Kouw – 3/4 (2018 ERS)
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Jan 24th 2020
-
 Posted on 2020-01-24 18:00
-
---------------------------------------------------------------------------------
 
 [Three Linear Studies Of Cross-Synthesis]
 
@@ -47,3 +31,5 @@ huge collection on his bandcamp page. I have a soft spot for this kind
 of hyper-textured roughly digital microsound and he does a very nice job
 with it. It’s a beautiful sound world. I haven’t listened to the rest
 yet but I’m curious to hear more from the collection.
+
+=> /twtxt.txt twtxt feed

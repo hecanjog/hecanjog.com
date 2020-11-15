@@ -1,22 +1,8 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
-
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
 
 I'm a computer musician based in Minnesota.
 
@@ -27,3 +13,5 @@ I'm a computer musician based in Minnesota.
 Sometimes I use
 => https://merveilles.town/@hecanjog mastodon
 .
+
+=> /twtxt.txt twtxt feed

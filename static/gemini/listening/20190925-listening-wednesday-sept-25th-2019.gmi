@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Sept 25th 2019
-
 Posted on 2019-09-25 18:00
-
---------------------------------------------------------------------------------
 
 [Computer-Musik]
 
@@ -37,3 +21,5 @@ Posted on 2019-09-25 18:00
 
 * 
 => https://www.discogs.com/Pulsinger-Fennesz-In-Four-Parts/release/5377166 Pulsinger / Fennesz – In Four Parts (2013 Col Legno)
+
+=> /twtxt.txt twtxt feed

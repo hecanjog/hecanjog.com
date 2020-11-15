@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Jan 12th 2020
-
 Posted on 2020-01-12 18:00
-
---------------------------------------------------------------------------------
 
 [Grace Cathedral Park]
 
@@ -59,3 +43,5 @@ the production style doesn’t rely on recycled tropes but finds a place
 for these songs to breathe. (While touching obvious idiomatic points
 along the way – washed out reverb, a hi-fi studio grunge sound that
 doesn’t quite let itself become too plastic or packaged…)
+
+=> /twtxt.txt twtxt feed

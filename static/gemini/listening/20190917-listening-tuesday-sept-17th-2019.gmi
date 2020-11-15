@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Sept 17th 2019
-
 Posted on 2019-09-17 18:00
-
---------------------------------------------------------------------------------
 
 [In Touch]
 
@@ -31,3 +15,5 @@ Posted on 2019-09-17 18:00
 
 * 
 => https://www.discogs.com/B%C3%B6ttcher-Hubweber-Schnack-Schnack/release/752647 Böttcher / Hubweber: Schnack – Schnack (2005 Anthropometrics)
+
+=> /twtxt.txt twtxt feed

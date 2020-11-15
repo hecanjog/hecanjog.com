@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Jan 31st 2020
-
 Posted on 2020-01-31 18:00
-
---------------------------------------------------------------------------------
 
 [Una Producion Pop]
 
@@ -35,3 +19,5 @@ a cheap used copy as well.) Just a great post-rock outing – reminds me a
 bit of Isotope 217 maybe. Great sense of sound & timbre, plenty of
 hypnotic freakouts and a solid showing of interesting harmony and subtle
 hooks.
+
+=> /twtxt.txt twtxt feed

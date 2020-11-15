@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Jan 16th 2020
-
 Posted on 2020-01-16 18:00
-
---------------------------------------------------------------------------------
 
 [Hollerin’ The Spirit]
 
@@ -76,3 +60,5 @@ KFW last night. I’ll have to try again when I’m in the right headspace.
 I’m not totally sure the bandcamp data-dump is the right way to present
 all this. I’m probably biased but I can’t help but feel like an internet
 radio stream would be much better…
+
+=> /twtxt.txt twtxt feed

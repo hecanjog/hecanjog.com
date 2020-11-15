@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Jan 23rd 2020
-
 Posted on 2020-01-23 18:00
-
---------------------------------------------------------------------------------
 
 [Days Are Gone]
 
@@ -48,3 +32,5 @@ another time!
 
 Finally: Phonem’s Hydro Electric defines the IDM genre and is the best
 offering of its era. A nuanced view!
+
+=> /twtxt.txt twtxt feed

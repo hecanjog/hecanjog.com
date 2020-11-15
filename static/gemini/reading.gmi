@@ -1,30 +1,13 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
-
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
 
 # Reading Lists
 
-Items in bold text are currently being read. Items in ~~strikethrough~~
-have been read. Everything else is queued to read, or in some cases
-re-read.
-
---------------------------------------------------------------------------------
+Items in bold text are currently being read. Items in strikethrough have
+been read. Everything else is queued to read, or in some cases re-read.
 
 ## Literature
 
@@ -44,13 +27,11 @@ re-read.
 
 ### Comic Books / Graphic Novels
 
-* ~~Mary Safro - Drugs & Wires~~
+* Mary Safro - Drugs & Wires
 
-* ~~Jamie Hernández - Maggie The Mechanic~~
+* Jamie Hernández - Maggie The Mechanic
 
-* ~~John Pound - Ran Dum~~
-
---------------------------------------------------------------------------------
+* John Pound - Ran Dum
 
 ## Music
 
@@ -68,8 +49,6 @@ re-read.
 Media
 
 * Jliat - Bad Music
-
---------------------------------------------------------------------------------
 
 ## Technical
 
@@ -94,3 +73,5 @@ Media
 * Ibram X. Kendi - How to be an antiracist
 
 * Peter Kropotkin - The Conquest of Bread
+
+=> /twtxt.txt twtxt feed

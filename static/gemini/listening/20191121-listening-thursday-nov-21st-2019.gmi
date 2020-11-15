@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Nov 21st 2019
-
 Posted on 2019-11-21 18:00
-
---------------------------------------------------------------------------------
 
 [I Don’t Want To Live Forever]
 
@@ -125,3 +109,5 @@ approach taken in the second half / final two-thirds of this which to me
 seems like more of a straightforward parade of nice textures & long
 gestures with more overall variation and a throughline you can lose
 yourself in if you’re not careful.
+
+=> /twtxt.txt twtxt feed

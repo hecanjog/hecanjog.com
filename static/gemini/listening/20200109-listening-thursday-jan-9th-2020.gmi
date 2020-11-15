@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Jan 9th 2020
-
 Posted on 2020-01-09 18:00
-
---------------------------------------------------------------------------------
 
 [A Clerical Error In Shasta County Shouldn’t Have To Ruin A Saturday
 Night]
@@ -40,3 +24,5 @@ think of the Recital label but this is more acousmatic and less
 concerned with western classical music. (It’s still very much of the
 world of western harmony to my ears, but fragmented and destructured
 into sound-mass enough to be more than just chords and rhythms.)
+
+=> /twtxt.txt twtxt feed

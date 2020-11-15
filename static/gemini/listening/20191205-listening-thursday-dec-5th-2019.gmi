@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Dec 5th 2019
-
 Posted on 2019-12-05 18:00
-
---------------------------------------------------------------------------------
 
 [Cumberland County]
 
@@ -37,3 +21,5 @@ Posted on 2019-12-05 18:00
 
 * 
 => https://fullspectrumrecords.bandcamp.com/album/cumberland-county Aaron Oppenheim - Cumberland County (2019 Editions Littlefield)
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Oct 8th 2019
-
 Posted on 2019-10-08 18:00
-
---------------------------------------------------------------------------------
 
 [Workin’ With The Miles Davis Quintet]
 
@@ -43,3 +27,5 @@ Posted on 2019-10-08 18:00
 
 * 
 => https://www.discogs.com/Various-Transmissions-from-the-Love-Room-WFMU-Sessions-2008-2018/release/13769799 Various – Transmissions from the Love Room (WFMU Sessions 2008 - 2018) (2019 WFMU)
+
+=> /twtxt.txt twtxt feed

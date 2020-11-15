@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Oct 4th 2019
-
 Posted on 2019-10-04 18:00
-
---------------------------------------------------------------------------------
 
 [Preludes For Piano - Books I & II]
 
@@ -46,3 +30,5 @@ Posted on 2019-10-04 18:00
 
 * 
 => https://www.discogs.com/Seattle-Phonographers-Union-Building-27-WNP-5/release/5208712 Seattle Phonographers Union - Building 27 WNP-5 (2013 Prefecture Music)
+
+=> /twtxt.txt twtxt feed

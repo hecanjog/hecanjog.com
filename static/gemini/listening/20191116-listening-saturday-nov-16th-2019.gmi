@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Nov 16th 2019
-
 Posted on 2019-11-16 18:00
-
---------------------------------------------------------------------------------
 
 [Two Agents]
 
@@ -31,3 +15,5 @@ Posted on 2019-11-16 18:00
 
 * 
 => https://www.discogs.com/Pulseprogramming-Charade-Is-Gold/master/1063602 Pulseprogramming – Charade Is Gold (2011 Audraglint)
+
+=> /twtxt.txt twtxt feed

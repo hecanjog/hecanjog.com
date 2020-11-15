@@ -1,0 +1,26 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
+
+
+## DEFUND THE POLICE
+
+Organizations you can support:
+
+* 
+=> https://www.blackvisionsmn.org Black Visions Collective
+
+* 
+=> https://minnesotafreedomfund.org Minnesota Freedom Fund
+
+* 
+=> https://www.mmwconline.org/donate/ Milwaukee Muslim Women's Coalition
+
+* 
+=> https://www.theokraproject.com The Okra Project
+(Donate via
+=> https://paypal.me/theokraproject paypal.me/theokraproject
+)
+
+=> /twtxt.txt twtxt feed

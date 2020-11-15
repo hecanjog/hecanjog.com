@@ -1,4 +1,4 @@
-.PHONY: blog pages listening deploy images gemini
+.PHONY: blog pages listening deploy images
 
 images:
 	./scripts/makebw.sh
@@ -12,10 +12,7 @@ blog:
 listening:
 	./venv/bin/python3 -m engine.build listening
 
-gemini:
-	./scripts/makegemini.sh
-
-all: images pages blog listening gemini
+all: images pages blog listening 
 
 deploy:
 	rsync -avz static/ deploy@radio.af:/srv/www/hecanjog.com

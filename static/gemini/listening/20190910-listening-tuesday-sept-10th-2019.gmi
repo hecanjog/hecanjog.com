@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Sept 10th 2019
-
 Posted on 2019-09-10 15:00
-
---------------------------------------------------------------------------------
 
 [Microwave]
 
@@ -43,3 +27,5 @@ Posted on 2019-09-10 15:00
 
 * 
 => https://www.discogs.com/La-Monte-Young-Marian-Zazeela-The-Tamburas-Of-Pandit-Pran-Nath-An-Homage/release/6576241 La Monte Young, Marian Zazeela - The Tamburas Of Pandit Pran Nath (An Homage) (2015 Just Dreams)
+
+=> /twtxt.txt twtxt feed

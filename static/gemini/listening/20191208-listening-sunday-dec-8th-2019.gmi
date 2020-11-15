@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Dec 8th 2019
-
 Posted on 2019-12-08 18:00
-
---------------------------------------------------------------------------------
 
 [To Magnetize Money And Catch A Roving Eye]
 
@@ -34,3 +18,5 @@ Posted on 2019-12-08 18:00
 
 * 
 => https://www.discogs.com/Jim-ORourke-To-Magnetize-Money-And-Catch-A-Roving-Eye/release/14361840 Jim O’Rourke – To Magnetize Money And Catch A Roving Eye - Disc 1: Pt. 1 (2019 Sonaris)
+
+=> /twtxt.txt twtxt feed

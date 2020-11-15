@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Nov 4th 2019
-
 Posted on 2019-11-04 18:00
-
---------------------------------------------------------------------------------
 
 [Qat, Coffee & Qambus: Raw 45s From Yemen]
 
@@ -54,3 +38,5 @@ afraid it’ll get eaten for some unknown reason. It’s a good one to come
 back to though and next time I’ll digitize it! That extended Tim Perkis
 / John Bischoff / Mark Trayle jam at the end is still the highlight for
 me but it’s solid early digital skronk all around.
+
+=> /twtxt.txt twtxt feed

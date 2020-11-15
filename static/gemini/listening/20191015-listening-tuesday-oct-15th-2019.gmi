@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Oct 15th 2019
-
 Posted on 2019-10-15 18:00
-
---------------------------------------------------------------------------------
 
 [The Falconer’s Arm II]
 
@@ -37,3 +21,5 @@ Posted on 2019-10-15 18:00
 
 * 
 => https://www.discogs.com/Robbie-B%C4%83sho-The-Falconers-Arm-II/master/839974 Robbie Băsho – The Falconer’s Arm II (1967 Takoma)
+
+=> /twtxt.txt twtxt feed

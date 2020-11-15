@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Oct 20th 2019
-
 Posted on 2019-10-20 18:00
-
---------------------------------------------------------------------------------
 
 [To Come…]
 
@@ -54,3 +38,5 @@ between have grown on me quite a lot though. Funny that it’s one of my
 favorite records of the era, I’ve heard almost every version and remix
 (there are a lot of them) but I still haven’t listened to any other
 Silent Poets albums! Something to look forward to.
+
+=> /twtxt.txt twtxt feed

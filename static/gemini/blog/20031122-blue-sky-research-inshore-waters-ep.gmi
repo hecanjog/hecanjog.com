@@ -1,30 +1,13 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Blue Sky Research - Inshore Waters EP
-
 Posted on 2003-11-22 3:22
 
---------------------------------------------------------------------------------
-
-=> http://www.hippocamp.net/1003/15.asp  
 Jonathan Fisher - also known as Blue Sky Research and the admin of
 Hippocamp.net, a Manchester England based netlabel - has taken a slight
 departure on Inshore Waters from his previous beat driven synth
@@ -44,24 +27,25 @@ harmonica and the sighing crashing of waves) - offer themselves as
 fleeting textural Haiku. Each briefly explores the particular cadences
 of a chosen set of sounds much as the eye might passingly move from rock
 to rock and crest to crest in viewing a scene like the one depicted in
-the album’s accompanying photograph.
-Bristol Channel, however, settles down for a few moments to take in the
-entire scene. Plucked guitar tones ebb like rolling waves around a
-subtle drone melody one might expect to be trumpeted from the blowhole
-of an Atlantic-dwelling whale who had done a bit of study in Buddhism
-and the pronouncement of “Om.” Rhodes-like guitars eventually chime
-gentle harmonic patterns over top until slipping away again a minute
-later and leaving only the swiftly retreating decay of muted guitar.
-Like Szabo’s This Book is About Words Fisher’s Inshore Waters fragments
-warm samples of acoustic guitar into ambient chamber works - but Fisher
-doesn’t make his edits hard. The allure of the glitch is sacrificed for
-small moments that bleed seamlessly into each other. DSP is largely
-ignored for the simple transformations of delay, reverse, and reverb -
-and the guitar is left to its natural texture.
+the album’s accompanying photograph. Bristol Channel, however, settles
+down for a few moments to take in the entire scene. Plucked guitar tones
+ebb like rolling waves around a subtle drone melody one might expect to
+be trumpeted from the blowhole of an Atlantic-dwelling whale who had
+done a bit of study in Buddhism and the pronouncement of “Om.”
+Rhodes-like guitars eventually chime gentle harmonic patterns over top
+until slipping away again a minute later and leaving only the swiftly
+retreating decay of muted guitar. Like Szabo’s This Book is About Words
+Fisher’s Inshore Waters fragments warm samples of acoustic guitar into
+ambient chamber works - but Fisher doesn’t make his edits hard. The
+allure of the glitch is sacrificed for small moments that bleed
+seamlessly into each other. DSP is largely ignored for the simple
+transformations of delay, reverse, and reverb - and the guitar is left
+to its natural texture.
 This EP is a lovely aural snapshot of a pleasant trip not far from home,
 handed discreetly to the listener for an impressionistic recap of the
-journey.
-=> http://www.hippocamp.net/1003/15.asp http://www.hippocamp.net/1003/15.asp
-(hippocamp is currently moving its mp3 archives to another server - the
-album is down at time of writing, but should be back up soon if Jon gets
-scene.org to host the files. it’s worth the wait.)
+journey. http://www.hippocamp.net/1003/15.asp (hippocamp is currently
+moving its mp3 archives to another server - the album is down at time of
+writing, but should be back up soon if Jon gets scene.org to host the
+files. it’s worth the wait.)
+
+=> /twtxt.txt twtxt feed

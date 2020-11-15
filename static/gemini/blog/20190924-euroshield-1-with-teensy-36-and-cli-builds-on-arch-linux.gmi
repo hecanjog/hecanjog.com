@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Euroshield 1 with Teensy 3.6 and cli builds on Arch Linux
-
 Posted on 2019-09-24 21:00
-
---------------------------------------------------------------------------------
 
 These are basically notes for future me, but maybe they will help
 someone else doing the same thing.
@@ -56,7 +40,7 @@ As I write, the latest version of the IDE is 1.8.10 but teensyduino only
 supports 1.8.9 so that’s the version I installed.
 
 Follow the instructions in
-=> https://www.pjrc.com/teensy/td_download.html this guide
+=> https://www.pjrc.com/teensy/td_download.gmi this guide
 to install the stock arduino and then teensyduino.
 
 That meant for me downloading 1.8.9 from the arduino site,
@@ -112,3 +96,5 @@ equation, whose seed values are CV controlled from the euroshield
 inputs.
 
 But that’s for another post!
+
+=> /twtxt.txt twtxt feed

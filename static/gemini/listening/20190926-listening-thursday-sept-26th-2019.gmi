@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Sept 26th 2019
-
 Posted on 2019-09-26 18:00
-
---------------------------------------------------------------------------------
 
 [In Four Parts]
 
@@ -40,3 +24,5 @@ Posted on 2019-09-26 18:00
 
 * 
 => https://www.discogs.com/Patrick-Pulsinger-Pamelia-Kurstin-Hilary-Jeffery-Rozemarie-Heggen-Besides-Feldman/release/8128168 Patrick Pulsinger, Pamelia Kurstin, Hilary Jeffery, Rozemarie Heggen – Besides Feldman (2011 Col Legno)
+
+=> /twtxt.txt twtxt feed

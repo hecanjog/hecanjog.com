@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Jan 30th 2020
-
 Posted on 2020-01-30 18:00
-
---------------------------------------------------------------------------------
 
 [NTS Session 3]
 
@@ -54,3 +38,5 @@ That said, I’m thankful for extremely long-form outings like
 Calineczka’s Music not for Airports or Terre Thaemlitz’ haunting but
 beautiful Deproduction… I just wish these NTS Sessions felt as essential
 in their length as those.
+
+=> /twtxt.txt twtxt feed

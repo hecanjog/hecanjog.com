@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Nov 15th 2019
-
 Posted on 2019-11-15 18:00
-
---------------------------------------------------------------------------------
 
 [Intuition]
 
@@ -40,3 +24,5 @@ Posted on 2019-11-15 18:00
 
 * 
 => https://www.discogs.com/The-Coup-Funk-The-Liberation-Of-Lonzo-Williams/release/516941 The Coup – Funk / The Liberation Of Lonzo Williams (1993 Wild Pitch)
+
+=> /twtxt.txt twtxt feed

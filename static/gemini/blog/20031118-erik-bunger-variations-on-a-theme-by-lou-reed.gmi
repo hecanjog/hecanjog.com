@@ -1,30 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Erik Bünger - Variations on a Theme by Lou Reed
-
 Posted on 2003-11-18 15:22
-
---------------------------------------------------------------------------------
-
-=> http://www.idealrecordings.com/iDEAL/mp3show_04.html  
 
 When
 
@@ -52,7 +34,9 @@ Reed
 
 at
 
-=> http://www.idealrecordings.com/ iDEAL Recordings
+iDEAL
+
+Recordings
 
 I
 
@@ -136,11 +120,17 @@ of
 
 both
 
-=> http://www.cycling74.com/ Cycling 74
+Cycling
+
+74
 
 ’s
 
-=> http://www.synthesisters.com/hypermail/max-msp/ Max/MSP mailing list
+Max/MSP
+
+mailing
+
+list
 
 as
 
@@ -154,7 +144,11 @@ Yahoo!
 
 based
 
-=> http://groups.yahoo.com/group/plunderphonia/ plunderphonia mailing list
+plunderphonia
+
+mailing
+
+list
 
 dedicated
 
@@ -310,7 +304,7 @@ the
 
 word
 
-=> http://www.studentbmj.com/back_issues/1198/graphics/heroin.jpg “heroin.”
+heroin.
 
 Already
 
@@ -586,13 +580,13 @@ of
 
 several
 
-=> http://www.sr.se/p1/src/SRc06_tabla.stm solo
+solo
 
 and
 
-=> http://groups.yahoo.com/group/plunderphonia/message/1412 ensemble
+ensemble
 
-=> http://www.splintermind.com/beeoff/rsarchive/ebe.html performances
+performances
 
 as
 
@@ -614,7 +608,9 @@ collective
 
 called
 
-=> http://www.nursery.a.se/ The Nursery.
+The
+
+Nursery.
 
 A
 
@@ -624,7 +620,21 @@ recording
 
 of
 
-=> http://www.splintermind.com/beeoff/rsarchive/ebe.html a February performance of the Erik Bünger ensemble,
+a
+
+February
+
+performance
+
+of
+
+the
+
+Erik
+
+Bünger
+
+ensemble,
 
 where
 
@@ -710,15 +720,15 @@ penned:
 
 * For me it’s all about revenge, to take control over those who have
 controlled me. Those people who think control is the first criteria on
-musical ability lose the control in our hands.
-I’ll leave this review on that positive note - it’s refreshing to see
-someone who clearly has a virtuosic control of his technique acknowledge
-the hollowness of it.
-=> http://www.idealrecordings.com/iDEAL/mp3show_04.html http://www.idealrecordings.com/iDEAL/mp3show_04.html
-Update: Bünger has a new project online for the Swedish Radio called
-“let them sing it for you.” It’s an “interactive, ever-growing sound art
-project” which lets you enter text into a flash interface that plays the
-text back using plundered clips from pop songs. It’s never been more fun
-to reappropriate the plastic, commercial history of pop music for your
-own personal creativity. :-)
-=> http://www.sr.se/cgi-bin/P1/src/sing/default.asp Here’s the link.
+musical ability lose the control in our hands. I’ll leave this review on
+that positive note - it’s refreshing to see someone who clearly has a
+virtuosic control of his technique acknowledge the hollowness of it.
+http://www.idealrecordings.com/iDEAL/mp3show_04.gmi Update: Bünger has
+a new project online for the Swedish Radio called “let them sing it for
+you.” It’s an “interactive, ever-growing sound art project” which lets
+you enter text into a flash interface that plays the text back using
+plundered clips from pop songs. It’s never been more fun to
+reappropriate the plastic, commercial history of pop music for your own
+personal creativity. :-) Here’s the link.
+
+=> /twtxt.txt twtxt feed

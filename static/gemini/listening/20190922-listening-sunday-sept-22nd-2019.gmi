@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Sept 22nd 2019
-
 Posted on 2019-09-22 18:00
-
---------------------------------------------------------------------------------
 
 [Eu E Meu Pandeiro]
 
@@ -34,3 +18,5 @@ Posted on 2019-09-22 18:00
 
 * 
 => https://www.discogs.com/Tim-Maia-Tim-Maia/master/1040342 Tim Maia - Tim Maia (1976 Polydor)
+
+=> /twtxt.txt twtxt feed

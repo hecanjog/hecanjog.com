@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Nov 12th 2019
-
 Posted on 2019-11-12 18:00
-
---------------------------------------------------------------------------------
 
 [A Glimpse of Hope]
 
@@ -71,3 +55,5 @@ stay tuned in for a while longer. I love indie radio.
 The aNONradio project seems really cool – it’s an internet based
 community radio station loosely organized around UNIX and free software
 etc. I’m looking forward to sampling some of their other shows.
+
+=> /twtxt.txt twtxt feed

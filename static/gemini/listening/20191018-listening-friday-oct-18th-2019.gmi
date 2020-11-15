@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Oct 18th 2019
-
 Posted on 2019-10-18 18:00
-
---------------------------------------------------------------------------------
 
 [Gal Costa]
 
@@ -70,3 +54,5 @@ when the accomp is pure atmosphere. The band wants out, Gal!
 I’m getting back to exploring the Tim Maia solo catalog today too –
 almost through all the early self-titled albums now I think and the
 first one is as rad and funky as the rest.
+
+=> /twtxt.txt twtxt feed

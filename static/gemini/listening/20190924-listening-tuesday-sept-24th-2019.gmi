@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Sept 24th 2019
-
 Posted on 2019-09-24 18:00
-
---------------------------------------------------------------------------------
 
 [Sketch Proposals]
 
@@ -37,3 +21,5 @@ Posted on 2019-09-24 18:00
 
 * 
 => https://www.discogs.com/Rosenau-Sanborn-Bluebird/release/14107456 Rosenau & Sanborn – Bluebird (2019 Psychic Hotline)
+
+=> /twtxt.txt twtxt feed

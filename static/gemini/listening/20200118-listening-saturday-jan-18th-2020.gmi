@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Jan 18th 2020
-
 Posted on 2020-01-18 18:00
-
---------------------------------------------------------------------------------
 
 [The Beast]
 
@@ -131,3 +115,5 @@ between the ages of 15 and 18. I was expecting… well I wasn’t expecting
 a polished-sounding 70s rock vibe. A prequel to The Beast? Sure. Amazing
 he was already right there with the Hospitality aesthetic 30 years ago.
 Also: he’s got a really great singing voice, even as a teen.
+
+=> /twtxt.txt twtxt feed

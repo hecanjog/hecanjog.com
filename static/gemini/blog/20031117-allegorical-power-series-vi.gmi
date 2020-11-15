@@ -1,40 +1,21 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Allegorical Power Series VI
-
 Posted on 2003-11-17 23:44
 
---------------------------------------------------------------------------------
-
-=> http://www.antiopic.com/allegorical/november2003.html  
 Since June 2003 Antiopic records has been publishing a series of monthly
 mp3 compilations intended to provoke a socially conscious dialog through
-=> http://www.antiopic.com/allegorical/june2003.html “abstract or experimental art and music”
-- discussion of which they consider to be too often limited to matters
-of aesthetics. Some of the most creative talents in new music have
-contributed mp3s (and in one case a quicktime movie) to what is turning
-into some of the most consistetly high-caliber online releases around to
-date - on par certainly with the likes of
-=> http://www.fallt.com/ Fallt’s
-popular invalidObject series.
+“abstract or experimental art and music” - discussion of which they
+consider to be too often limited to matters of aesthetics. Some of the
+most creative talents in new music have contributed mp3s (and in one
+case a quicktime movie) to what is turning into some of the most
+consistetly high-caliber online releases around to date - on par
+certainly with the likes of Fallt’s popular invalidObject series.
 November’s chapter is smaller than previous releases and unfortunately
 contains some weaker material than has been presented before. Even so,
 Volume VI has many high points - such as duul_drv’s moving combination
@@ -46,13 +27,13 @@ Breaking Up’s well balanced microsound collage of radio static Receiver
 aren’t failures by any means - they’re simply overshadowed by the
 strengths of the other releases, not to mention the incredible
 back-catalog (all of which is still availible for download) of the
-previous volumes in the series.
-Not every piece of music immediately inspires a socially informed
-critique, and certainly none is simply an exercise in propaganda - but
-the very act of enclosing these works in the casing of a suggestion to
-mindful political consideration gives them another dimension to be
-unraveled. It’s usually a fun and sometimes challenging task that tends
-to inform the possible aesthetic readings of the works rather than
-negating them.
-Highly recommended.
-=> http://www.antiopic.com/allegorical/november2003.html http://www.antiopic.com/allegorical/november2003.html
+previous volumes in the series. Not every piece of music immediately
+inspires a socially informed critique, and certainly none is simply an
+exercise in propaganda - but the very act of enclosing these works in
+the casing of a suggestion to mindful political consideration gives them
+another dimension to be unraveled. It’s usually a fun and sometimes
+challenging task that tends to inform the possible aesthetic readings of
+the works rather than negating them. Highly recommended.
+http://www.antiopic.com/allegorical/november2003.gmi
+
+=> /twtxt.txt twtxt feed

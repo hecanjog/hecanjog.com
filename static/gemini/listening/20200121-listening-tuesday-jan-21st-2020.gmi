@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Jan 21st 2020
-
 Posted on 2020-01-21 18:00
-
---------------------------------------------------------------------------------
 
 [During a Lifetime]
 
@@ -108,3 +92,5 @@ combination from a different angle. There are precious few events as
 such here but it’s not really a drone album either. Like most of the new
 Another Timbre stuff it’s very very pretty, but this stands out in its
 blurry arrangements and lack of overt patterns.
+
+=> /twtxt.txt twtxt feed

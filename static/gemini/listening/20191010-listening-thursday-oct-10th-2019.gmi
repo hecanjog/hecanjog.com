@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Oct 10th 2019
-
 Posted on 2019-10-10 18:00
-
---------------------------------------------------------------------------------
 
 [Touchdown]
 
@@ -40,3 +24,5 @@ Posted on 2019-10-10 18:00
 
 * 
 => https://www.discogs.com/Jliat-160594/master/378901 Jliat - 16:05:94 (1994 JLIAT)
+
+=> /twtxt.txt twtxt feed

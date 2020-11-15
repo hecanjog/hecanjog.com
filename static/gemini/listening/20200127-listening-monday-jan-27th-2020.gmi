@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Jan 27th 2020
-
 Posted on 2020-01-27 18:00
-
---------------------------------------------------------------------------------
 
 [Musique Électroacoustique - Electroacoustic Music]
 
@@ -54,3 +38,5 @@ James Montgomery called Saigon that also really stands out for me.
 It’s sort of criminal this comp seems to have been erased from the earth
 at some point. I stumbled onto it via soulseek – please, go and find it
 there, this music deserves to be heard.
+
+=> /twtxt.txt twtxt feed

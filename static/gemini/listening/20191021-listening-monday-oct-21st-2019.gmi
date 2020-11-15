@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Oct 21st 2019
-
 Posted on 2019-10-21 18:00
-
---------------------------------------------------------------------------------
 
 [Altos]
 
@@ -40,3 +24,5 @@ that’s ridiculous, so I’ll file Angel Olsen along with Silent Poets
 among those I need to catch up with. She’s got
 => https://www.discogs.com/Angel-Olsen-Steve-Gunn-Live-At-Pickathon-Angel-Olsen-Steve-Gunn/master/1141641 a split with Steve Gunn
 , too – probably a good place to start!
+
+=> /twtxt.txt twtxt feed

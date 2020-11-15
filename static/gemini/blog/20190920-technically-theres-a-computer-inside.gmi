@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Technically There's a Computer Inside
-
 Posted on 2019-09-20 15:25
-
---------------------------------------------------------------------------------
 
 [Modular button-mashing]
 
@@ -46,3 +30,5 @@ The overall rhythm in the shifting timbre is coming from the Via being
 modulated with the MIDI script. I’m just throwing notes at it
 willy-nilly, I have no idea what I’m actually telling it to do but this
 is a fun first step!
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Nov 14th 2019
-
 Posted on 2019-11-14 18:00
-
---------------------------------------------------------------------------------
 
 [Innervisions]
 
@@ -31,3 +15,5 @@ Posted on 2019-11-14 18:00
 
 * 
 => https://www.discogs.com/The-Soft-Machine-The-Soft-Machine/release/1929822 The Soft Machine - The Soft Machine (1968 Probe)
+
+=> /twtxt.txt twtxt feed

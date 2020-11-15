@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Oct 6th 2019
-
 Posted on 2019-10-06 18:00
-
---------------------------------------------------------------------------------
 
 [Comfort Zone]
 
@@ -46,3 +30,5 @@ Posted on 2019-10-06 18:00
 
 Also FWIW nothing to report yesterday. The only listening I did was to
 sketches of things I’m working on.
+
+=> /twtxt.txt twtxt feed

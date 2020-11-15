@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Jan 13th 2020
-
 Posted on 2020-01-13 18:00
-
---------------------------------------------------------------------------------
 
 [Musique Électroacoustique - Electroacoustic Music]
 
@@ -95,3 +79,5 @@ slow drip from a stalactite forming. Each plop was an impulse tracing
 the shape of the space being superimposed onto my apartment.
 
 Next time, headphones.
+
+=> /twtxt.txt twtxt feed

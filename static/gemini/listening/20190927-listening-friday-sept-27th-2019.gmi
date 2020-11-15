@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Friday, Sept 27th 2019
-
 Posted on 2019-09-27 18:00
-
---------------------------------------------------------------------------------
 
 [The Dust Trade]
 
@@ -37,3 +21,5 @@ Posted on 2019-09-27 18:00
 
 * 
 => https://www.discogs.com/MC-Schmidt-Aqua-Sauvage-Stuffed-Concrete/master/1530800 M.C. Schmidt – Aqua Sauvage / Stuffed Concrete (2019 Northern Spy)
+
+=> /twtxt.txt twtxt feed

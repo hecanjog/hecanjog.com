@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Sept 30th 2019
-
 Posted on 2019-09-30 18:00
-
---------------------------------------------------------------------------------
 
 [Niblock For Celli]
 
@@ -46,3 +30,5 @@ Posted on 2019-09-30 18:00
 
 * 
 => https://www.discogs.com/Phill-Niblock-G244x2/release/114846 Phill Niblock – G2,44+/x2 (2002 Moikai)
+
+=> /twtxt.txt twtxt feed

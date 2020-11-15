@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## South Seas Development So Far
-
 Posted on 2018-11-18 20:00
-
---------------------------------------------------------------------------------
 
 South Seas is an interactive retelling of a Pippi Longstocking story by
 Astrid Lindgren. This blog is a journal of its development.
@@ -55,7 +39,7 @@ Each cue has its own pool of worker processes that actually run the
 python scripts that constitute the cues, use the wonderful sox program
 to encode them as mp3 files, and then convert those files into
 base64-encoded strings suitable for stuffing into the src attribute of
-an html audio tag as a data-URI. Those audio-tag-ready strings are what
+an gmi audio tag as a data-URI. Those audio-tag-ready strings are what
 is actually pushed into the redis queue.
 
 The conductor process orchestrates switching between sections – just a
@@ -117,3 +101,5 @@ templates – as well as SVG templates, etc. All the requests from the
 clients pass through these flask controllers.
 
 I’ll describe the HTML/CSS/SVG frontend in more detail in a later post.
+
+=> /twtxt.txt twtxt feed

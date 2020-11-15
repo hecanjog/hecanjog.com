@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Oct 29th 2019
-
 Posted on 2019-10-29 18:00
-
---------------------------------------------------------------------------------
 
 [Valence]
 
@@ -39,7 +23,7 @@ Posted on 2019-10-29 18:00
 => https://www.discogs.com/France-Jobin-Valence/master/1224831 France Jobin – Valence (2012 Line)
 
 * 
-=> http://engravedglass.blogspot.com/2010/02/michael-pisaro-greg-stuart-july.html Michael Pisaro & Greg Stuart - July Mountain (2010 Point Engraved)
+=> http://engravedglass.blogspot.com/2010/02/michael-pisaro-greg-stuart-july.gmi Michael Pisaro & Greg Stuart - July Mountain (2010 Point Engraved)
 
 After a flu-y week of no music this morning I had a hankering for coffee
 and something lush – Simon Scott’s FloodLines to be specific, but as I
@@ -94,3 +78,5 @@ and a track of just the percussion part isolated which I’d very much
 like to hear. Not sure how I missed that back when! My aging CDr is
 already sadly doing the click-dance, too. It sounds nice, but it’s
 amazing how quickly some of them can rot away…
+
+=> /twtxt.txt twtxt feed

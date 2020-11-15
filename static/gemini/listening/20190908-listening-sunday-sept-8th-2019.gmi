@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Sept 8th 2019
-
 Posted on 2019-09-8 23:00
-
---------------------------------------------------------------------------------
 
 [Deproduction stage]
 
@@ -43,3 +27,5 @@ Posted on 2019-09-8 23:00
 
 * 
 => https://www.discogs.com/Keith-Fullerton-Whitman-Track42waysuperimposed/release/685224 Keith Fullerton Whitman - Track4(2waysuperimposed) (2006 Room40)
+
+=> /twtxt.txt twtxt feed

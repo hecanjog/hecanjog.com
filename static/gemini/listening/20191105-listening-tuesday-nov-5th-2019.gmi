@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Nov 5th 2019
-
 Posted on 2019-11-05 18:00
-
---------------------------------------------------------------------------------
 
 [Music Around Benjamin Boretz: Open Spaces, 2005]
 
@@ -39,3 +23,5 @@ vibes and sharp arrangements. (Which could also describe a fair amount
 of Takemura’s work!) Maybe Randall is less risky with timbre and a bit
 more restless with thematic material, but I couldn’t stop marveling at
 the kindred spirits I was hearing between these two.
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Jan 14th 2020
-
 Posted on 2020-01-14 18:00
-
---------------------------------------------------------------------------------
 
 [Build A Mountain Where Our Bodies Fall]
 
@@ -49,3 +33,5 @@ I haven’t listened to this AWE record (full disclosure Andrew used some
 of my bleeps and computer donks on it) in a long enough time that
 listening felt really fresh again. I can see this also becoming one of
 those yearly forever records…
+
+=> /twtxt.txt twtxt feed

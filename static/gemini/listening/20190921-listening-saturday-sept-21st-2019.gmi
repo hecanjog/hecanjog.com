@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Sept 21st 2019
-
 Posted on 2019-09-21 18:00
-
---------------------------------------------------------------------------------
 
 [Mittwochs-Gruss]
 
@@ -40,3 +24,5 @@ Posted on 2019-09-21 18:00
 
 * 
 => https://www.discogs.com/Keith-Fullerton-Whitman-Greg-Davis-Late-Fall-Complete-Live-Recordings-Presented-In-Chronological-Ord/release/757549 Keith Fullerton Whitman & Greg Davis – Late Fall (Complete Live Recordings Presented In Chronological Order For Continuity) (2002 Reckankreuzungsklankewerkzeuge)
+
+=> /twtxt.txt twtxt feed

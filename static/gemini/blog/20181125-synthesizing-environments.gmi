@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Synthesizing Environments
-
 Posted on 2018-11-25 20:00
-
---------------------------------------------------------------------------------
 
 While the musical cues for this project are implemented as sets of
 generative scripts, another component for the audio side of things I
@@ -135,3 +119,5 @@ though the story itself may be indeterminate.
 Anyway, here’s the most recent test render from this afternoon – things
 begin in muffin-baking world and slide off into the sound-world of my
 porch pretty fast. The church bells really start to clang by the end!
+
+=> /twtxt.txt twtxt feed

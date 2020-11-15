@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Oct 13th 2019
-
 Posted on 2019-10-13 18:00
-
---------------------------------------------------------------------------------
 
 [In A Silent Way]
 
@@ -34,3 +18,5 @@ Posted on 2019-10-13 18:00
 
 Back after a (partially imposed by sickness) listening break… nothing
 like In A Silent Way to break the silence.
+
+=> /twtxt.txt twtxt feed

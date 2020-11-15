@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Sept 14th 2019
-
 Posted on 2019-09-14 18:00
-
---------------------------------------------------------------------------------
 
 [Mélodies Africaines Volume 2]
 
@@ -37,3 +21,5 @@ Posted on 2019-09-14 18:00
 
 * 
 => https://www.discogs.com/Toshiya-Tsunoda-Extract-From-Field-Recording-Archive/release/13827185 Toshiya Tsunoda – Extract From Field Recording Archive #5: Reflection-Revisiting (2019 ErstPast)
+
+=> /twtxt.txt twtxt feed

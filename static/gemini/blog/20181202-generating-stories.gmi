@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# blog
 ## Generating Stories
-
 Posted on 2018-12-2 20:00
-
---------------------------------------------------------------------------------
 
 The most difficult part of this project so far has been trying to
 reconcile my desire to keep the entire system fluid and surprising while
@@ -163,3 +147,5 @@ Stockhausen’s listening to “the beauty as it flies” – living entirely in
 the moment, almost static in its constant change. A useful place to
 visit, and re-visit, but just one potential form in a universe of
 possible forms.
+
+=> /twtxt.txt twtxt feed

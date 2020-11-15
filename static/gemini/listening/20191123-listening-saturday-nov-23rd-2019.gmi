@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Nov 23rd 2019
-
 Posted on 2019-11-23 18:00
-
---------------------------------------------------------------------------------
 
 [Roland Kayn]
 
@@ -41,3 +25,5 @@ a wash of screaming children and chattering adults as I hosted a
 birthday party for my 94 year old grandmother. I stopped putting on
 music after the Mobley when it was clear nobody would be able to hear
 it! I am also regretting now that I didn’t have my field recorder going.
+
+=> /twtxt.txt twtxt feed

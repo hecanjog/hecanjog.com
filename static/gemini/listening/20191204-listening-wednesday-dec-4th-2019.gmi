@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Dec 4th 2019
-
 Posted on 2019-12-04 18:00
-
---------------------------------------------------------------------------------
 
 [Sun Dogs]
 
@@ -30,3 +14,5 @@ Posted on 2019-12-04 18:00
 => https://www.discogs.com/release/14489210 Lake Mary & The Ranch Family Band - Sun Dogs (2019 Full Spectrum)
 
 Took a long listening break… I didn’t even notice this time.
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Sept 9th 2019
-
 Posted on 2019-09-9 15:00
-
---------------------------------------------------------------------------------
 
 [May]
 
@@ -49,3 +33,5 @@ Posted on 2019-09-9 15:00
 
 * 
 => https://www.discogs.com/Joyce-Hinterding-Spectral/release/171989 Joyce Hinterding - Spectral (2003 Antiopic / Sigma Editions)
+
+=> /twtxt.txt twtxt feed

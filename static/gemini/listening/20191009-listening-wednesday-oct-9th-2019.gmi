@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Oct 9th 2019
-
 Posted on 2019-10-09 18:00
-
---------------------------------------------------------------------------------
 
 [Tessellations]
 
@@ -40,3 +24,5 @@ Posted on 2019-10-09 18:00
 
 * 
 => https://www.discogs.com/Grachan-Moncur-III-Aco-Dei-De-Madrugada-One-Morning-I-Waked-Up-Very-Early/master/41479 Grachan Moncur III – Aco Dei De Madrugada (One Morning I Waked Up Very Early) (1970 BYG)
+
+=> /twtxt.txt twtxt feed

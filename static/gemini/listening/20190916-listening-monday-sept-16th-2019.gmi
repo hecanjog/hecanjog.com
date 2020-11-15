@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Sept 16th 2019
-
 Posted on 2019-09-16 18:00
-
---------------------------------------------------------------------------------
 
 [Systemisch]
 
@@ -34,3 +18,5 @@ Posted on 2019-09-16 18:00
 
 * 
 => https://www.discogs.com/Oval-Systemisch/master/14212 Oval – Systemisch (1994 Mille Plateaux)
+
+=> /twtxt.txt twtxt feed

@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Jan 1st 2020
-
 Posted on 2020-01-01 18:00
-
---------------------------------------------------------------------------------
 
 [MEDIUM]
 
@@ -36,3 +20,5 @@ listening back to the archive recording which is still streaming on a
 day-long loop on
 => http://medium.radio.af medium.radio.af
 .
+
+=> /twtxt.txt twtxt feed

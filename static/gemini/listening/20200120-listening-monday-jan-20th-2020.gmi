@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Jan 20th 2020
-
 Posted on 2020-01-20 18:00
-
---------------------------------------------------------------------------------
 
 [Extract From Field Recording Archive]
 
@@ -142,3 +126,5 @@ really. The booklet has a very detailed gear list and catalogs the type
 of vibrations being recorded in what sort of location and so on very
 carefully and it’s worth remembering that the music here is not just the
 space, it’s really moreso the framing of the space.
+
+=> /twtxt.txt twtxt feed

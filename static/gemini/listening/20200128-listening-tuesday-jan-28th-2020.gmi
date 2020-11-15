@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Tuesday, Jan 28th 2020
-
 Posted on 2020-01-28 18:00
-
---------------------------------------------------------------------------------
 
 [Rance]
 
@@ -59,3 +43,5 @@ so…
 Spill’s Fluoresce is hard to describe, but Tony Buck’s skittery drums
 and Magda Mayas’ crystalline pianos and misc implements are a match made
 in heaven. They have two other records I haven’t heard yet!
+
+=> /twtxt.txt twtxt feed

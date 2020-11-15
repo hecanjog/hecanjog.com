@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Wednesday, Jan 22nd 2020
-
 Posted on 2020-01-22 18:00
-
---------------------------------------------------------------------------------
 
 [Shalabi Effect]
 
@@ -73,3 +57,5 @@ though. I think Chiastic Slide gets better every time I listen to it.
 Somehow it always surprises me how good it is – that rhythmic modulation
 in the opening track, oof! The sound design is gorgeous on this one too.
 They were at the top of their game in 1996.
+
+=> /twtxt.txt twtxt feed

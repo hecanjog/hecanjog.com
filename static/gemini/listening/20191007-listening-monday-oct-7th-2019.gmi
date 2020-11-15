@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, Oct 7th 2019
-
 Posted on 2019-10-07 18:01
-
---------------------------------------------------------------------------------
 
 [Organized Pitches Occurring In Time]
 
@@ -37,3 +21,5 @@ Posted on 2019-10-07 18:01
 
 * 
 => https://www.discogs.com/Miles-Davis-In-A-Silent-Way-/master/8408 Miles Davis – In A Silent Way (1969 Columbia)
+
+=> /twtxt.txt twtxt feed

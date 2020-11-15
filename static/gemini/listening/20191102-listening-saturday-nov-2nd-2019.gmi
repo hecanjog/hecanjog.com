@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Nov 2nd 2019
-
 Posted on 2019-11-02 18:00
-
---------------------------------------------------------------------------------
 
 [Le cri du Choucas]
 
@@ -35,4 +19,6 @@ Posted on 2019-11-02 18:00
 * 
 => https://soundcloud.com/information/keeping-it-all-in Information - Keeping It All In (2019 Self-released)
 
-=> /listening-sunday-nov-3rd-2019.html See Sunday’s post for some thoughts on the Dhomont and KFW albums.
+=> /listening-sunday-nov-3rd-2019.gmi See Sunday’s post for some thoughts on the Dhomont and KFW albums.
+
+=> /twtxt.txt twtxt feed

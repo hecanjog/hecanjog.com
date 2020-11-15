@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Sunday, Nov 10th 2019
-
 Posted on 2019-11-10 18:00
-
---------------------------------------------------------------------------------
 
 [Anomolies]
 
@@ -73,3 +57,5 @@ almost pop-ish brevity. I think Asao Kikuchi could have reduced his two
 mixes to one, but I can’t blame him for wanting to try every angle with
 the original material – that early digital post-turntable Takemura
 includes some of his best work.
+
+=> /twtxt.txt twtxt feed

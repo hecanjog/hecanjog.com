@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Dec 12th 2019
-
 Posted on 2019-12-12 18:00
-
---------------------------------------------------------------------------------
 
 [The Sample Remains The Same]
 
@@ -32,3 +16,5 @@ Posted on 2019-12-12 18:00
 I love when Brent Gutzeit blurs the line between mix, remix and collage.
 This mix tape goes all over & back again – and works well as a companion
 to his Pop Music album on LuvSound last year.
+
+=> /twtxt.txt twtxt feed

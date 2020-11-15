@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Saturday, Feb 1st 2020
-
 Posted on 2020-02-01 18:00
-
---------------------------------------------------------------------------------
 
 [No Greater Hero Than The Least Plant That Grows]
 
@@ -42,3 +26,5 @@ out of the water.
 Lanquidity gets further into the realm of funk than many Sun Ra albums,
 but it’s still our man with his ways. Utopian, thoughtful and a bit more
 funky than usual.
+
+=> /twtxt.txt twtxt feed

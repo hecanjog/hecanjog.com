@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Monday, August 31st 2020
-
 Posted on 2020-08-31 18:00
-
---------------------------------------------------------------------------------
 
 [We Have Amnesia Sometimes]
 
@@ -102,3 +86,5 @@ pass. Yo La Tengo, are you listening? ;-) It could be a nice yearly
 event to set down these relaxed interstitial moments in the workshop.
 This window into their rehearsal space is fun and pleasant in a way that
 a highly polished worked-over studio album could never be.
+
+=> /twtxt.txt twtxt feed

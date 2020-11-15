@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
 
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
-
+# listening
 ## Listening - Thursday, Oct 17th 2019
-
 Posted on 2019-10-17 18:00
-
---------------------------------------------------------------------------------
 
 [Qoosui]
 
@@ -34,3 +18,5 @@ Posted on 2019-10-17 18:00
 
 * 
 => https://www.discogs.com/Cory-Allen-One/release/6520068 Cory Allen - One (2012 Self-released)
+
+=> /twtxt.txt twtxt feed
