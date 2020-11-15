@@ -20,6 +20,10 @@
     }
 }
 
+html, body {
+    background: #000;
+}
+
 main {
     width: 40rem;
     margin: 0 auto;
@@ -27,7 +31,7 @@ main {
 
 p, a, h1, h2, h3, h4, li, figcaption {
     font-family: 'kuraleregular', serif;
-    color: #111;
+    color: #ddd;
     line-height: 1.5;
 }
 
