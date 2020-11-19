@@ -15,8 +15,6 @@ FOLLOWING = [
     'https://hjertnes.social/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
     'http://ctrl-c.club/~jlj/tw.txt',
-    'https://enotty.dk/twtxt.txt',
-    'https://enotty.dk/kasdk.txt',
     'https://koehr.in/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
     'https://tilde.town/~lucidiot/twtxt.txt',

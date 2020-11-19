@@ -26,3 +26,5 @@
 2020-11-14T17:59:54-06:00	I think I want to get into curries this winter.
 2020-11-15T09:45:48-06:00	OK, not too shabby. I just tried my first search with gemini and immediately found a delicious looking curry recipe. (Of course in beautiful plain text instead of 5 pages of ads and photos.)
 2020-11-15T15:38:13-06:00	Hello gemini! gemini://hecanjog.com
+2020-11-16T11:08:48-06:00	I've been making a daily ritual to run a fan and open the windows to circulate the air in my apartment. It's lovely, even in 20 degree weather -- I'm curious if I'll be able to do it when it's negative 20 too.
+2020-11-16T12:05:13-06:00	I remember now why I stopped baking for a while. Because after I bake it, I eat it. Not as easy to dump most of my bakes off on friends during the pandemic, but I guess I'm going to try to drown my cousin in muffins so I don't eat em all.
