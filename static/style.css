@@ -20,9 +20,12 @@
     }
 }
 
-html {
+html, body {
     background-color: #000;
-    background: url(/bg.png) no-repeat center center fixed;
+    background-image: url(/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background: #000 url(/bg.png) no-repeat center center fixed;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;

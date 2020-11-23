@@ -1,9 +1,13 @@
 import sys
+import multiprocessing as mp
 import urllib.request
 import textwrap
 from datetime import datetime, timedelta, timezone
 
 from dateutil.parser import parse as parsedate
+
+POSTLIMIT = 5
+POSTLIMIT = None
 
 FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
@@ -66,17 +70,21 @@ def parsefeed(url, feed):
                 posts += [{'url': url, 'date': date, 'content': content}]
         except ValueError as e:
             pass
-            #print(post, e)
     return sorted(posts, key=lambda x: x['date'])
 
-def getlast(feeds, limit=5):
+def _parsefeed(url, feed):
+    posts = parsefeed(url, feed)
+    if POSTLIMIT is not None:
+        posts = posts[-POSTLIMIT:]
+    return posts
+
+def getlast(feeds):
     posts = []
-    for url, feed in feeds:
-        feedposts = parsefeed(url, feed)
-        if limit is not None:
-            posts += feedposts[-limit:]
-        else:
-            posts += feedposts
+    processes = mp.cpu_count()
+    with mp.Pool(processes=processes) as process_pool:
+        for result in [ process_pool.apply_async(_parsefeed, feeds[i % len(feeds)]) for i in range(len(feeds)) ]:
+            posts += result.get()
+
     return sorted(posts, key=lambda x: x['date'])
 
 def printposts(posts):
@@ -99,6 +107,6 @@ if __name__ == '__main__':
 
     if sys.argv[1] == '--feed':
         feeds = getfeeds()
-        posts = getlast(feeds, None)
+        posts = getlast(feeds)
         printposts(posts)
 
