@@ -38,21 +38,6 @@ def convertdate(date):
     return date
 
 def getfeeds():
-    now = datetime.now(timezone.utc)
-    old = now - timedelta(days=OLD)
-
-    feeds = []
-    for url in FOLLOWING:
-        try:
-            with urllib.request.urlopen(url) as conn:
-                updated = convertdate(conn.headers['last-modified'])
-                if updated > old:
-                    feeds += [(url, conn.read().decode('utf-8'))]
-                    print(url)
-                else:
-                    print('  NO UPDATES IN %s DAYS::' % OLD, url)
-        except Exception as e:
-            print('  ERR::', e, url)
     return feeds
 
 def parsefeed(url, feed):
@@ -72,18 +57,38 @@ def parsefeed(url, feed):
             pass
     return sorted(posts, key=lambda x: x['date'])
 
-def _parsefeed(url, feed):
-    posts = parsefeed(url, feed)
-    if POSTLIMIT is not None:
-        posts = posts[-POSTLIMIT:]
-    return posts
+def _parsefeed(url):
+    now = datetime.now(timezone.utc)
+    old = now - timedelta(days=OLD)
 
-def getlast(feeds):
+    try:
+        with urllib.request.urlopen(url) as conn:
+            updated = convertdate(conn.headers['last-modified'])
+            if updated > old:
+                feed = conn.read().decode('utf-8')
+                print(url)
+                posts = parsefeed(url, feed)
+                if POSTLIMIT is not None:
+                    posts = posts[-POSTLIMIT:]
+                return posts
+
+            else:
+                print('  NO UPDATES IN %s DAYS::' % OLD, url)
+                return None
+
+    except Exception as e:
+        print('  ERR::', e, url)
+        return None
+
+
+def getlast():
     posts = []
     processes = mp.cpu_count()
     with mp.Pool(processes=processes) as process_pool:
-        for result in [ process_pool.apply_async(_parsefeed, feeds[i % len(feeds)]) for i in range(len(feeds)) ]:
-            posts += result.get()
+        for result in [ process_pool.apply_async(_parsefeed, (FOLLOWING[i % len(FOLLOWING)],)) for i in range(len(FOLLOWING)) ]:
+            r = result.get()
+            if r is not None:
+                posts += r
 
     return sorted(posts, key=lambda x: x['date'])
 
@@ -106,7 +111,6 @@ if __name__ == '__main__':
         exit()
 
     if sys.argv[1] == '--feed':
-        feeds = getfeeds()
-        posts = getlast(feeds)
+        posts = getlast()
         printposts(posts)
 
