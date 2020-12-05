@@ -16,7 +16,7 @@ In this first post, I'll describe the basic architecture of the website portion 
 
 Here is a simplified diagram of the processes running on the `southseas.fun` server.
 
-![A diagram of processes running on the webserver]({static}/images/webarch.jpg)
+![A diagram of processes running on the webserver](/images/webarch.jpg)
 
 Sounds are structured in the code as cues -- python scripts that use my `pippi` computer music library -- and the `RENDERER` process 
 keeps a queue filled for each musical cue. Yes, cue queues. The renderer process is actually quite a number of processes. Each cue gets its own process 

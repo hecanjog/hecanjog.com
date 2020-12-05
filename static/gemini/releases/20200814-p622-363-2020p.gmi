@@ -1,0 +1,14 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
+
+
+## <p>+622, +363 [2020]</p>
+
+Posted on 2020-08-14
+
+A single trombone note expanded via pulsar synthesis and various
+processing into a slow chorale.
+
+=> /twtxt.txt twtxt feed

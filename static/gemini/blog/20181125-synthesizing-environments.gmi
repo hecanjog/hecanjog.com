@@ -5,6 +5,7 @@
 
 
 ## Synthesizing Environments
+
 Posted on 2018-11-25 20:00
 
 While the musical cues for this project are implemented as sets of

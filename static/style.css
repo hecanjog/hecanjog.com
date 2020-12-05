@@ -1,53 +1,61 @@
-@font-face {
-    font-family: 'kuraleregular';
-    src: url('fonts/kurale-regular-webfont.woff2') format('woff2'),
-         url('fonts/kurale-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@keyframes colorshift {
-    0% {
-        color: #560fff;
-    }
-
-    50% {
-        color: #f80fff;
-    }
-
-    100% {
-        color: #560fff;
-    }
-}
-
-html, body {
-    background-color: #000;
-    background-image: url(/bg.png);
-    background-repeat: no-repeat;
-    background-position: center center fixed;
-    background: #000 url(/bg.png) no-repeat center center fixed;
+html {
+    background: #6000b0 url(/img/pat-bg.png) no-repeat center center fixed;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; 
 }
 
-main {
-    width: 40rem;
+main, header, footer {
+    width: 42rem;
     margin: 0 auto;
 }
 
+main {
+    background-color: #8b00ff;
+    padding: 1rem 2rem;
+    border: 2px dotted #fff;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #a943ff url(/claris/claris02.gif) repeat;
+    transform: rotate(4deg);
+    z-index: -1;
+}
+
 p, a, h1, h2, h3, h4, li, figcaption {
-    font-family: 'kuraleregular', serif;
+    font-family: Verdana;
     color: #ddd;
     line-height: 1.5;
 }
 
+li {
+    line-height: 2.3;
+}
+
 a {
     font-weight: 800;
+    text-decoration: none;
+    border-bottom: 2px dotted #96ddff;
+    padding: 4px 8px;
+    padding-bottom: 5px;
+    background: #a943ff url(/claris/claris02.gif) repeat;
+    text-shadow: 2px 2px 0 #48413a;
+    transition: color 0.3s;
+    color: #96ddff;
+}
+
+a:hover {
+    background: none;
+    color: #fff;
 }
 
 hr {
@@ -63,7 +71,6 @@ img {
 .frame {
     margin-bottom: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #560fff;
 }
 
 .frame::after, .post::after {
@@ -77,7 +84,7 @@ img {
     margin-right: 1rem;
 }
 
-.listeninglist, .bloglist {
+.list, .listeninglist, .bloglist {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -104,10 +111,11 @@ nav ul li {
 
 }
 
-h1 a {
-    animation: colorshift 12s ease infinite;
+footer nav a {
+    font-size: 80%;
 }
 
-nav a {
-    animation: colorshift 16s ease infinite;
+header h1 a {
+    background: none;
+    color: #fff;
 }

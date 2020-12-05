@@ -3,30 +3,27 @@
 <html>
     <head>
         <title>He Can Jog</title>
-        <link rel="stylesheet" href="/style.css?v=2020-11-18" />
-        <link rel="profile" href="http://gmpg.org/xfn/11"/>
-        <link rel="sweetheart" href="https://github.com/luvsound/pippi"/>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="/style.css?v=2020-12-5" />
+        <link rel="sweetheart" href="https://github.com/luvsound/pippi"/>
     </head>
 
     <body>
-        <main>
-            <h1><a href="/index.html">Computermusiker</a></h1>
-
+        <header>
+            <h1><a href="/index.html">He Can Jog</a></h1>
             <nav>
                 <ul>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/projects.html">Projects</a></li>
-                    <li><a href="/reading.html">Reading</a></li>
-                    <li><a href="/listening.html">Listening</a></li>
+                    <li><a href="/projects.html">Music</a></li>
                     <li><a href="/blog.html">Blog</a></li>
                     <li><a href="/links.html">Links</a></li>
-                    <li><a href="https://hecanjog.bandcamp.com/subscribe" target="_new">Subscribe</a></li>
+                    <li><a href="/about.html">Contact</a></li>
                 </ul>
             </nav>
+        </header>
 
-
-<div class="blog post"><h2>Synthesizing Environments</h2><p class="byline">Posted on 2018-11-25 20:00</p><hr/><p>While the musical cues for this project are implemented as sets of generative scripts, another component for the audio side of things I have been working on is based around the idea of a synthetic environment. Inspired by other hyperreal field recording projects like Luc Ferrari’s Presque Rien series, Michael Pisaro’s July Mountain or Francis Dhomont’s Signe Dionysos which (more or less) don’t immediately reveal themselves as synthetic environments even though they might be composed of impossible or at least unlikely components. (How did that train get inside the frog pond??)</p>
+        <main>
+<div class="blog post"><h2>Synthesizing Environments
+</h2><p class="byline">Posted on 2018-11-25 20:00</p><hr/><p>While the musical cues for this project are implemented as sets of generative scripts, another component for the audio side of things I have been working on is based around the idea of a synthetic environment. Inspired by other hyperreal field recording projects like Luc Ferrari’s Presque Rien series, Michael Pisaro’s July Mountain or Francis Dhomont’s Signe Dionysos which (more or less) don’t immediately reveal themselves as synthetic environments even though they might be composed of impossible or at least unlikely components. (How did that train get inside the frog pond??)</p>
 <p>In 2016 I started collecting field recordings in multiples to use in constructing new synthetic environments – each one based on a real environment. I only have two so far: ~30 hours of recordings on my porch made at the same time each day for a month, and a handful of recordings of muffin baking in my kitchen. I started cataloging interesting moments in the recordings in a notebook – at 23 seconds a short bird chirp, 32 seconds a distant metallic clang, etc. It was a great way to spend a few days; field recordings cranked up on the stereo just listening and writing, but after doing about 5 hours worth I realized I really needed to automate the process somehow.</p>
 <p>Last year I finally picked up a machine learning book, hoping to be able to train an algorithm on the recordings and have it classify them based on low level features extracted from the audio. The classic example of this is a dataset of Iris petal/sepal lengths &amp; widths used to predict the species. Given a fixed set of labels (one per species) a collection of measurements can be used to predict which species it best matches. This is basically what I was looking for, but would require a training dataset with human-provided labels to learn from. Rather than try to do a supervised process where I’d take my original notebooks and use them to come up with the labels for the classifier (this is a bird, this is a car engine, this is a distant metallic rattle…) it seemed more interesting (and probably less tedious) to take an unsupervised approach and try to have the algorithm infer classifications and groups from the data itself.</p>
 <p>I decided to start by focusing on the spectral centroid of these recordings because of <a href="https://psyarxiv.com/wucs4/">this really cool study by Beau Sievers et al</a> on the correlation between emotional arousal and the spectral centroid. The spectral centroid is the mean frequency in a set of frequencies – a sound with lots of high frequency energy and low frequency energy could have a centroid somewhere in the middle of the spectrum, while a pure sinewave at 200hz would have a spectral centroid of 200hz.</p>
@@ -40,6 +37,17 @@
 <p>Anyway, here’s the most recent test render from this afternoon – things begin in muffin-baking world and slide off into the sound-world of my porch pretty fast. The church bells really start to clang by the end!</p>
 <audio src="/sounds/sorted-10ms-lpf.mp3" controls>
 </audio>
-</div>        </main>
+</div>
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="/reading.html">What I'm Reading</a></li>
+                    <li><a href="/listening.html">Listening Journal</a></li>
+                    <li><a href="https://hecanjog.bandcamp.com/subscribe" target="_new">Subscribe on Bandcamp</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>

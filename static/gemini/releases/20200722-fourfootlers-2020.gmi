@@ -1,0 +1,13 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
+
+
+## Fourfootlers [2020]
+
+Posted on 2020-07-22
+
+Slow tones.
+
+=> /twtxt.txt twtxt feed

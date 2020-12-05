@@ -23,4 +23,32 @@ Organizations you can support:
 => https://paypal.me/theokraproject paypal.me/theokraproject
 )
 
+## Friends
+
+* 
+=> http://nomadpalace.net Nomad Palace
+: long-time collaborator & 1/3 of
+=> http://cedarav.org Cedar AV
+
+* 
+=> http://www.madeofoak.com Made of Oak
+: the other 1/3 of Cedar AV. Multi-instrumentalist composer & level 30
+druid
+
+* 
+=> https://liquidcitymotors.bandcamp.com/releases Liquid City Motors
+: 1/2 of the legendary Starling crew
+
+* 
+=> https://starling.space Starling
+: fine open source synths
+
+* 
+=> https://andrewweathers.com Andrew Weathers
+: composer & improviser extordinaire
+
+* 
+=> https://pbat.ch Paul Batchelor
+: prolific computer musician & DSP scientist
+
 => /twtxt.txt twtxt feed

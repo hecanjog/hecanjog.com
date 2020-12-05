@@ -8,6 +8,4 @@ I\'m a computer musician based in Minnesota.
 
 Sometimes I use [mastodon](https://merveilles.town/@hecanjog)
 
-I do radio sometimes. 
-
-Some recent generative work for radio is on [Aleatoric Forest](https://phonography.radio.af) right now.
+I do radio sometimes. Some recent generative work for radio is on [Aleatoric Forest](https://phonography.radio.af) right now.

@@ -6,5 +6,3 @@
 
 Solo version of a procedural piano part from _Three Walks_.
 :::
-
-

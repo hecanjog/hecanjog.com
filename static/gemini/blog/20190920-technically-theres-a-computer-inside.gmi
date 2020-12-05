@@ -4,7 +4,8 @@
 => /blog.gmi Blog
 
 
-## Technically There's a Computer Inside
+## Technically There’s a Computer Inside
+
 Posted on 2019-09-20 15:25
 
 [Modular button-mashing]

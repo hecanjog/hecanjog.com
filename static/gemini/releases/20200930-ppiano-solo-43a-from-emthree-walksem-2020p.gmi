@@ -1,0 +1,13 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
+
+
+## <p>Piano Solo 43a from <em>Three Walks</em> [2020]</p>
+
+Posted on 2020-09-30
+
+Solo version of a procedural piano part from Three Walks.
+
+=> /twtxt.txt twtxt feed

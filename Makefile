@@ -12,7 +12,10 @@ blog:
 listening:
 	./venv/bin/python3 -m engine.build listening
 
-all: images pages blog listening 
+releases:
+	./venv/bin/python3 -m engine.build releases
+
+all: images pages blog listening releases
 
 deploy:
 	rsync -avz static/ deploy@radio.af:/srv/www/hecanjog.com
