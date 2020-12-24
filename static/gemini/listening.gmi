@@ -4,6 +4,10 @@
 => /blog.gmi Blog
 
 
+=> /listening/20201103-listening-tuesday-november-3rd-2020.gmi Listening - Tuesday, November 3rd 2020
+
+Posted on 2020-11-03 18:00
+
 => /listening/20200831-listening-monday-august-31st-2020.gmi Listening - Monday, August 31st 2020
 
 Posted on 2020-08-31 18:00

@@ -32,7 +32,7 @@ main:before {
 }
 
 p, a, h1, h2, h3, h4, li, figcaption {
-    font-family: Verdana;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #ddd;
     line-height: 1.5;
 }
@@ -41,7 +41,7 @@ li {
     line-height: 2.3;
 }
 
-a {
+nav a {
     font-weight: 800;
     text-decoration: none;
     border-bottom: 2px dotted #96ddff;
@@ -118,4 +118,19 @@ footer nav a {
 header h1 a {
     background: none;
     color: #fff;
+}
+
+pre {
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: #a943ff;
+    border: 2px solid #8b00ff;
+    padding: 0.5rem;
+}
+code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    background-color: #a943ff;
+    color: #fff;
+    padding: 0.125rem 0.25rem;
+    font-size: 1rem;
 }

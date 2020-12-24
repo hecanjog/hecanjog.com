@@ -1,8 +1,8 @@
 ::: {.frame .highlighted}
-![](img/pianosolo.jpg)
+![](img/atelophobia.jpg)
 
-[Piano Solo 43a from _Three Walks_ \[2020\]](https://hecanjog.bandcamp.com/album/piano-solo-43a-from-three-walks)
+[Atelophobia \[2020\]](https://hecanjog.bandcamp.com/album/atelophobia)
 -------------------------------------------------------------------------
 
-Solo version of a procedural piano part from _Three Walks_.
+Five studies in letting go.
 :::

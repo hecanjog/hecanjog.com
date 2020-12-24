@@ -19,7 +19,6 @@ FOLLOWING = [
     'https://hjertnes.social/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
     'http://ctrl-c.club/~jlj/tw.txt',
-    'https://koehr.in/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
     'https://tilde.town/~lucidiot/twtxt.txt',
     'https://mdosch.de/twtxt.txt',

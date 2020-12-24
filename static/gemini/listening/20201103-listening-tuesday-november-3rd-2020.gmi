@@ -1,28 +1,12 @@
-# Computermusiker 
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
 
-* 
-=> /about.html About
-
-* 
-=> /projects.html Projects
-
-* 
-=> /reading.html Reading
-
-* 
-=> /listening.html Listening
-
-* 
-=> /blog.html Blog
-
-* 
-=> https://hecanjog.bandcamp.com/subscribe Subscribe
 
 ## Listening - Tuesday, November 3rd 2020
 
 Posted on 2020-11-03 18:00
-
---------------------------------------------------------------------------------
 
 [Gentle Computer Music]
 
@@ -92,3 +76,5 @@ Posted on 2020-11-03 18:00
 The proper way to determine the timeframe is probably to read Vital
 Weekly archives. When FDW starts complaining there’s nothing new under
 the sun, then that’s probably the beginning of the peak.
+
+=> /twtxt.txt twtxt feed

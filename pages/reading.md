@@ -46,6 +46,7 @@ Everything else is queued to read, or in some cases re-read.
 
 - Silvanus P. Thompson - _Calculus Made Easy_
 - Hermann Helmholtz - _On the Sensations of Tone_
+- **Paul Orland - _Math for Programmers_**
 
 ### Programming / Computer Science
 

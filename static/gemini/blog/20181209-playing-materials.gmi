@@ -1,0 +1,80 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
+
+
+## Playing Materials
+
+Posted on 2018-12-9 20:00
+
+When I started working on the original version of this project in 2011
+it was going to be a book – I created the initial version of my pippi
+computer music system to realize it. I figured I would need at least a
+year to get somewhere, but seven years later the project has changed a
+lot and I’m not in such a rush to get to the end anymore.
+
+To be clear the initial idea had nothing to do with Pippi Longstocking
+or any of Astrid Lindgren’s work. I was interested in making a
+self-generating book, the contents of which would be a mixture of the
+source code to produce the book, a story told in prose comments, (plus
+simple tricks like naming progam entities after elements in the story
+etc) commands to be typed into an accompanying sound-producing CLI
+program, and line drawings. I recently found some notes I made about
+that version which placed the code and prose comments on each left-side
+page, additional narration, color-coded commands and line drawings on
+each right-side page.
+
+The story itself, the accompanying audio program, the line drawings were
+all meant to be produced from a single seed-word. Editions would be
+reproducable by simply hashing the input word and using the resulting
+number as a seed for the random number generator.
+
+I wanted to break the story into chapters, the first of which would
+present each environment in the story minus the characters - this is the
+way the Ramayana starts off. (Or so I’ve heard having only read the
+great and short modern retelling by R.K. Narayan!)
+
+In this version of the project, the experience was a solo venture. I was
+thinking in part of playing old text-based adventure games via the
+command interface, as well as the hybrid approach of the Broderbund
+Carmen Sandiego games, which would come with a facts / world history
+book that you were meant to consult during gameplay. But essentially the
+idea at this point was you would sit down and read this book, typing
+commands into the computer to signal shifts in the audio part, and
+construct the immersive details in your mind, as you might when reading
+any other story.
+
+I never managed to work out a story, all my efforts went into adding
+affordances to the software system and doing musical studies with it.
+(That’s basically been the point to all the music I’ve made since 2011,
+with a few exceptions.) But in the end it’s a hell of a thing to write a
+good story, and I just couldn’t find my way into it. It’s much easier to
+obsess over technical things than try to say something.
+
+Anyway in this most recent study I decided I really needed to engage
+with stories, and a way into it could be to start by studying and
+retelling a story I liked – I like how the Ramayana has life in this
+way, constantly being retold and reshaped. I read the Pippi Longstocking
+stories as a kid, and their kindly fuck-you attitude was inspiring.
+Pippi didn’t take any shit, did what she pleased grown-ups be damned,
+and she was kind and thoughtful while she did it, so I’m going with that
+for now.
+
+I had the chance to do something in a non-traditional space, and I
+thought I would give this new story-based study a shot finally. Because
+of the built-in format (an audience arriving at the venue with zero
+background on the project, and lots of expectations for what it means to
+experience a “performance” in music) things started to change a lot in
+the group context.
+
+In this version there would be 4 laptops and 4 VOIP phones, plus one
+laptop connected to a projecter and all of the smartphones that the
+audience happened to bring with them – instead of a single laptop and a
+book.
+
+The laptops and the smartphones would display the scene corresponding to
+the current place in the story, consisting of avatars, backgrounds, and
+optional titles. Here’s the Pippi avatar:
+
+=> /twtxt.txt twtxt feed

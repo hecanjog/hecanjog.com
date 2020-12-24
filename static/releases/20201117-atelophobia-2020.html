@@ -1,0 +1,226 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>He Can Jog</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="/style.css?v=2020-12-24" />
+        <link rel="sweetheart" href="https://github.com/luvsound/pippi"/>
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="/index.html">He Can Jog</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/projects.html">Music</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/links.html">Links</a></li>
+                    <li><a href="/about.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+<h2>Atelophobia [2020]
+</h2>
+
+<div class="frame">
+<a href="/img/originals/atelophobia.jpg" target="_new"><img src="/img/atelophobia.jpg"/></a>
+
+<p>I’m working on two long-form projects now – both of which have passed the one year anniversary of their honeymoon periods… and one is approaching its second anniversary much sooner than I’d like.</p>
+<p>I’m happy with them both! They still need quite a lot of work though. When I’m in this position – shuffling through the long tail of some large project or projects – sometimes I try to kickstart myself by setting all that aside and attempting some small kind of free play: no goals &amp; no predeterminded subjects are allowed. If the only things I’m working on are sprawling year-long projects, I usually find myself slowly crushed under the weight of my own ambition and the choking feeling of masterpiece syndrome can take over pretty quickly. Like I’ve slipped into a coma suddenly it’s been weeks and I’m totally frozen in place. That’s the time to think small and try to slip away!</p>
+<p>So last week I sat down with some microcassette recordings I’d made with no particular purpose in mind and attempted to make something nice with them. (Regular Disquiet Junto participants may wonder why I didn’t just do the new Junto project? If it didn’t stress me out a bit to jump headfirst into a week-long deadline, I might make use of the Junto for this purpose instead. A key component for me in the attempt to shake off the dead weight of masterpiece syndrome is that the doing of it can’t be goal-oriented or really ambitious at all. I need a totally blank slate with no expectations or the frigid coma wears on.</p>
+<p>This simple exercise seemed like a good excuse to try writing lab notes on my working process – something I very much enjoy when I read <a href="https://rodrigoconstanzo.com/2020/08/kaizo-snare/">Rodrigo Constanzo’s journal</a>, the <a href="http://www.tobiasreber.com/cms/blog-a100ql/">latest composition exercise in Tobais Reber’s blog</a> or some wild discovery in <a href="http://www.windytan.com/2020/12/plotting-patterns-in-music-with-fantasy.html">Oona Räisänen’s signals blog</a>.</p>
+<h2 id="initial-recording">Initial Recording</h2>
+<p>This project happened to start with the purchase of a new microcassette recorder. I recently picked up a Panasonic RN-185 recorder, which has a feature they call the <em>Voice Activated System</em> (VAS). This is pretty typical for microcassette recorders but I can’t rememeber ever experimenting with it before this. With VAS you can pick an amplitude threshold, and whenever the mic picks up a sound that crosses it, the recorder engages.</p>
+<p>As you might imagine since this means a motor kicking into gear while the tapehead is already in recording mode, every time the VAS kicks in there’s at least a slight pitch effect as the recorder gets up to speed again. It’s not so pronounced as to completely take over the recording, but it makes for some pretty cool moments – especially when something with a fairly sharp attack and pronounced pitch is what’s triggering the recorder.</p>
+<p>I spent nearly three days with the microcassette recorder engaged in VAS mode with a pretty high threshold for activation. That’s how long it took to completely fill up a 60 minute tape on half-speed mode, so I ended up with over two hours of audio after several days of recording.</p>
+<h2 id="reviewing-the-recordings">Reviewing the Recordings</h2>
+<p>I digitized the tape by just plugging the headphone jack from the RN-185 into my zoom F1’s line in and re-recording it. Unfortunately even though both devices were battery powered and only tethered by one cable, I noticed there was a fair amount of line noise on playback – not tape noise floor but a (presumably ~60hz) gentle buzz from the RN-185’s electronics. It’s basically inaudible when there’s a strong signal on the tape but I hope I can figure out how to fix that in the future. Seems funny to worry about that sort of thing when you’re using a low-fi recording method already to purposefully introduce noise and mangle the signal in the first place, but a constant hum like that carries a distinct pitch &amp; if it is audible enough it can add harmonic dissonance that might make working with pitched material awkward.</p>
+<p>Anyway, after I digitized the tape, I sat down with side A to listen and transcribe what I heard into rough time ranges. There were many sections I’m looking forward to tapping into later that featured lots of cool pops &amp; clicks and misc jostles as the recorder enaged when I’d put my coffee mug down on the desk, or adjust my desk chair, etc. There were also lots of nice sections of attenuated meows as my cat requested that I toss his toy around throughout the day. (He’s a talker, but I don’t think I’ve ever got so much of his meows on one recording before.)</p>
+<p>Throughout the first side though were also nine passages where the recorder enaged sporatically as I played something back over my stereo. A handful of records – mostly featuring piano &amp; voice – as well as some recordings of a synth guitar thing I’ve been working on this year.</p>
+<h2 id="pulling-the-sources">Pulling the Sources</h2>
+<p>I wrote down the timeframes for these nine sections ranging between 14 seconds and nearly 14 minutes in length:</p>
+<ul>
+<li>00:55 - 05:00 (4m 5s)</li>
+<li>05:00 - 06:27 (1m 27s)</li>
+<li>06:27 - 10:10 (3m 43s)</li>
+<li>10:12 - 13:27 (3m 15s)</li>
+<li>14:00 - 15:32 (1m 32s)</li>
+<li>35:46 - 36:00 (0m 14s)</li>
+<li>36:02 - 49:50 (13m 48s)</li>
+<li>49:50 - 55:15 (5m 25s)</li>
+<li>55:15 - 58:15 (3m 0s)</li>
+</ul>
+<p>With this list I extracted the sections via SoX’s trim command – and normalized each section to zero. For example, the first section looked something like:</p>
+<pre><code>sox -S sideA.flac sources/section1.wav trim 0:55 4:05 norm</code></pre>
+<p>With these nine source recordings, I started to work on a simple procedural system to process them all in sequence.</p>
+<h2 id="processing-extracting-the-swells">Processing: Extracting the Swells</h2>
+<p>All the processing for this album was done with my python computer music system called <a href="https://pippi.world">pippi</a>. I ended up doing the processing in two stages. With the first, I extracted a series of swells from each source recording.</p>
+<p>For each recording, the script first pulled a short segment (between 5 and 20 seconds long) from a random position in the source recording. Call that initial segment <code>A</code>. Segment A was then resampled to a random speed chosen from this list: 0.5, 0.5, 0.75, 0.25. (Notice that the half-speed option is listed twice, and so is more likely to be chosen than the other options.)</p>
+<p>Next, a second segment – call it <code>B</code> – was cut from a random position in segment A. This segment (B) is exactly half the length of segment A.</p>
+<p>The two segments are then just convolved together and then normalized to zero to produce the actuall swell. Each swell is saved to disk as a WAV file named with the index of the source track, and its own numbered index.</p>
+<p>The script keeps producing swells until it has generated 10 minutes worth of swells for each source recording.</p>
+<h2 id="processing-smearing-the-swells">Processing: Smearing the Swells</h2>
+<p>At this point I created a new script to do further processing with these swells. I could have done all the processing in one pass of course, but doing convolutions on long sounds is a fairly slow process, so getting the initial convolutions out of the way up front lets me run the much faster subsequent script over &amp; over as I work without getting bogged down by doing the same basic convolutions over &amp; over as well.</p>
+<p>This subsequent script started by loading each source recording once again, and looping over them to perform the same sequence of operations for each one – saving the result as an individual track tagged with the source recording index and the value of the random seed given to the random number generator.</p>
+<p>Using the seed in the filename makes each render pass easy to identify – I just increment the seed whenever I want to create a new set of outputs for that pass. This way I can tweak the algorithm &amp; render over the same set of outputs, then when I’m happy enough with some set of output I can increment the seed and keep rendering without writing over the last set of outputs. It didn’t happen this time but I use this approach a lot and I often find myself after a long session of rendering many sets of outputs like this going back to earlier renders to move on to a subsequent stage of processing or mixing. I often go through an iterative process like this to end up with a decent corpus of sounds I can then take into Ardour (a traditional timeline-based DAW) to sequence, layer, mix, etc. Then maybe I’ll export sections from Ardour for further processing in pippi, etc. In this case I resisted the temptation to take the project into that territory, and this second pass of processing was the final step.</p>
+<p>For each source recording, the second script began by:</p>
+<ul>
+<li>loading the source recording into a buffer for later processing</li>
+<li>loading every swell recording produced in the first processing step associated with this source recording (by globbing over the filenames with the index of the source recording like <code>swells/TRACKINDEX-swells*.wav</code>) and loading them into a list of buffers.</li>
+<li>Creating an empty output buffer exactly 12 minutes long for the subsequent processing routines to write into.</li>
+</ul>
+<p>The next step was done in three identical passes. On each pass a new temporary output buffer (also 12 minutes long) is created, and a tracking position is reset to zero. Next, while that position is less than the target output length (12 minutes) the script loops over a short series of processes.</p>
+<h2 id="processing-swell-munging-sub-process-1">Processing: Swell munging (sub-process #1)</h2>
+<p>First a random swell is chosen from the list of swell buffers loaded previously. If a random value between 0 and 3 is greater than 0.3 (so a probability of about 70%) then the swell is run through a pitch detection algorithm (fast yin) to produce a wavetable of pitches which are stable above a certain threshold. (I used the default threshold of 0.8 – the pitch detection routines that pippi uses are wrappers for the excellent aubio library.) This wavetable is then fed as the frequency param to a butterworth bandpass filter which is applied to the swell.</p>
+<p>Next, yet another temporary buffer is created at twice the length of the swell and the initial swell is simply layered three times overlapping itself at 50% to produce a cross-faded version of itself twice as long and repeated three times.</p>
+<p>If a random number between zero and one is greater than 0.5 (so a probability of 50%) then the tripled-up swell is run through a bitcrushing routine. (Pippi’s bitcrusher is a wrapper for SoundPipe’s bitcrush routine. It allows you sweep the parameters of the bitcrushing, but in this case I just stuck with static values.) The swell was crushed with a fractional bitdepth between 8 and 12 and a fractional samplerate between 8khz and 20khz.</p>
+<p>Next the processed swell is again normalized to zero and a hann envelope is applied to it. (Which has a nice slow tapered fade &amp; and out – much gentler than a sine.)</p>
+<p>The processed swell is then dubbed into the 12 minute long temporary buffer at the currently elapsed position. That position is then incremented by half the length of the processed swell.</p>
+<p>This process repeats until the position has been incremented to the end of the 12 minute buffer. (It never totally fills the buffer – because the swells are often fairly long, the processed swells can easily reach several minutes in length, so the dubbing will stop before the buffer overflows.)</p>
+<h2 id="processing-new-segment-munging-sub-process-2">Processing: New segment munging (sub-process #2)</h2>
+<p>After this routine is performed, the position is again reset to zero. Remember we’re still only partway through one entire processing pass – the position increment is reset a number of times within that to make several passes of writing audio into that 12 minute long temporary buffer.</p>
+<p>First, a new segment is cut freshly from the original source recording for the track we’re currently processing. This segment is between 100ms and 10 seconds in length, plucked from a random position within the source recording.</p>
+<p>If a random number between zero and one is greater than 0.3 (70% chance) then the same bandpass filtering routine is applied as the previous pass. The segment is run through a pitch detection routine to produce a wavetable of frequencies which is used as the frequency parameter curve for the butterworth bandpass filter.</p>
+<p>Next, the segment is attenuated to somewhere between 20% and 100% of its current amplitude, and a hann envelope is applied to it to taper the edges.</p>
+<p>Afterward, a randomly chosen panning curve is applied to the segment. This panning shape can be any number of the simple window shapes available within pippi. They may go from left to right and back again, or from left to right, or from right to left, over a number of different curve shapes.</p>
+<p>Given the same 50% chance as the previous routine, a bitcrushing effect is applied to the segment with the same parameter ranges as given earlier.</p>
+<p>At that point the segment is dubbed into the 12 minute long temporary buffer, and the position is incremented by half the length of the current segment, until it reaches the end of the buffer.</p>
+<h2 id="processing-interlude">Processing: Interlude</h2>
+<p>Now, the temporary buffer is normalized to zero and the entire thing is written to disk with the current track index and its own unique index. I only did this to be able to preview how things sounded during a full render. This script runs pretty fast – the entire thing usually took about a minute on my machine to produce all nine final outputs – but as I play around with things, sometimes things (like the pitch detection routine) will slow the overall render time down, and I can peek in and listen to individual segments at this stage of the process and kill the render if something’s horribly wrong.</p>
+<h2 id="processing-skipping-sub-process-3">Processing: Skipping (sub-process #3)</h2>
+<p>The final sub-process during each main pass begins again by resetting the position increment to zero. It then creates a new variable-shaped wavetable (this time not just a randomly selected simple waveshape but a complex waveshape constructed from many periods of a hann window) whose minimum value is 0.2 and maximum value is 6. This wavetable is used during the next processing loop to select “skip points” for some simple hard edits.</p>
+<p>While the position increment is less than the length of the 12 minute long temporary buffer, the script gets a new segment length by interpolating a value from the skip points wavetable, where the current position increment is mapped to a position within the table from zero to one.</p>
+<p>This loop actually uses <em>two</em> position increments. One tracks the position being read from the temporary buffer, and one tracks the position in the final output buffer being written to. This allows the read position to skip around while the write position is always continuous.</p>
+<p>The script next cuts a segment from the read position within the 12 minute long temporary buffer (which at this point has been filled up with the two previous processing passes) at the length derived from the wavetable. This segment is then dubbed into the final output buffer at the current write position increment.</p>
+<p>The write position is then incremented by the length of the segment we just cut. The read position is incremented by this length plus 500ms.</p>
+<h2 id="processing-final-steps">Processing: Final Steps</h2>
+<p>At this point the outer loop resets and that whole sequence of routines is performed again a total of three times, each time dubbing &amp; layering again into the final output buffer.</p>
+<p>After the final pass, the output buffer is normalized to zero and any silence leftover at the end of the buffer (mostly produced by the skipping stage) is trimmed from the end before writing the output to disk.</p>
+<p>After a fair number of render passes I ended up with nine tracks roughly nine minutes long that I was happy with. I chose five of these for the actual bandcamp release.</p>
+<p>As you can see, the whole process was actually very simple and just combines a series of passes using simple transformations like convolution, bitcrushing, bandpass filtering, panning and sample slicing to arrive at the final result.</p>
+<p>Just for fun &amp; to try to illustrate the procedure, here is the same processing steps applied to <a href="https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg">one of Erik Satie’s Gymnopedies</a>.</p>
+<audio src="/sounds/satie-process.mp3" controls>
+</audio>
+<h2 id="source-code">Source code</h2>
+<p>And finally, here are the actual scripts used. They expect a directory called <code>sources</code> with WAV files, as well as <code>swells</code>, <code>smears</code>, and <code>renders</code> directories for outputs.</p>
+<h3 id="first-script-convolution">First script: convolution</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pippi <span class="im">import</span> dsp, fx</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>dsp.seed(<span class="dv">11</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>tswells <span class="op">=</span> <span class="dv">60</span> <span class="op">*</span> <span class="dv">10</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>sources <span class="op">=</span> Path(<span class="st">&#39;sources&#39;</span>).glob(<span class="st">&#39;*.wav&#39;</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> track, name <span class="kw">in</span> <span class="bu">enumerate</span>(sources):</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    elapsed <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    count <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    swells <span class="op">=</span> []</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    snd <span class="op">=</span> dsp.read(name)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> elapsed <span class="op">&lt;</span> tswells:</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>        seglength <span class="op">=</span> dsp.rand(<span class="dv">5</span>, <span class="dv">20</span>)</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(track, elapsed, seglength)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        A <span class="op">=</span> snd.rcut(seglength)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        A <span class="op">=</span> A.speed(dsp.choice([<span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span>, <span class="fl">0.25</span>]))</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>        B <span class="op">=</span> snd.rcut(seglength<span class="op">/</span><span class="dv">2</span>)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>        swell <span class="op">=</span> A.convolve(B)</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>        swell <span class="op">=</span> fx.norm(swell, <span class="dv">1</span>)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>        swell.write(<span class="st">&#39;swells/</span><span class="sc">%s</span><span class="st">-swells</span><span class="sc">%04d</span><span class="st">.wav&#39;</span> <span class="op">%</span> (track, count))</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>        elapsed <span class="op">+=</span> swell.dur</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>        count <span class="op">+=</span> <span class="dv">1</span></span></code></pre></div>
+<h3 id="second-script-processing">Second script: processing</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pippi <span class="im">import</span> dsp, fx, shapes, mir</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>RN <span class="op">=</span> <span class="dv">19</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>SR <span class="op">=</span> <span class="dv">48000</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>dsp.seed(RN)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>sources <span class="op">=</span> Path(<span class="st">&#39;sources&#39;</span>).glob(<span class="st">&#39;*.wav&#39;</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>length <span class="op">=</span> <span class="dv">60</span> <span class="op">*</span> <span class="dv">12</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> track, name <span class="kw">in</span> <span class="bu">enumerate</span>(sources):</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    swells <span class="op">=</span> dsp.readall(<span class="st">&#39;swells/</span><span class="sc">%s</span><span class="st">-swells*.wav&#39;</span> <span class="op">%</span> track)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    snd <span class="op">=</span> dsp.read(name)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    main <span class="op">=</span> dsp.<span class="bu">buffer</span>(length<span class="op">=</span>length, samplerate<span class="op">=</span>SR)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> dsp.<span class="bu">buffer</span>(length<span class="op">=</span>length, samplerate<span class="op">=</span>SR)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>        pos <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> pos <span class="op">&lt;</span> length:</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>            seg <span class="op">=</span> dsp.choice(swells)</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> dsp.rand() <span class="op">&gt;</span> <span class="fl">0.3</span>:</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>                p <span class="op">=</span> mir.pitch(seg)</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>                seg <span class="op">=</span> fx.buttbpf(seg, p)</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>            seglong <span class="op">=</span> dsp.<span class="bu">buffer</span>(length<span class="op">=</span>seg.dur<span class="op">*</span><span class="dv">2</span>)</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>            seglong.dub(seg)</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>            seglong.dub(seg, seg.dur<span class="op">/</span><span class="dv">2</span>)</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>            seglong.dub(seg, seg.dur)</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> dsp.rand() <span class="op">&gt;</span> <span class="fl">0.5</span>:</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>                seglong <span class="op">=</span> fx.crush(seglong, bitdepth<span class="op">=</span>dsp.rand(<span class="dv">8</span>, <span class="dv">12</span>), samplerate<span class="op">=</span>dsp.rand(<span class="dv">8000</span>, <span class="dv">20000</span>))</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>            seglong <span class="op">=</span> fx.norm(seglong, <span class="dv">1</span>).env(<span class="st">&#39;hann&#39;</span>)</span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>            out.dub(seglong, pos)</span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>            pos <span class="op">+=</span> seglong.dur<span class="op">/</span><span class="dv">2</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>        pos <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> pos <span class="op">&lt;</span> length:</span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>            seg <span class="op">=</span> snd.rcut(dsp.rand(<span class="fl">0.1</span>, <span class="dv">10</span>))</span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> dsp.rand() <span class="op">&gt;</span> <span class="fl">0.3</span>:</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>                p <span class="op">=</span> mir.pitch(seg)</span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>                seg <span class="op">=</span> fx.buttbpf(seg, p)</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>            seg <span class="op">=</span> seg.env(<span class="st">&#39;hann&#39;</span>) <span class="op">*</span> dsp.rand(<span class="fl">0.2</span>, <span class="dv">1</span>)</span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>            seg <span class="op">=</span> seg.pan(<span class="st">&#39;rnd&#39;</span>)</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> dsp.rand() <span class="op">&gt;</span> <span class="fl">0.5</span>:</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>                seg <span class="op">=</span> fx.crush(seg, bitdepth<span class="op">=</span>dsp.rand(<span class="dv">8</span>, <span class="dv">12</span>), samplerate<span class="op">=</span>dsp.rand(<span class="dv">8000</span>, <span class="dv">20000</span>))</span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>            out.dub(seg, pos)</span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>            pos <span class="op">+=</span> seg.dur<span class="op">/</span><span class="dv">2</span></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>        out <span class="op">=</span> fx.norm(out, <span class="dv">1</span>)</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>        out.write(<span class="st">&#39;smears/</span><span class="sc">%s</span><span class="st">-smear</span><span class="sc">%02d</span><span class="st">-</span><span class="sc">%02d</span><span class="st">.wav&#39;</span> <span class="op">%</span> (track, i, RN))</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>        pos <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>        rpos <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>        skippoints <span class="op">=</span> dsp.win(shapes.win(<span class="st">&#39;hann&#39;</span>, length<span class="op">=</span><span class="dv">5</span>), <span class="fl">0.2</span>, <span class="dv">6</span>)</span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> pos <span class="op">&lt;</span> length:</span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>            seglength <span class="op">=</span> dsp.rand(<span class="fl">0.1</span>, <span class="dv">4</span>)</span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>            seglength <span class="op">=</span> skippoints.interp(pos <span class="op">/</span> length)</span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>            seg <span class="op">=</span> out.cut(rpos, seglength)</span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>            main.dub(seg, pos)</span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>            pos <span class="op">+=</span> seg.dur</span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>            rpos <span class="op">+=</span> seg.dur <span class="op">+</span> <span class="fl">0.5</span></span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> rpos <span class="op">&gt;</span> out.dur:</span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(track, i, pos, rpos)</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>    main <span class="op">=</span> fx.norm(main, <span class="dv">1</span>)</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>    main <span class="op">=</span> main.trim()</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>    main.write(<span class="st">&#39;renders/microskip-</span><span class="sc">%s</span><span class="st">-</span><span class="sc">%02d</span><span class="st">.wav&#39;</span> <span class="op">%</span> (track, RN))</span></code></pre></div>
+
+
+    <hr/>
+
+    <a href="https://hecanjog.bandcamp.com/album/atelophobia" target="_new">Download on bandcamp</a>
+</div>
+
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="/reading.html">What I'm Reading</a></li>
+                    <li><a href="/listening.html">Listening Journal</a></li>
+                    <li><a href="/catalog.html">Catalog</a></li>
+                    <li><a href="https://hecanjog.bandcamp.com/subscribe" target="_new">Subscribe on Bandcamp</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

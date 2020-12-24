@@ -58,6 +58,8 @@ Media
 
 * Hermann Helmholtz - On the Sensations of Tone
 
+* Paul Orland - Math for Programmers
+
 ### Programming / Computer Science
 
 * Ben Klemens - 21st Century C

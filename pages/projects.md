@@ -1,4 +1,14 @@
 ::: {.frame .highlighted}
+![](img/atelophobia.jpg)
+
+[Atelophobia \[2020\]](https://hecanjog.bandcamp.com/album/atelophobia)
+-------------------------------------------------------------------------
+
+Five studies in letting go.
+:::
+
+
+::: {.frame}
 ![](img/pianosolo.jpg)
 
 [Piano Solo 43a from _Three Walks_ \[2020\]](https://hecanjog.bandcamp.com/album/piano-solo-43a-from-three-walks)

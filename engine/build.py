@@ -109,8 +109,7 @@ def build_posts(name):
     posts = []
     for p in Path('./posts/%s/' % name).glob('*.md'):
         post = Post(p)
-        if post.status.lower() != 'draft':
-            posts += [ post ]
+        posts += [ post ]
     posts.sort(key=lambda p: p.date, reverse=True)    
 
 
@@ -127,7 +126,8 @@ def build_posts(name):
         html.write(html_header)
         postslist = '<ul class="%slist list">' % name
         for p in posts:
-            postslist += '<li><h2><a href="/%s/%s.html">%s</a></h2><p class="byline">Posted on %s</p></li>' % (name, p.slug, p.title, p.datestring)
+            if post.status.lower() != 'draft':
+                postslist += '<li><h2><a href="/%s/%s.html">%s</a></h2><p class="byline">Posted on %s</p></li>' % (name, p.slug, p.title, p.datestring)
         postslist += '</ul>'
         postshome = postshome.replace('$%sLIST' % name.upper(), postslist)
         html.write(postshome)

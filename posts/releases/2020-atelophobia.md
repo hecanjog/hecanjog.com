@@ -1,0 +1,326 @@
+Title: Atelophobia [2020]
+Date: 2020-11-17
+Image: atelophobia.jpg
+Bandcamp: https://hecanjog.bandcamp.com/album/atelophobia
+Tags: LP solo drone
+Summary: Five studies in letting go.
+
+
+I'm working on two long-form projects now -- both of which have passed the one year anniversary of their honeymoon periods... 
+and one is approaching its second anniversary much sooner than I'd like.
+
+I'm happy with them both! They still need quite a lot of work though. When I'm in this position -- shuffling through the long tail of 
+some large project or projects -- sometimes I try to kickstart myself by setting all that aside and attempting some small kind of free
+play: no goals & no predeterminded subjects are allowed. If the only things I'm working on are sprawling year-long projects, I usually 
+find myself slowly crushed under the weight of my own ambition and the choking feeling of masterpiece syndrome can take over 
+pretty quickly. Like I've slipped into a coma suddenly it's been weeks and I'm totally frozen in place. That's the time to 
+think small and try to slip away!
+
+So last week I sat down with some microcassette recordings I'd made with no particular purpose in mind and attempted to make something 
+nice with them. (Regular Disquiet Junto participants may wonder why I didn't just do the new Junto project? If it didn't stress me out 
+a bit to jump headfirst into a week-long deadline, I might make use of the Junto for this purpose instead. A key component for me in 
+the attempt to shake off the dead weight of masterpiece syndrome is that the doing of it can't be goal-oriented or really ambitious at 
+all. I need a totally blank slate with no expectations or the frigid coma wears on.
+
+This simple exercise seemed like a good excuse to try writing lab notes on my working process -- something I very much enjoy 
+when I read [Rodrigo Constanzo's journal](https://rodrigoconstanzo.com/2020/08/kaizo-snare/), the [latest composition exercise 
+in Tobais Reber's blog](http://www.tobiasreber.com/cms/blog-a100ql/) or some wild discovery in [Oona Räisänen's signals 
+blog](http://www.windytan.com/2020/12/plotting-patterns-in-music-with-fantasy.html).
+
+## Initial Recording
+
+This project happened to start with the purchase of a new microcassette recorder. I recently picked up a Panasonic RN-185 recorder, 
+which has a feature they call the _Voice Activated System_ (VAS).  This is pretty typical for microcassette recorders 
+but I can't rememeber ever experimenting with it before this. With VAS you can pick an amplitude threshold, and whenever the mic 
+picks up a sound that crosses it, the recorder engages. 
+
+As you might imagine since this means a motor kicking into gear while the tapehead is already in recording mode, every time the 
+VAS kicks in there's at least a slight pitch effect as the recorder gets up to speed again. It's not so pronounced as to completely 
+take over the recording, but it makes for some pretty cool moments -- especially when something with a fairly sharp attack and pronounced 
+pitch is what's triggering the recorder.
+
+I spent nearly three days with the microcassette recorder engaged in VAS mode with a pretty high threshold for activation. That's how long 
+it took to completely fill up a 60 minute tape on half-speed mode, so I ended up with over two hours of audio after several days of recording.
+
+## Reviewing the Recordings
+
+I digitized the tape by just plugging the headphone jack from the RN-185 into my zoom F1's line in and re-recording it. Unfortunately even 
+though both devices were battery powered and only tethered by one cable, I noticed there was a fair amount of line noise on playback -- not 
+tape noise floor but a (presumably ~60hz) gentle buzz from the RN-185's electronics. It's basically inaudible when there's a strong signal 
+on the tape but I hope I can figure out how to fix that in the future. Seems funny to worry about that sort of thing when you're using a 
+low-fi recording method already to purposefully introduce noise and mangle the signal in the first place, but a constant hum like that 
+carries a distinct pitch & if it is audible enough it can add harmonic dissonance that might make working with pitched material awkward.
+
+Anyway, after I digitized the tape, I sat down with side A to listen and transcribe what I heard into rough time ranges. There were many 
+sections I'm looking forward to tapping into later that featured lots of cool pops & clicks and misc jostles as the recorder enaged when 
+I'd put my coffee mug down on the desk, or adjust my desk chair, etc. There were also lots of nice sections of attenuated meows as my cat 
+requested that I toss his toy around throughout the day. (He's a talker, but I don't think I've ever got so much of his meows on one 
+recording before.)
+
+Throughout the first side though were also nine passages where the recorder enaged sporatically as I played something back over my stereo. 
+A handful of records -- mostly featuring piano & voice -- as well as some recordings of a synth guitar thing I've been working on this year.
+
+## Pulling the Sources
+
+I wrote down the timeframes for these nine sections ranging between 14 seconds and nearly 14 minutes in length:
+
+- 00:55 - 05:00 (4m 5s)
+- 05:00 - 06:27 (1m 27s)
+- 06:27 - 10:10 (3m 43s)
+- 10:12 - 13:27 (3m 15s)
+- 14:00 - 15:32 (1m 32s)
+- 35:46 - 36:00 (0m 14s)
+- 36:02 - 49:50 (13m 48s)
+- 49:50 - 55:15 (5m 25s)
+- 55:15 - 58:15 (3m 0s)
+
+With this list I extracted the sections via SoX's trim command -- and normalized each section to zero. For example, the first section 
+looked something like:
+
+    sox -S sideA.flac sources/section1.wav trim 0:55 4:05 norm
+
+With these nine source recordings, I started to work on a simple procedural system to process them all in sequence.
+
+## Processing: Extracting the Swells
+
+All the processing for this album was done with my python computer music system called [pippi](https://pippi.world). I ended up doing 
+the processing in two stages. With the first, I extracted a series of swells from each source recording.
+
+For each recording, the script first pulled a short segment (between 5 and 20 seconds long) from a random position in the source recording. 
+Call that initial segment `A`. Segment A was then resampled to a random speed chosen from this list: 0.5, 0.5, 0.75, 0.25. (Notice that the 
+half-speed option is listed twice, and so is more likely to be chosen than the other options.) 
+
+Next, a second segment -- call it `B` -- was cut from a random position in segment A. This segment (B) is exactly half the length of segment A.
+
+The two segments are then just convolved together and then normalized to zero to produce the actuall swell. Each swell is saved to disk as a WAV 
+file named with the index of the source track, and its own numbered index.
+
+The script keeps producing swells until it has generated 10 minutes worth of swells for each source recording.
+
+## Processing: Smearing the Swells
+
+At this point I created a new script to do further processing with these swells. I could have done all the processing in one pass of course, 
+but doing convolutions on long sounds is a fairly slow process, so getting the initial convolutions out of the way up front lets me run the 
+much faster subsequent script over & over as I work without getting bogged down by doing the same basic convolutions over & over as well.
+
+This subsequent script started by loading each source recording once again, and looping over them to perform the same sequence of operations 
+for each one -- saving the result as an individual track tagged with the source recording index and the value of the random seed given to the 
+random number generator. 
+
+Using the seed in the filename makes each render pass easy to identify -- I just increment the seed whenever I want 
+to create a new set of outputs for that pass. This way I can tweak the algorithm & render over the same set of outputs, then when I'm happy 
+enough with some set of output I can increment the seed and keep rendering without writing over the last set of outputs. It didn't happen this time 
+but I use this approach a lot and I often find myself after a long session of rendering many sets of outputs like this going back to earlier 
+renders to move on to a subsequent stage of processing or mixing. I often go through an iterative process like this to end up with a decent corpus 
+of sounds I can then take into Ardour (a traditional timeline-based DAW) to sequence, layer, mix, etc. Then maybe I'll export sections from Ardour 
+for further processing in pippi, etc. In this case I resisted the temptation to take the project into that territory, and this second pass of processing 
+was the final step.
+
+For each source recording, the second script began by:
+
+- loading the source recording into a buffer for later processing
+- loading every swell recording produced in the first processing step associated with this source recording (by globbing over the filenames with the 
+  index of the source recording like `swells/TRACKINDEX-swells*.wav`) and loading them into a list of buffers.
+- Creating an empty output buffer exactly 12 minutes long for the subsequent processing routines to write into.
+
+The next step was done in three identical passes. On each pass a new temporary output buffer (also 12 minutes long) is created, and a tracking position 
+is reset to zero. Next, while that position is less than the target output length (12 minutes) the script loops over a short series of processes.
+
+## Processing: Swell munging (sub-process #1)
+
+First a random swell is chosen from the list of swell buffers loaded previously. If a random value between 0 and 3 is greater than 0.3 (so a probability 
+of about 70%) then the swell is run through a pitch detection algorithm (fast yin) to produce a wavetable of pitches which are stable above a certain 
+threshold. (I used the default threshold of 0.8 -- the pitch detection routines that pippi uses are wrappers for the excellent aubio library.) This 
+wavetable is then fed as the frequency param to a butterworth bandpass filter which is applied to the swell.
+
+Next, yet another temporary buffer is created at twice the length of the swell and the initial swell is simply layered three times overlapping itself 
+at 50% to produce a cross-faded version of itself twice as long and repeated three times.
+
+If a random number between zero and one is greater than 0.5 (so a probability of 50%) then the tripled-up swell is run through a bitcrushing routine. 
+(Pippi's bitcrusher is a wrapper for SoundPipe's bitcrush routine. It allows you sweep the parameters of the bitcrushing, but in this case I just 
+stuck with static values.) The swell was crushed with a fractional bitdepth between 8 and 12 and a fractional samplerate between 8khz and 20khz. 
+
+Next the processed swell is again normalized to zero and a hann envelope is applied to it. (Which has a nice slow tapered fade & and out -- much 
+gentler than a sine.)
+
+The processed swell is then dubbed into the 12 minute long temporary buffer at the currently elapsed position. That position is then incremented 
+by half the length of the processed swell.
+
+This process repeats until the position has been incremented to the end of the 12 minute buffer. (It never totally fills the buffer -- because the 
+swells are often fairly long, the processed swells can easily reach several minutes in length, so the dubbing will stop before the buffer overflows.)
+
+## Processing: New segment munging (sub-process #2)
+
+After this routine is performed, the position is again reset to zero. Remember we're still only partway through one entire processing pass -- the 
+position increment is reset a number of times within that to make several passes of writing audio into that 12 minute long temporary buffer.
+
+First, a new segment is cut freshly from the original source recording for the track we're currently processing. This segment is between 100ms and 
+10 seconds in length, plucked from a random position within the source recording.
+
+If a random number between zero and one is greater than 0.3 (70% chance) then the same bandpass filtering routine is applied as the previous pass. 
+The segment is run through a pitch detection routine to produce a wavetable of frequencies which is used as the frequency parameter curve for the 
+butterworth bandpass filter.
+
+Next, the segment is attenuated to somewhere between 20% and 100% of its current amplitude, and a hann envelope is applied to it to taper the 
+edges.
+
+Afterward, a randomly chosen panning curve is applied to the segment. This panning shape can be any number of the simple window shapes available 
+within pippi. They may go from left to right and back again, or from left to right, or from right to left, over a number of different curve shapes.
+
+Given the same 50% chance as the previous routine, a bitcrushing effect is applied to the segment with the same parameter ranges as given earlier.
+
+At that point the segment is dubbed into the 12 minute long temporary buffer, and the position is incremented by half the length of the current segment, 
+until it reaches the end of the buffer.
+
+## Processing: Interlude
+
+Now, the temporary buffer is normalized to zero and the entire thing is written to disk with the current track index and its own unique index. I 
+only did this to be able to preview how things sounded during a full render. This script runs pretty fast -- the entire thing usually took about a minute 
+on my machine to produce all nine final outputs -- but as I play around with things, sometimes things (like the pitch detection routine) will slow the 
+overall render time down, and I can peek in and listen to individual segments at this stage of the process and kill the render if something's horribly wrong.
+
+## Processing: Skipping (sub-process #3)
+
+The final sub-process during each main pass begins again by resetting the position increment to zero. It then creates a new variable-shaped wavetable (this 
+time not just a randomly selected simple waveshape but a complex waveshape constructed from many periods of a hann window) whose minimum value is 0.2 and 
+maximum value is 6. This wavetable is used during the next processing loop to select "skip points" for some simple hard edits.
+
+While the position increment is less than the length of the 12 minute long temporary buffer, the script gets a new segment length by interpolating a value 
+from the skip points wavetable, where the current position increment is mapped to a position within the table from zero to one.
+
+This loop actually uses *two* position increments. One tracks the position being read from the temporary buffer, and one tracks the position in the final 
+output buffer being written to. This allows the read position to skip around while the write position is always continuous.
+
+The script next cuts a segment from the read position within the 12 minute long temporary buffer (which at this point has been filled up with the two 
+previous processing passes) at the length derived from the wavetable. This segment is then dubbed into the final output buffer at the current write 
+position increment. 
+
+The write position is then incremented by the length of the segment we just cut. The read position is incremented by this length plus 500ms.
+
+## Processing: Final Steps
+
+At this point the outer loop resets and that whole sequence of routines is performed again a total of three times, each time dubbing & layering again 
+into the final output buffer.
+
+After the final pass, the output buffer is normalized to zero and any silence leftover at the end of the buffer (mostly produced by the skipping stage) 
+is trimmed from the end before writing the output to disk.
+
+After a fair number of render passes I ended up with nine tracks roughly nine minutes long that I was happy with. I chose five of these for the actual 
+bandcamp release.
+
+As you can see, the whole process was actually very simple and just combines a series of passes using simple transformations like convolution, bitcrushing, 
+bandpass filtering, panning and sample slicing to arrive at the final result.
+
+Just for fun & to try to illustrate the procedure, here is the same processing steps applied to [one of Erik Satie's Gymnopedies](https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg).
+
+<audio src="/sounds/satie-process.mp3" controls></audio>
+
+## Source code
+
+And finally, here are the actual scripts used. They expect a directory called `sources` with 
+WAV files, as well as `swells`, `smears`, and `renders` directories for outputs.
+
+### First script: convolution
+
+``` python
+from pippi import dsp, fx
+from pathlib import Path
+
+dsp.seed(11)
+
+tswells = 60 * 10
+
+sources = Path('sources').glob('*.wav')
+
+for track, name in enumerate(sources):
+    elapsed = 0
+    count = 0
+    swells = []
+    snd = dsp.read(name)
+    while elapsed < tswells:
+        seglength = dsp.rand(5, 20)
+        print(track, elapsed, seglength)
+        A = snd.rcut(seglength)
+        A = A.speed(dsp.choice([0.5, 0.5, 0.75, 0.25]))
+        B = snd.rcut(seglength/2)
+        swell = A.convolve(B)
+        swell = fx.norm(swell, 1)
+        swell.write('swells/%s-swells%04d.wav' % (track, count))
+        elapsed += swell.dur
+        count += 1
+```
+
+### Second script: processing
+
+``` python
+from pippi import dsp, fx, shapes, mir
+from pathlib import Path
+
+RN = 19
+SR = 48000
+
+dsp.seed(RN)
+
+sources = Path('sources').glob('*.wav')
+
+length = 60 * 12
+
+for track, name in enumerate(sources):
+    swells = dsp.readall('swells/%s-swells*.wav' % track)
+
+    snd = dsp.read(name)
+    main = dsp.buffer(length=length, samplerate=SR)
+    for i in range(3):
+        out = dsp.buffer(length=length, samplerate=SR)
+        pos = 0
+        while pos < length:
+            seg = dsp.choice(swells)
+            if dsp.rand() > 0.3:
+                p = mir.pitch(seg)
+                seg = fx.buttbpf(seg, p)
+            seglong = dsp.buffer(length=seg.dur*2)
+            seglong.dub(seg)
+            seglong.dub(seg, seg.dur/2)
+            seglong.dub(seg, seg.dur)
+            if dsp.rand() > 0.5:
+                seglong = fx.crush(seglong, bitdepth=dsp.rand(8, 12), samplerate=dsp.rand(8000, 20000))
+            seglong = fx.norm(seglong, 1).env('hann')
+            out.dub(seglong, pos)
+            pos += seglong.dur/2
+
+        pos = 0
+        while pos < length:
+            seg = snd.rcut(dsp.rand(0.1, 10))
+            if dsp.rand() > 0.3:
+                p = mir.pitch(seg)
+                seg = fx.buttbpf(seg, p)
+
+            seg = seg.env('hann') * dsp.rand(0.2, 1)
+            seg = seg.pan('rnd')
+            if dsp.rand() > 0.5:
+                seg = fx.crush(seg, bitdepth=dsp.rand(8, 12), samplerate=dsp.rand(8000, 20000))
+            out.dub(seg, pos)
+            pos += seg.dur/2
+
+        out = fx.norm(out, 1)
+        out.write('smears/%s-smear%02d-%02d.wav' % (track, i, RN))
+
+        pos = 0
+        rpos = 0
+        skippoints = dsp.win(shapes.win('hann', length=5), 0.2, 6)
+        while pos < length:
+            seglength = dsp.rand(0.1, 4)
+            seglength = skippoints.interp(pos / length)
+            seg = out.cut(rpos, seglength)
+            main.dub(seg, pos)
+
+            pos += seg.dur
+            rpos += seg.dur + 0.5
+            if rpos > out.dur:
+                break
+                print(track, i, pos, rpos)
+
+    main = fx.norm(main, 1)
+    main = main.trim()
+    main.write('renders/microskip-%s-%02d.wav' % (track, RN))
+```
