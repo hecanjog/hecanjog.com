@@ -4,6 +4,10 @@
 => /blog.gmi Blog
 
 
+=> /blog/20201222-catalog.gmi Catalog
+
+Posted on 2020-12-22 20:00
+
 => /blog/20201222-some-random-numbers-in-python.gmi Some Random Numbers in Python
 
 Posted on 2020-12-22 20:00
