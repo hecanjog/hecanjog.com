@@ -22,8 +22,13 @@ Everything else is queued to read, or in some cases re-read.
 ### Comic Books / Graphic Novels
 
 - <del>Mary Safro - _Drugs & Wires_</del>
-- <del>Jamie Hernández - _Maggie The Mechanic_</del>
 - <del>John Pound - _Ran Dum_</del>
+- <del>Jamie Hernández - _Maggie The Mechanic_</del>
+- <del>Alex Robinson - _Our Expanding Universe_</del>
+- <del>Alex Robinson - _Box Office Poison_</del>
+- <del>Alex Robinson - _Tricked_</del>
+- <del>Alex Robinson - _Too Cool to be Forgotten_</del>
+- **Jamie Hernández - _The GIRL from H.O.P.P.E.R.S._**
 
 <hr>
 
@@ -47,6 +52,7 @@ Everything else is queued to read, or in some cases re-read.
 - Silvanus P. Thompson - _Calculus Made Easy_
 - Hermann Helmholtz - _On the Sensations of Tone_
 - **Paul Orland - _Math for Programmers_**
+- **Shaun Mitchell - _SDL Game Development_**
 
 ### Programming / Computer Science
 

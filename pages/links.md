@@ -11,9 +11,10 @@
 ## FRIENDS
 
 - [Nomad Palace](http://nomadpalace.net): long-time collaborator &amp; 1/3 of [Cedar AV](http://cedarav.org)
-- [Made of Oak](http://www.madeofoak.com): also 1/3 of Cedar AV. Multi-instrumentalist, composer &amp; level 30 sound druid
+- [Made of Oak](http://www.madeofoak.com): also 1/3 of Cedar AV. Multi-instrumentalist &amp; level 30 sound druid
 - [Liquid City Motors](https://liquidcitymotors.bandcamp.com/releases): 1/2 of the legendary Starling crew
 - [Starling](https://starling.space): fine open source synths
+- [Brendan Landis](https://heyexit.com): the man of many bands. a man of mystery &amp; intrigue.
 - [Andrew Weathers](https://andrewweathers.com): composer &amp; improviser extordinaire
 - [Paul Batchelor](https://pbat.ch): prolific computer musician &amp; DSP scientist
 

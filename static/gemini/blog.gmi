@@ -4,18 +4,6 @@
 => /blog.gmi Blog
 
 
-=> /blog/20201222-catalog.gmi Catalog
-
-Posted on 2020-12-22 20:00
-
-=> /blog/20201222-some-random-numbers-in-python.gmi Some Random Numbers in Python
-
-Posted on 2020-12-22 20:00
-
-=> /blog/20200122-a-recipe.gmi A Recipe
-
-Posted on 2020-01-22 18:00
-
 => /blog/20190924-euroshield-1-with-teensy-36-and-cli-builds-on-arch-linux.gmi Euroshield 1 with Teensy 3.6 and cli builds on Arch Linux
 
 Posted on 2019-09-24 21:00
@@ -27,10 +15,6 @@ Posted on 2019-09-23 09:00
 => /blog/20190920-technically-theres-a-computer-inside.gmi Technically There’s a Computer Inside
 
 Posted on 2019-09-20 15:25
-
-=> /blog/20181209-playing-materials.gmi Playing Materials
-
-Posted on 2018-12-9 20:00
 
 => /blog/20181202-generating-stories.gmi Generating Stories
 

@@ -16,7 +16,6 @@ FOLLOWING = [
     'https://feg-ffb.de/twtxt.txt',
     'https://www.frogorbits.com/twtxt.txt',
     'https://fundor333.com/twtxt.txt',
-    'https://hjertnes.social/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
     'http://ctrl-c.club/~jlj/tw.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',

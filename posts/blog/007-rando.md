@@ -4,7 +4,7 @@ Category: Research
 Tags: research, pippi, data, probability
 Summary: Plotting some random choices in python
 Tangle: True
-Status: Draft
+Status: draft
 
 
 This article isn't really about python. It's not really about 
@@ -58,6 +58,12 @@ Above I ran a standard random number generator 10,000 times, sorted the
 outputs and we get basically a straight line going from 0 to 1 at a rate 
 of about 1/1.
 
+As I said, this is showing every value produced in that run of 100,000 values. 
+The line is quite flat, showing that each value between 0 and 1 has nearly the 
+same weight -- in other words, nearly the same probability that it will be chosen.
+
+There are quite a lot of possible values between 0 and 1 in a 64 bit system.
+
 > _In the meantime_, consider the shape of the graph of the normal distribution, 
 > and try to imagine how you might go about changing that in practice, without 
 > rewriting the C standard library to alter the `rand()` function itself.  Ultimately 
@@ -72,5 +78,13 @@ of about 1/1.
 - Cage & the gamut
 
 ## Random Walks
+
+## Monte Carlo
+
+## Gamuts
+
+## Procedures
+
+## Ranged sequences
 
 

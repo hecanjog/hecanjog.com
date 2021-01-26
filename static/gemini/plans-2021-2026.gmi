@@ -1,0 +1,137 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening.gmi Listening
+=> /blog.gmi Blog
+
+
+# Cabin Yearly Timeline
+
+A rough timeline for buying land and building a series of increasingly
+complex structures culminating finally with moving full time into a
+livable cabin / tiny house.
+
+## 2021
+
+The first year is about securing the land, setting up a temporary space
+I can work from part time, and learning how to build stuff.
+
+I’ll try to start by constructing a small cellar-like storage area,
+buried into the ground where I can store a tent and all supplies for
+setting up the temporary workspace that aren’t safe to keep outdoors
+year-round.
+
+(And maybe first an even simpler storage box for tools so I can leave
+them safely onsite, too…)
+
+By the summer, with the temporary space setup, I’ll start building the
+first tiny structure – a tiny cabin similar to one I saw someone else
+build with a minimal foundation and a single window & door, as well as a
+wood stove.
+
+By the winter it should be possible to use the tiny house as my part
+time work space instead of an outdoor tent.
+
+Besides my dayjob, some of my time working here will be toward small
+projects meant to help me transition back to being mostly self-employed
+after I finally move out of my apartment. Developing pay-what-you-want
+audio tools, creating some web service side projects, etc…
+
+This year should also be the start of a process of getting rid of crap
+I’ve been storing but will never need and/or would just clutter up the
+cabin. I’ll need as much leeway as I can to clutter it up good with
+records and books anyway. ;-)
+
+I should also work on switching to a lower power setup at home, use
+solar at the temporary tent site, and start making meals that would be
+easy to make with the facilities I’ll have in the final fulltime cabin.
+(So also think about what those should be!)
+
+* January - June: Save for deposit on land purchase loan
+
+* June: have property assessed & buy it
+
+* June: begin hideaway box build & save for tiny house construction
+
+* July: setup temporary tented remote work space, stored primarily in
+hideawy box
+
+* August: begin tiny house construction
+
+* November: finish tiny house construction & move work space inside
+
+* December: enjoy tiny house, continue to setup inside
+
+## 2022
+
+The second year is about getting more serious about tiny house
+construction, and investigating plumbing hookups. (It would be possible
+to go fully on-grid here, but running water & waste disposal of some
+kind is all I’m interested in long-term. Otherwise as long as I still
+can get a phone signal to tether to an internet connection, and I can
+rig up enough solar power for my needs, water & trash should be the only
+services I’ll buy into in the long term.
+
+This second tiny house should also strive to meet the requirements for a
+Minnesota dwelling, as practice for the final fulltime cabin.
+
+* January - March: save for second tiny house
+
+* March - September: second tiny house construction – add plumbing?
+
+* September - December: enjoy second tiny house, save for cabin
+construction
+
+## 2023
+
+The third year I’ll just save and try to start construction on the
+fulltime cabin as soon as possible. Likely red tape will suck, though at
+least Minnesota has special rules for tiny houses that seem a bit less
+hardcore than those for a dwelling larger than 500 square feet.
+
+I really doubt I will be able to build the cabin in a single year. If
+so, because of the timing of my apartment lease, nothing would change
+anyway besides having much more time to finish moving out.
+
+This year I’ll still only be using the tiny houses as a part time work
+space and living full time at my apartment.
+
+By this time I’d like to have a financial plan in place for when I go
+into the cabin full time and transition back to part time or contract
+work so I can budget and save accordingly.
+
+* January - March: enjoy second tiny house, keep saving
+
+* March - September: cabin construction
+
+* September - December: stop cabin construction
+
+## 2024
+
+The fourth year I’ll do my best to finish the cabin enough so it is
+ready to live in during the winter, and ready to move into full time the
+following year. We’ll see!
+
+* January - March: stop cabin construction
+
+* March - September finish cabin
+
+* September - December: enjoy cabin
+
+## 2025
+
+The fifth year I’ll actually move out of my apartment and move in to the
+cabin full time with my cat.
+
+At this point consider splitting a small commerical space in town to
+make a hackerspace with friends, and do electronics work there… maybe
+house a community server there as well.
+
+* January - March: enjoy cabin & move rest of stuff out of apartment
+
+* March: Move Louis to cabin
+
+* April: give up lease on apartment
+
+* May: setup hackerspace?
+
+=> /twtxt.txt twtxt feed

@@ -126,7 +126,7 @@ def build_posts(name):
         html.write(html_header)
         postslist = '<ul class="%slist list">' % name
         for p in posts:
-            if post.status.lower() != 'draft':
+            if p.status.lower() != 'draft':
                 postslist += '<li><h2><a href="/%s/%s.html">%s</a></h2><p class="byline">Posted on %s</p></li>' % (name, p.slug, p.title, p.datestring)
         postslist += '</ul>'
         postshome = postshome.replace('$%sLIST' % name.upper(), postslist)
@@ -150,7 +150,8 @@ def build_posts(name):
         gmi.write(gmi_header)
         postslist = ''
         for p in posts:
-            postslist += '=> /%s/%s.gmi %s\nPosted on %s\n\n' % (name, p.slug, p.title, p.datestring)
+            if p.status.lower() != 'draft':
+                postslist += '=> /%s/%s.gmi %s\nPosted on %s\n\n' % (name, p.slug, p.title, p.datestring)
         postshome = postshome.replace('$%sLIST' % name.upper(), postslist)
         gmi.write(postshome)
         gmi.write(gmi_footer)
