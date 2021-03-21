@@ -1,12 +1,11 @@
 => /about.gmi About
 => /reading.gmi Reading
-=> /listening.gmi Listening
-=> /blog.gmi Blog
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
 
 
 I'm a computer musician based in Minnesota.
-
-=> mailto:erik@hecanjog.com I am OK with email.
+=> mailto:erik@hecanjog.com Send me an email!
 
 => http://pippi.world I make open source computer music software.
 
@@ -14,11 +13,18 @@ I'm a computer musician based in Minnesota.
 => /projects.gmi open source computer music
 with it.
 
-Sometimes I use
-=> https://merveilles.town/@hecanjog mastodon
-
-I do radio sometimes. Some recent generative work for radio is on
+I’m slowly getting a web radio project off the ground with some friends.
 => https://phonography.radio.af Aleatoric Forest
-right now.
+is streaming right now.
+
+=> https://pledge.wfmu.org Pledge to WFMU!
+
+I’m taking a break from
+=> https://merveilles.town/@hecanjog mastodon
+right now, but you can follow my account at
+=> https://merveilles.town merveilles
+if you’d like. (
+=> https://merveillles.town/@hecanjog/feed.atom RSS works too.
+)
 
 => /twtxt.txt twtxt feed

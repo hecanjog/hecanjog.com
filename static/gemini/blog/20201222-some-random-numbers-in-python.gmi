@@ -1,7 +1,7 @@
 => /about.gmi About
 => /reading.gmi Reading
-=> /listening.gmi Listening
-=> /blog.gmi Blog
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
 
 
 ## Some Random Numbers in Python
@@ -87,5 +87,13 @@ number.
 * Cage & the gamut
 
 ## Random Walks
+
+## Monte Carlo
+
+## Gamuts
+
+## Procedures
+
+## Ranged sequences
 
 => /twtxt.txt twtxt feed

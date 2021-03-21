@@ -1,7 +1,7 @@
 => /about.gmi About
 => /reading.gmi Reading
-=> /listening.gmi Listening
-=> /blog.gmi Blog
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
 
 
 ## Listening - Sunday, Sept 8th 2019

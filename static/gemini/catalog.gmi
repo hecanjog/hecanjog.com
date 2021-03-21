@@ -1,14 +1,16 @@
 => /about.gmi About
 => /reading.gmi Reading
-=> /listening.gmi Listening
-=> /blog.gmi Blog
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
 
 
 For a complete catalog, please send a
 => https://en.wikipedia.org/wiki/Self-addressed_stamped_envelope SASE
-to:
+* to:
 
-He Can Jog - Catalog ’20/’21 117 1/2 West 3rd Street, Apt 4 Winona MN
-55987 USA
+He Can Jog - Catalog ’21 117 1/2 West 3rd Street, Apt 4 Winona MN 55987
+USA
+
+* Penpal services also available
 
 => /twtxt.txt twtxt feed

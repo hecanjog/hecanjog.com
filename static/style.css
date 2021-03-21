@@ -1,5 +1,20 @@
+:root {
+    --color-dark-highlight: #f18f26;
+    --color-highlight: #ffcc2d;
+    --color-light-highlight: #fee7b8;
+    --color-contrast: #e75a70;
+    --color-contrast: blue;
+
+    --color-neutral: #67757f;
+    --color-white: #fff;
+    --color-off-white: #fafafa;
+    --color-black: #292f33;
+    --color-true-black: #000;
+}
+
 html {
     background: #6000b0 url(/img/pat-bg.png) no-repeat center center fixed;
+    background: var(--color-highlight) url(/img/pat-bg.png) no-repeat center center fixed;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
@@ -13,8 +28,10 @@ main, header, footer {
 
 main {
     background-color: #8b00ff;
+    background-color: #eee;
+    background-color: var(--color-off-white);
     padding: 1rem 2rem;
-    border: 2px dotted #fff;
+    border: 2px dotted var(--color-white);
     margin-bottom: 2rem;
     position: relative;
 }
@@ -27,13 +44,32 @@ main:before {
     bottom: 0;
     left: 0;
     background: #a943ff url(/claris/claris02.gif) repeat;
+    background: var(--color-dark-highlight) url(/claris/claris02.gif) repeat;
     transform: rotate(4deg);
     z-index: -1;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: middle;
+    align-content: middle;
+    width: 42rem;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+}
+
+header nav, header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
 p, a, h1, h2, h3, h4, li, figcaption {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    transition: 0.3s;
     color: #ddd;
+    color: #222;
+    color: var(--color-black);
     line-height: 1.5;
 }
 
@@ -45,21 +81,29 @@ nav a {
     font-weight: 800;
     text-decoration: none;
     border-bottom: 2px dotted #96ddff;
+    border-bottom: 2px dotted #ddd;
     padding: 4px 8px;
     padding-bottom: 5px;
     background: #a943ff url(/claris/claris02.gif) repeat;
+    background: var(--color-off-white) url(/claris/claris02.gif) repeat;
     text-shadow: 2px 2px 0 #48413a;
-    transition: color 0.3s;
+    text-shadow: none;
     color: #96ddff;
+    color: #222;
+    color: var(--color-black);
 }
 
 a:hover {
     background: none;
+    background: var(--color-dark-highlight) url(/claris/claris02.gif) repeat;
     color: #fff;
+    color: #000;
+    color: var(--color-white);
 }
 
 hr {
     border: 1px solid #560fff;
+    border: 1px solid var(--color-contrast);
 }
 
 img {
@@ -90,6 +134,16 @@ img {
     list-style-type: none;
 }
 
+.taglist li {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.byline {
+    padding: 0;
+    margin: 0;
+}
+
 h2 + .byline {
     margin-top: -1rem;
 }
@@ -115,22 +169,46 @@ footer nav a {
     font-size: 80%;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 1.9rem;
+}
+
 header h1 a {
     background: none;
-    color: #fff;
+    color: var(--color-white);
+    text-decoration: none;
 }
+
+svg#header-logo {
+    width: 12rem;
+    height: auto;
+    transform: translateY(0.3rem);
+}
+
+svg#header-logo path {
+    fill: var(--color-white);
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
 
 pre {
     max-width: 100%;
     overflow-x: auto;
     background-color: #a943ff;
+    background-color: var(--color-highlight);
     border: 2px solid #8b00ff;
+    border: 2px solid var(--color-white);;
     padding: 0.5rem;
 }
 code {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     background-color: #a943ff;
-    color: #fff;
+    background-color: var(--color-highlight);
+    color: var(--color-true-black);
     padding: 0.125rem 0.25rem;
     font-size: 1rem;
 }

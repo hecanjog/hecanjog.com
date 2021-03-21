@@ -10,3 +10,6 @@ engine/__pycache__
 
 venv
 .cache
+
+.pytoot-client.secret
+.pytoot-login.secret

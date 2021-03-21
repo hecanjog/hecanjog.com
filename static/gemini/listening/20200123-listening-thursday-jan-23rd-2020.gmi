@@ -1,7 +1,7 @@
 => /about.gmi About
 => /reading.gmi Reading
-=> /listening.gmi Listening
-=> /blog.gmi Blog
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
 
 
 ## Listening - Thursday, Jan 23rd 2020

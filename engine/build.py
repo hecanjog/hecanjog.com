@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import re
 import unicodedata
+from collections import defaultdict
 
 import pypandoc
 
@@ -22,7 +23,7 @@ class Post:
                     # Metadata
                     k, v = tuple(line.split(': '))
                     if k == 'Tags':
-                        self.headers[k] = v.strip().split(' ')
+                        self.headers[k] = [ t.replace(',', '') for t in v.strip().split(' ') ]
                     elif k == 'Date':
                         try:
                             self.headers[k] = datetime.strptime(v.strip(), '%Y-%m-%d %H:%M')
@@ -48,6 +49,9 @@ class Post:
 
         if 'Status' not in self.headers:
             self.headers['Status'] = 'public'
+
+        if 'Tags' not in self.headers:
+            self.headers['Tags'] = []
 
         for k in self.headers.keys():
             setattr(self, k.lower(), self.headers[k])
@@ -105,6 +109,8 @@ def build_posts(name):
     html_header, html_footer = get_wrappers('html')
     gmi_header, gmi_footer = get_wrappers('gmi')
 
+    tags_to_posts = defaultdict(list)
+
     # Collate posts
     posts = []
     for p in Path('./posts/%s/' % name).glob('*.md'):
@@ -112,6 +118,9 @@ def build_posts(name):
         posts += [ post ]
     posts.sort(key=lambda p: p.date, reverse=True)    
 
+    for post_index, post in enumerate(posts):
+        for tag in post.tags:
+            tags_to_posts[tag] += [post_index]
 
     ########
     # HTML #
@@ -122,12 +131,24 @@ def build_posts(name):
         postshome = f.read()
 
     # Create HTML index listing page
-    with open('static/%s.html' % name, 'w', encoding='utf-8') as html:
+    with open('static/%s/index.html' % name, 'w', encoding='utf-8') as html:
         html.write(html_header)
         postslist = '<ul class="%slist list">' % name
         for p in posts:
             if p.status.lower() != 'draft':
-                postslist += '<li><h2><a href="/%s/%s.html">%s</a></h2><p class="byline">Posted on %s</p></li>' % (name, p.slug, p.title, p.datestring)
+                tagline = '<ul class="taglist list">'
+                for tag in p.tags:
+                    tagline += '<li><a class="tag" href="/tags/%s/%s.html">#%s</a></li>' % (name, tag, tag.upper())
+                tagline += '</ul>'
+
+                postline = """
+                <li>
+                    <h2><a href="/%s/%s.html">%s</a></h2>
+                    <p class="byline">Posted on %s</p>
+                    %s
+                </li>
+                """ % (name, p.slug, p.title, p.datestring, tagline)
+                postslist += postline
         postslist += '</ul>'
         postshome = postshome.replace('$%sLIST' % name.upper(), postslist)
         html.write(postshome)
@@ -136,6 +157,31 @@ def build_posts(name):
     # Create standalone HTML pages
     for p in posts:
         _render_html_post(name, p)
+
+    # Create tag index pages
+    for tag, post_ids in tags_to_posts.items():
+        # Get tag index listing template
+        with open('templates/tags.html', 'r', encoding='utf-8') as f:
+            tagshome = f.read()
+
+        print('TAGS', name, tag, post_ids)
+        with open('static/tags/%s/%s.html' % (name, tag), 'w', encoding='utf-8') as html:
+            html.write(html_header)
+
+            tagslist = '<ul class="tags list %s">' % name
+            for post_id in post_ids:
+                p = posts[post_id]
+                if p.status.lower() != 'draft':
+                    tagslist += '<li><h2><a href="/%s/%s.html">%s</a></h2><p class="byline">Posted on %s</p></li>' % (name, p.slug, p.title, p.datestring)
+            tagslist += '</ul>'
+            tagshome = tagshome.replace('$TAGSLIST', tagslist)
+            tagshome = tagshome.replace('$TAGNAME', tag)
+            if name in ('releases',):
+                tagshome = tagshome.replace('$POSTTYPE', name.capitalize())
+            else:
+                tagshome = tagshome.replace('$POSTTYPE', name.capitalize() + ' posts')
+            html.write(tagshome)
+            html.write(html_footer)
 
     #######
     # GMI #
@@ -159,6 +205,29 @@ def build_posts(name):
     # Create standalone GMI pages
     for p in posts:
         _render_gmi_post(name, p)
+
+
+    # Make tag pages
+    for tag, post_ids in tags_to_posts.items():
+        # Get tag template
+        with open('templates/tags.gmi', 'r', encoding='utf-8') as f:
+            tagshome = f.read()
+
+        with open('static/gemini/tags/%s/%s.gmi' % (name, tag), 'w', encoding='utf-8') as gmi:
+            gmi.write(gmi_header)
+            tagslist = ''
+            for post_id in post_ids:
+                p = posts[post_id]
+                if p.status.lower() != 'draft':
+                    tagslist += '=> /%s/%s.gmi %s\nPosted on %s\n\n' % (name, p.slug, p.title, p.datestring)
+            tagshome = tagshome.replace('$TAGSLIST', tagslist)
+            tagshome = tagshome.replace('$TAGNAME', tag)
+            if name in ('releases',):
+                tagshome = tagshome.replace('$POSTTYPE', name.capitalize())
+            else:
+                tagshome = tagshome.replace('$POSTTYPE', name.capitalize() + ' posts')
+            gmi.write(tagshome)
+            gmi.write(gmi_footer)
 
 
 def _render_html_post(name, p):

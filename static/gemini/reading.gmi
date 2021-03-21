@@ -1,7 +1,7 @@
 => /about.gmi About
 => /reading.gmi Reading
-=> /listening.gmi Listening
-=> /blog.gmi Blog
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
 
 
 # Reading Lists
@@ -40,6 +40,8 @@ been read. Everything else is queued to read, or in some cases re-read.
 * Alex Robinson - Tricked
 
 * Alex Robinson - Too Cool to be Forgotten
+
+* Chris Ware - Rusty Brown
 
 * Jamie Hernández - The GIRL from H.O.P.P.E.R.S.
 

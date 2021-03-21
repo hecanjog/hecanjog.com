@@ -17,13 +17,13 @@ FOLLOWING = [
     'https://www.frogorbits.com/twtxt.txt',
     'https://fundor333.com/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
-    'http://twt.nfld.uk/user/jlj/twtxt.txt',
+    #'http://twt.nfld.uk/user/jlj/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
     'https://tilde.town/~lucidiot/twtxt.txt',
-    'https://mdosch.de/twtxt.txt',
     'https://tilde.club/~melyanna/twtxt.txt',
     'https://pbat.ch/twtxt.txt',
     'https://xandkar.net/twtxt.txt',
+    'http://eight45.net/oak.txt'
 ]
 
 OLD = 90

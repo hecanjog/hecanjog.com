@@ -10,7 +10,7 @@ Everything else is queued to read, or in some cases re-read.
 
 ### Fiction & Mythology
 
-- **James Joyce - _Finnegans Wake_**
+- James Joyce - _Finnegans Wake_
 - J. A. B. Van Buitenen - _The Mahabharata, Volume 1_
 - Italo Calvino - _The Baron in the Trees_
 - Click Nilson - _Collected Rewritings_
@@ -28,7 +28,8 @@ Everything else is queued to read, or in some cases re-read.
 - <del>Alex Robinson - _Box Office Poison_</del>
 - <del>Alex Robinson - _Tricked_</del>
 - <del>Alex Robinson - _Too Cool to be Forgotten_</del>
-- **Jamie Hernández - _The GIRL from H.O.P.P.E.R.S._**
+- **Chris Ware - _Rusty Brown_**
+- Jamie Hernández - _The GIRL from H.O.P.P.E.R.S._
 
 <hr>
 
@@ -36,9 +37,9 @@ Everything else is queued to read, or in some cases re-read.
 
 ### Music History / Theory / Practice
 
-- **Curtis Roads - _Composers and the Computer_**
-- **Martin Roberts - _Fantasma_**
-- **Derek Bailey - _Improvisation_**
+- <del>Curtis Roads - _Composers and the Computer_</del>
+- <del>Martin Roberts - _Fantasma_</del>
+- Derek Bailey - _Improvisation_
 - Daphne Oram - _An Individual Note of Music, Sound and Electronics_
 - Annette Vande Gorne - _Treatise on Writing Acousmatic Music on Fixed Media_
 - Jliat - _Bad Music_
@@ -51,13 +52,13 @@ Everything else is queued to read, or in some cases re-read.
 
 - Silvanus P. Thompson - _Calculus Made Easy_
 - Hermann Helmholtz - _On the Sensations of Tone_
-- **Paul Orland - _Math for Programmers_**
-- **Shaun Mitchell - _SDL Game Development_**
+- Paul Orland - _Math for Programmers_
+- Shaun Mitchell - _SDL Game Development_
 
 ### Programming / Computer Science
 
-- **Ben Klemens - _21st Century C_**
-- Jens Gustedt - _Modern C_
+- <del>Ben Klemens - _21st Century C_</del>
+- **Jens Gustedt - _Modern C_**
 - Steve Oualline - _Practical C Programming_
 - Dominik Picheta - _Nim in Action_
 
