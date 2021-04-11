@@ -288,6 +288,9 @@ if __name__ == '__main__':
     if sys.argv[1] == 'releases':
         build_posts('releases')
 
+    if sys.argv[1] == 'research':
+        build_posts('research')
+
     if sys.argv[1] == 'pages':
         build_pages()
 

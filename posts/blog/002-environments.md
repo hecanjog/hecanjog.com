@@ -44,7 +44,7 @@ grain, and then reconstructed the sound by shuffling the grains around so they w
 highest spectral centroid to lowest. Instead of the smooth sweep from high-energy sounds to low-energy sounds 
 that I imagined, the result was basically noise. I was bummed out and left things there.
 
-The wonderful folks at [Starling Labs](https://starling.space) are working on a cool project that involves doing 
+The wonderful folks at [Starling](https://starling.space) are working on a cool project that involves doing 
 analysis on a set of field recordings of train whistles. On Monday I had a long conversation about their process so far 
 and the analysis approaches they'd been trying. It got me excited to pick up on this project again and find a better 
 approach to segmenting the field recordings for analysis -- instead of just cutting them into fixed 

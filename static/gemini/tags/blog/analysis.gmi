@@ -1,0 +1,15 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Blog posts posts tagged _analysis_
+
+=> /blog/20181125-synthesizing-environments.gmi Synthesizing Environments
+
+Posted on 2018-11-25 20:00
+
+
+
+=> /twtxt.txt twtxt feed

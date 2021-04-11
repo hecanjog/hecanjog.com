@@ -1,0 +1,27 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Releases posts tagged _solo_
+
+=> /releases/20201117-atelophobia-2020.gmi Atelophobia [2020]
+
+Posted on 2020-11-17
+
+=> /releases/20200930-piano-solo-43a-from-three-walks-2020.gmi Piano Solo 43a from <em>Three Walks</em> [2020]
+
+Posted on 2020-09-30
+
+=> /releases/20200814-622-363-2020.gmi +622, +363 [2020]
+
+Posted on 2020-08-14
+
+=> /releases/20200722-fourfootlers-2020.gmi Fourfootlers [2020]
+
+Posted on 2020-07-22
+
+
+
+=> /twtxt.txt twtxt feed

@@ -1,0 +1,3 @@
+# $POSTTYPE posts tagged _$TAGNAME_
+
+$TAGSLIST

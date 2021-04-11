@@ -1,0 +1,15 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Blog posts posts tagged _astrid_
+
+=> /blog/20190923-guis-and-pippi.gmi GUIs and Pippi
+
+Posted on 2019-09-23 09:00
+
+
+
+=> /twtxt.txt twtxt feed

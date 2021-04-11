@@ -4,27 +4,59 @@
 => /blog/index.gmi Blog
 
 
+## About This Factotum
+
 I'm a computer musician based in Minnesota.
 => mailto:erik@hecanjog.com Send me an email!
 
-=> http://pippi.world I make open source computer music software.
+My PGP key:
+=> https://keyoxide.org/957FDAA1BF93667D67A555429E492DE62E945C19 957F DAA1 BF93 667D 67A5 5542 9E49 2DE6 2E94 5C19
 
-…and
-=> /projects.gmi open source computer music
-with it.
+## Community Projects
+
+### Pippi / libpippi 
+
+Pippi is
+=> https://pippi.world an open source cython & C-backed computer music system with a python interface
+. I use it to compose my music.
+
+### Aleatoric Forest 
 
 I’m slowly getting a web radio project off the ground with some friends.
-=> https://phonography.radio.af Aleatoric Forest
-is streaming right now.
+=> https://radio.af Aleatoric Forest
+is streaming several channels of … ?!?! … right now.
+
+### LuvSound 
+
+I started LuvSound in 2004 as a netlabel in the heyday of what we all
+kinda thought was going to be this post-capitalist moment of shifting
+the means of production into the hands of the common person… anyway now
+we have facebook and other bullshit, and distributing free music on the
+web is tainted by the poison of streaming platforms and
+everything-as-a-service-life…
+
+The
+=> https://luvsound.org music is still the point though.
+
+I have some plans for LuvSound, but it’s been essentially in maintenance
+mode for a number of years now.
+
+### Driftless Audio 
+
+This is a new home for collaborative software projects. We’re cooking up
+something fun one weekend at a time.
+
+### WFMU 
+
+My dayjob involves helping to build idealistic fundraising software for
+the best radio station in the world.
 
 => https://pledge.wfmu.org Pledge to WFMU!
 
-I’m taking a break from
+I post to
 => https://merveilles.town/@hecanjog mastodon
-right now, but you can follow my account at
-=> https://merveilles.town merveilles
-if you’d like. (
-=> https://merveillles.town/@hecanjog/feed.atom RSS works too.
-)
+and
+=> https://hecanjog.com/twtxt.txt twtxt
+sometimes too…
 
 => /twtxt.txt twtxt feed

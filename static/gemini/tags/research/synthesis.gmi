@@ -1,0 +1,15 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Research posts posts tagged _synthesis_
+
+=> /research/20210510-linear-predictive-coding.gmi Linear Predictive Coding
+
+Posted on 2021-05-10 12:00
+
+
+
+=> /twtxt.txt twtxt feed

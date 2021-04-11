@@ -1,0 +1,19 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Blog posts posts tagged _research_
+
+=> /blog/20181202-generating-stories.gmi Generating Stories
+
+Posted on 2018-12-2 20:00
+
+=> /blog/20181125-synthesizing-environments.gmi Synthesizing Environments
+
+Posted on 2018-11-25 20:00
+
+
+
+=> /twtxt.txt twtxt feed

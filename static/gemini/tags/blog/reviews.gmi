@@ -1,0 +1,27 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Blog posts posts tagged _reviews_
+
+=> /blog/20040522-eric-lyon-red-velvet.gmi Eric Lyon - Red Velvet
+
+Posted on 2004-5-22 22:51
+
+=> /blog/20031122-blue-sky-research-inshore-waters-ep.gmi Blue Sky Research - Inshore Waters EP
+
+Posted on 2003-11-22 3:22
+
+=> /blog/20031118-erik-bunger-variations-on-a-theme-by-lou-reed.gmi Erik Bünger - Variations on a Theme by Lou Reed
+
+Posted on 2003-11-18 15:22
+
+=> /blog/20031117-allegorical-power-series-vi.gmi Allegorical Power Series VI
+
+Posted on 2003-11-17 23:44
+
+
+
+=> /twtxt.txt twtxt feed

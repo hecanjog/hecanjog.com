@@ -62,7 +62,7 @@ sweep from high-energy sounds to low-energy sounds that I imagined, the
 result was basically noise. I was bummed out and left things there.
 
 The wonderful folks at
-=> https://starling.space Starling Labs
+=> https://starling.space Starling
 are working on a cool project that involves doing analysis on a set of
 field recordings of train whistles. On Monday I had a long conversation
 about their process so far and the analysis approaches they’d been

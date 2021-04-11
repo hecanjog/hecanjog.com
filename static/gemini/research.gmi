@@ -1,0 +1,17 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+These are mostly for my own reference, but maybe will be useful for others.
+Mostly these are notes on some topic I'm doing a literature review of, with links references and possibly unreadable shorthand.
+I'll try to make an effort to make these pages readable but no promises. :-)
+
+=> /research/20210510-linear-predictive-coding.gmi Linear Predictive Coding
+
+Posted on 2021-05-10 12:00
+
+
+
+=> /twtxt.txt twtxt feed

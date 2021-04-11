@@ -17,16 +17,23 @@
 - [Brendan Landis](https://heyexit.com): the man of many bands. a man of mystery &amp; intrigue.
 - [Andrew Weathers](https://andrewweathers.com): composer &amp; improviser extordinaire
 - [Paul Batchelor](https://pbat.ch): prolific computer musician &amp; DSP scientist
+- [Brent Gutzeit](https://brentgutzeit.bandcamp.com): spectral magnate
+- [Fredo Viola](https://www.fredoviola.com): super-songwriter
+
+## LIKES (I LIKE IT!)
+
+- [WFMU](https://wfmu.org): the best radio station in the world
+- [UbuWeb](https://ubu.com): the best website on the internet
 
 <br><hr/>
 
-<a href='https://webring.xxiivv.com/#random' class="merveilles-webring" target='_blank'><img src='https://webring.xxiivv.com/icon.white.svg'/> Merveilles Webring</a>
+<a href='https://webring.xxiivv.com/#random' class="merveilles-webring" target='_blank'><img src='https://webring.xxiivv.com/icon.black.svg'/> Merveilles Webring</a>
 
 <style>
     .merveilles-webring {
         background: none;
         border: none;
-        color: #fff;
+        color: #000;
         line-height: 2rem;
         display: flex;
         margin-top: 1rem;
