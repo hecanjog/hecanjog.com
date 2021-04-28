@@ -150,6 +150,11 @@ img {
     margin: 0;
 }
 
+.summary {
+    margin-top: 0;
+    padding-top: 0;
+}
+
 h2 + .byline {
     margin-top: -1rem;
 }

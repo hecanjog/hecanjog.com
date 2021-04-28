@@ -1,5 +1,5 @@
 Title: Linear Predictive Coding
-Date: 2021-05-10 12:00
+Date: 2021-04-10 12:00
 Category: Research
 Tags: lpc, synthesis
 Summary: Linear Predictive Coding

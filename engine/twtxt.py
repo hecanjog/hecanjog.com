@@ -11,17 +11,19 @@ POSTLIMIT = None
 
 FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
-    #'https://timmorgan.org/twtxt.txt',
-    #'https://feg-ffb.de/twtxt.txt',
-    #'https://www.frogorbits.com/twtxt.txt',
-    #'https://fundor333.com/twtxt.txt',
-    #'https://john.colagioia.net/twtxt.txt',
-    #'http://twt.nfld.uk/user/jlj/twtxt.txt',
-    #'http://lahvak.github.io/twtxt/twtxt.txt',
-    #'https://tilde.town/~lucidiot/twtxt.txt',
-    #'https://tilde.club/~melyanna/twtxt.txt',
-    #'https://xandkar.net/twtxt.txt',
-    #'http://eight45.net/oak.txt', 
+
+    # we are twtxt folks
+    'https://timmorgan.org/twtxt.txt',
+    'https://feg-ffb.de/twtxt.txt',
+    'https://www.frogorbits.com/twtxt.txt',
+    'https://fundor333.com/twtxt.txt',
+    'https://john.colagioia.net/twtxt.txt',
+    'http://twt.nfld.uk/user/jlj/twtxt.txt',
+    'http://lahvak.github.io/twtxt/twtxt.txt',
+    'https://tilde.town/~lucidiot/twtxt.txt',
+    'https://tilde.club/~melyanna/twtxt.txt',
+    'https://xandkar.net/twtxt.txt',
+    'http://eight45.net/oak.txt', 
 
     # merveilles webring folx...
     'https://pbat.ch/twtxt.txt', # paul
@@ -29,7 +31,6 @@ FOLLOWING = [
     'https://cblgh.org/twtxt.txt', # cblgh
     'https://wake.st/twtxt.txt', # wakest
     'https://royniang.com/tw.txt', # royniang
-
     'https://electro.pizza/twtxt.txt', 
     'https://avanier.now.sh/tw.txt', 
     'https://kaemura.com/twttxt.txt',
@@ -59,7 +60,7 @@ FOLLOWING = [
 ]
 
 OLD = 90
-HIDE = 14
+HIDE = 7
 
 def convertdate(date):
     date = parsedate(date)

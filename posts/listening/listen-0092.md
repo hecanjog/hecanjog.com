@@ -2,10 +2,12 @@ Title: Listening - Tuesday, November 3rd 2020
 Date: 2020-11-03 18:00
 Category: Listening
 Tags: listening
-Summary: Gentle Computer Music
-Status: draft
+Summary: A playlist of gentle computer music
 
-![Gentle Computer Music](/images/yolatengohasamnesia.jpg)
+
+### Gentle Computer Music
+
+A playlist.
 
 - [Sébastien Roux - Pillow (2003 Apestaartje)](https://www.discogs.com/S%C3%A9bastien-Roux-Pillow/release/488332)
 - [Fennesz - Endless Summer (2001 Mego)](https://www.discogs.com/Fennesz-Endless-Summer/master/832)
@@ -29,7 +31,5 @@ Status: draft
 - [Cascone + Chartier + Deupree - After (2002 12k)](https://www.discogs.com/Cascone-Chartier-Deupree-After/master/1472273)
 - [Collections Of Colonies Of Bees - Rance (2000 Crouton)](https://www.discogs.com/Collections-Of-Colonies-Of-Bees-Rance/release/613235)
 
-The proper way to determine the timeframe is probably to read Vital Weekly archives. When FDW starts complaining there's 
-nothing new under the sun, then that's probably the beginning of the peak.
 
 

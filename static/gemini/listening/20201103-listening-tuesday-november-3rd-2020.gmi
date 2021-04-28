@@ -8,7 +8,9 @@
 
 Posted on 2020-11-03 18:00
 
-[Gentle Computer Music]
+### Gentle Computer Music
+
+A playlist.
 
 * 
 => https://www.discogs.com/S%C3%A9bastien-Roux-Pillow/release/488332 Sébastien Roux - Pillow (2003 Apestaartje)
@@ -72,9 +74,5 @@ Posted on 2020-11-03 18:00
 
 * 
 => https://www.discogs.com/Collections-Of-Colonies-Of-Bees-Rance/release/613235 Collections Of Colonies Of Bees - Rance (2000 Crouton)
-
-The proper way to determine the timeframe is probably to read Vital
-Weekly archives. When FDW starts complaining there’s nothing new under
-the sun, then that’s probably the beginning of the peak.
 
 => /twtxt.txt twtxt feed

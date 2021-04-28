@@ -141,13 +141,23 @@ def build_posts(name):
                     tagline += '<li><a class="tag" href="/tags/%s/%s.html">#%s</a></li>' % (name, tag, tag.upper())
                 tagline += '</ul>'
 
+                if name == 'listening':
+                    # FIXME this is all getting a bit silly
+                    title = p.summary
+                    p.summary = None
+                else:
+                    title = p.title
+
+                if getattr(p, 'summary', None) is not None:
+                    tagline += '\n<p class="summary">%s</p>' % p.summary
+
                 postline = """
                 <li>
                     <h2><a href="/%s/%s.html">%s</a></h2>
                     <p class="byline">Posted on %s</p>
                     %s
                 </li>
-                """ % (name, p.slug, p.title, p.datestring, tagline)
+                """ % (name, p.slug, title, p.datestring, tagline)
                 postslist += postline
         postslist += '</ul>'
         postshome = postshome.replace('$%sLIST' % name.upper(), postslist)
@@ -192,7 +202,7 @@ def build_posts(name):
         postshome = f.read()
 
     # Create HTML index listing page
-    with open('static/gemini/%s.gmi' % name, 'w', encoding='utf-8') as gmi:
+    with open('static/gemini/%s/index.gmi' % name, 'w', encoding='utf-8') as gmi:
         gmi.write(gmi_header)
         postslist = ''
         for p in posts:

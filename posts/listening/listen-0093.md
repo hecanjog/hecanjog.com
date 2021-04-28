@@ -1,0 +1,62 @@
+Title: Listening - Monday, April 19th 2021
+Date: 2021-04-19 18:00
+Category: Listening
+Tags: listening
+Summary: Some textual music listening (Dashow, Schafer, Swedish composers of the 80s and 90s, etc...
+
+
+I've been struggling to decide what to listen to if anything recently when 
+I woke up this morning and hungrily pulled 15 albums from the shelf.
+
+I'll list them here as I listen & see if I actually get through them all today.
+
+Feels nice to really feel stoked about putting something on the stereo though!
+
+### Sudden Hunger
+
+Another playlist.
+
+- [Various – 5 Composers: ElectroAcoustic Music From Sweden 1987-91 (1993)](https://www.discogs.com/Various-5-Composers-ElectroAcoustic-Music-From-Sweden-1987-91/release/280044)
+
+Delicious 80s tape music in the popular acousmatic style of the time. Sadly the closing piece fell flat for me, but the rest of this collection is a top notch tour through 80s tape music as it was being practiced in Sweden at the time...
+
+
+- [R. Murrary Schafer - Loving (2016)](https://www.discogs.com/R-Murray-Schafer-Loving/release/12644023)
+
+Highly textual, I wish I spoke French. Superficially this doesn't leap out at me other than being an interesting piece of 60s new music... it has many interesting 
+moments of combination and transition. I think I like the transitional moments the best. When things settle, they tend to tread water aesthetically until the next 
+gleaming shift... still, it's way more adventurous than most 60s art music and I think this wants a closer listen with more background and context than 
+I was able to give it. The further into it I got, the more I enjoyed it. Past the idomatic 60s tropes there seems to actually be lots of interesting things happening...
+I still wish I could speak French.
+
+
+- [Various - Music Text (1999)](https://www.discogs.com/Fuller-Korde-Dashow-DeLio-Williams-Neruda-Ashbery-Inman-Music-Text/release/5079820)
+
+Um, obviously also highly textual. :-) Most of the tracks on this are settings of famous poems. As the cover says: *Williams, Neruda*... but also there are 
+some poems outside of the canon -- the James Dashow and Thomas DeLio settings use texts by John Ashbery and P. Inman respectively...
+
+The Wesley Fuller tracks kicking off the comp are all settings of poems by William Carlos Williams. This is.. just a classic style song cycle for piano and baritone.
+I thought the harmony throughout was nicely fluid and evocative, but these strike me as passable / nice idomatic studies that don't venture far from convention...
+
+I hate to write the effort off without having taken the time to for example study the relationship between the setting and the text, but 
+beyond some inventive lush moments in the piano part (and there are some really nice piano moments) this just reads like a student work to me. 
+In other words: mostly just passable, going through the motions, highly derivative.. maybe I've just heard too many student works in this style.
+
+I'm now biding my time waiting on the Dashow which was the reason I tracked this compilation down in the first place!
+
+In the meantime though, Shirish Korde has a much more creative (IMHO) ensemble offering in his *Drowned Woman Of The Sky* song cycle, which sets text by Pablo Neruda.
+
+The vocal writing is *interesting* (yay!) and the ensemble part ebbs and flows along with the soprano... sorry Wesley Fuller but this is how you write 
+a compelling song cycle. :)
+
+Well, now I'm at the end of my day -- I'd saved the Dashow and DeLio for last, but I think I hit my music saturation point for the day. That didn't take very long!
+
+So I'll pick up on this again in the morning, then.
+
+> Intermission...
+
+Now, the Dashow!
+
+... has led me [down a rabbit-hole](/research/). It's OK, I was expecting that.
+
+To be continued...

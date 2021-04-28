@@ -1,0 +1,36 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+## The Dyad System
+
+Posted on 2021-04-20 12:00
+
+## Overview
+
+## Available implementations
+
+* 
+=> http://jamesdashow.net/inglese/soft.gmi Dashow’s implementations
+
+## Reading notes
+
+### The Dyad System (Part One) 
+
+Dashow, James. “The Dyad System (Part One).” Perspectives of New Music,
+vol. 37, no. 1, 1999, pp. 39–76.
+
+## To read
+
+* 
+=> http://jamesdashow.net/download/DyadSystemPt2-3.pdf Dashow, James. The Dyad System (Parts Two and Three).  Perspectives of New Music, vol. 37, no. 2, 1999, pp. 189–230.
+
+* 
+=> http://jamesdashow.net/download/DashowCMJInterview.pdf Karpen, Richard, and James Dashow. An Interview with James Dashow.  Computer Music Journal, vol. 27, no. 2, 2003, pp. 14–29.
+
+* 
+=> http://www.bruceduffie.com/dashow.gmi Duffie, Bruce, and James Dashow. A Conversation with Bruce Duffie.  www.bruceduffie.com/dashow.gmi
+
+=> /twtxt.txt twtxt feed

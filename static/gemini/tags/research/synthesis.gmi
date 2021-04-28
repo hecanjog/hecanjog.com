@@ -6,9 +6,13 @@
 
 # Research posts posts tagged _synthesis_
 
-=> /research/20210510-linear-predictive-coding.gmi Linear Predictive Coding
+=> /research/20210420-the-dyad-system.gmi The Dyad System
 
-Posted on 2021-05-10 12:00
+Posted on 2021-04-20 12:00
+
+=> /research/20210410-linear-predictive-coding.gmi Linear Predictive Coding
+
+Posted on 2021-04-10 12:00
 
 
 
