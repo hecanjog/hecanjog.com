@@ -6,6 +6,10 @@
 
 # Releases posts tagged _drone_
 
+=> /releases/20210111-offering-2021.gmi Offering [2021]
+
+Posted on 2021-01-11
+
 => /releases/20201117-atelophobia-2020.gmi Atelophobia [2020]
 
 Posted on 2020-11-17

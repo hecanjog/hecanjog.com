@@ -1,11 +1,9 @@
-::: {.frame .highlighted}
-![](img/atelophobia.jpg)
 
-[Atelophobia \[2020\]](https://hecanjog.bandcamp.com/album/atelophobia)
--------------------------------------------------------------------------
-
-Five studies in letting go.
-:::
+<div class="frame highlighted">
+<figure><img src="img/guitar-solo-from-three-walks.jpg" alt="Guitar Solo from Three Walks" /></figure>
+<h2><a href="https://hecanjog.bandcamp.com/album/guitar-solo-from-three-walks">Guitar Solo from Three Walks [2021]</a></h2>
+<p>Guitar outtakes from the forthcoming <em>Three Walks</em>.</p>
+</div>
 
 ### Upcoming Releases
 

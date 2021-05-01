@@ -6,6 +6,18 @@
 
 # Releases posts tagged _solo_
 
+=> /releases/20210429-guitar-solo-from-three-walks-2021.gmi Guitar Solo from Three Walks [2021]
+
+Posted on 2021-04-29
+
+=> /releases/20210217-keyspaces-2021.gmi Keyspaces [2021]
+
+Posted on 2021-02-17
+
+=> /releases/20210111-offering-2021.gmi Offering [2021]
+
+Posted on 2021-01-11
+
 => /releases/20201117-atelophobia-2020.gmi Atelophobia [2020]
 
 Posted on 2020-11-17

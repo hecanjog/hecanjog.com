@@ -1,10 +1,10 @@
 ## DEFUND THE POLICE
 
--   [Black Visions Collective](https://www.blackvisionsmn.org)
--   [Minnesota Freedom Fund](https://minnesotafreedomfund.org)
+-   [Reclaim the Block Community Funding Resources](https://bit.ly/fundthecommunity)
+-   [Minnesota Freedom Fund](https://mnfreedomfund.org)
 -   [Milwaukee Muslim Women\'s Coalition](https://www.mmwconline.org/donate/)
 -   [The Okra Project](https://www.theokraproject.com)
-    (Donate via [paypal.me/theokraproject](https://paypal.me/theokraproject))
+    (Donate [here](https://www.flipcause.com/hosted_widget/hostedWidgetHome/MTAxMzk3))
 
 <br><hr/>
 
