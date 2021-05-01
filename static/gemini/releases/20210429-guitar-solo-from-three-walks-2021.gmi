@@ -1,0 +1,13 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+## Guitar Solo from Three Walks [2021]
+
+Posted on 2021-04-29
+
+Guitar outtakes from the forthcoming Three Walks.
+
+=> /twtxt.txt twtxt feed

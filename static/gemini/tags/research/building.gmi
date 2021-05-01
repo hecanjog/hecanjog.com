@@ -1,0 +1,15 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Research posts posts tagged _building_
+
+=> /research/20210428-electronics.gmi Electronics
+
+Posted on 2021-04-28 12:00
+
+
+
+=> /twtxt.txt twtxt feed

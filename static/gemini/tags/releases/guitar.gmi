@@ -1,0 +1,15 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Releases posts tagged _guitar_
+
+=> /releases/20210429-guitar-solo-from-three-walks-2021.gmi Guitar Solo from Three Walks [2021]
+
+Posted on 2021-04-29
+
+
+
+=> /twtxt.txt twtxt feed
