@@ -53,10 +53,8 @@ the best radio station in the world.
 
 => https://pledge.wfmu.org Pledge to WFMU!
 
-I post to
-=> https://merveilles.town/@hecanjog mastodon
-and
-=> https://hecanjog.com/twtxt.txt twtxt
+I post
+=> https://hecanjog.com/twtxt.txt here
 sometimes too…
 
 => /twtxt.txt twtxt feed

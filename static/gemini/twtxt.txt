@@ -43,7 +43,7 @@
 2020-12-12T23:21:34-06:00	On reflection, many of the projects that recently made me so overwhelmed that I put everything down for a while -- and down they've stayed mostly for more than a couple weeks at this point -- many of those projects were started or sparked somehow in the wake of that week off. For quite a while afterward even I kept that feeling of free exploration, and in the process knocked off a ton of things I'm still proud of now. Some kind of friction eventually caught up and pushed it all into the ground again though, and here I am totally unable to move the needle forward on anything outside of work. (And work has become tedious again...)
 2020-12-12T23:26:14-06:00	Sorry for flooding your timelines, if anyone is actually reading this.
 2020-12-24T01:10:14-06:00	For the latest, most up to date catalog listings. https://hecanjog.com/catalog.html
-2020-12-24T15:04:39-06:00	@<prologic https://twtxt.net/user/prologic/twtxt.txt> It's a catalog containing a partial listing of all my commerical and non-commerical offerings: listed, unlisted, imagined, manufactured, found, constructed. Enhanced with insight from psionic druids where appropriate to tailor the experience just to you. (Some EU countries may prohibit this.)
+2020-12-24T15:04:39-06:00	@<prologic https://twtxt.net/user/prologic/twtxt.txt> It's a catalog containing a partial listing of all my commercial and non-commercial offerings: listed, unlisted, imagined, manufactured, found, constructed. Enhanced with insight from psionic druids where appropriate to tailor the experience just to you. (Some EU countries may prohibit this.)
 2021-01-10T20:24:57-06:00	Kitty says: you're finally awake, lets play dummy!
 2021-01-23T01:14:45-06:00	Movies and TV don't show people watching movies and TV much.
 2021-01-26T09:31:22-06:00	I've been having recurring dreams where my band gets back together (in a tacitly post-covid world) and we just argue a lot. I guess at least I'm thinking about them. <3 (Also I just realized I've never once had a dream involving covid in any way. Weird.)
@@ -64,7 +64,7 @@
 2021-02-23T13:16:56-06:00	I'm exploring the Cocteau Twins back catalog via two singles collections. Victorialand stands above all forever, but I'd like to hear more than the handful of EPs and misc I've encountered so far... surprising how much of an anomaly Victorialand is in their catalog, or so it seems...
 2021-02-23T13:23:39-06:00	Testing twtxt to mastodon cross-posting... not sure if this is a good idea.
 2021-02-25T12:50:01-06:00	STOP WORK NEVER WORK
-2021-03-07T09:21:46-06:00	Starting a second job today picking up some hours on the weekend helping an old client with a new project... I was worried I'd feel overwhelmed right away but it's actully a bit fun to be able to start on something fresh that has the promise to last for weeks, maybe months, but then that's it.
+2021-03-07T09:21:46-06:00	Starting a second job today picking up some hours on the weekend helping an old client with a new project... I was worried I'd feel overwhelmed right away but it's actually a bit fun to be able to start on something fresh that has the promise to last for weeks, maybe months, but then that's it.
 2021-03-07T09:24:02-06:00	At some point today though I have an unscheduled play date with my nephew -- we're playing mario kart over the internet. I haven't played mario kart since it was on the nintendo 64 so this will be interesting!
 2021-03-07T10:37:53-06:00	Is virtualbox kind of a pain in the ass to install or has it just been long enough that I forgot?
 2021-03-07T12:33:41-06:00	I hope that with the new Apple ARM CPUs the current generation of mac-based generative art doesn't suffer the same fate it did in the transition from OS9 to OSX -- in other words: left to die except for those willing to maintain an OS emulator or possibly an ancient machine... but probably this is the fate of all mac and ios based software art...?
@@ -111,3 +111,4 @@
 2021-04-30T08:55:38-05:00	Yeah, the OJ is the problem taste in here. Next time no OJ, more kale & ginger!
 2021-04-30T16:12:32-05:00	I'm actually running out of things to do online when my modem is on. It's a nice feeling. :-)
 2021-05-01T09:37:14-05:00	New smoothie batch today: 2 bushels of kale (filled the food processor up 2x!), 3/4c carrot juice, 1/4c orange juice, 1/2c coconut water, 1/2c greek yogurt, 2c frozen mango, 2 bananas, 1tsp matcha, 4tsp chia seeds, 8tsp hemp hearts, 8tsp ginger juice.
+2021-05-01T11:35:18-05:00	There's a whole world of musical possibility between total serialism and total intuition.

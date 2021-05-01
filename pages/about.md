@@ -38,5 +38,4 @@ My dayjob involves helping to build idealistic fundraising software for the best
 
 <br/><br/><br/>
 
-<small>I post to [mastodon](https://merveilles.town/@hecanjog) <br/>
-and [twtxt](https://hecanjog.com/twtxt.txt) sometimes too...</small>
+<small>I post [here](https://hecanjog.com/twtxt.txt) sometimes too...</small>

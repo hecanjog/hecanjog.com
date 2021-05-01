@@ -1,9 +1,11 @@
 
-<div class="frame highlighted">
-<figure><img src="img/guitar-solo-from-three-walks.jpg" alt="Guitar Solo from Three Walks" /></figure>
+<div class="frame">
+<img src="img/guitar-solo-from-three-walks.jpg" alt="Guitar Solo from Three Walks" />
 <h2><a href="https://hecanjog.bandcamp.com/album/guitar-solo-from-three-walks">Guitar Solo from Three Walks [2021]</a></h2>
 <p>Guitar outtakes from the forthcoming <em>Three Walks</em>.</p>
 </div>
+
+<hr/>
 
 ### Upcoming Releases
 
