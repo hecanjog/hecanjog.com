@@ -1,35 +1,57 @@
 # Reading Lists
 
-Items in **bold text** are currently being read.
-Items in <del>strikethrough</del> have been read.
-Everything else is queued to read, or in some cases re-read.
+This used to be a *what I'm reading now* list. Now, 
+it's a list of books I've enjoyed and would like to 
+recommend by subject. 
+
+Updated now & forever.
 
 <hr>
 
 ## Literature
 
-### Fiction & Mythology
+### Fiction 
 
-- James Joyce - _Finnegans Wake_
-- J. A. B. Van Buitenen - _The Mahabharata, Volume 1_
-- Italo Calvino - _The Baron in the Trees_
-- Click Nilson - _Collected Rewritings_
-
-### History
-
-- Herodotus - _The Histories_
+- Italo Calvino - _If on a Winter's Night A Traveler_
+- Miguel de Cervantes - _Don Quixote_ (the 2003 translation by Edith Grossman is lots of fun)
+- Thomas More - _Utopia_
+- Ray Bradbury - _R is for Rocket_
+- Voltaire - _Candide_
+- Hermann Hesse - _Siddhartha_
+- Umberto Eco - _Foucault's Pendulum_
+- Astrid Lindgren - _Pippi Longstocking_, _Pippi Goes on Board_, _Pippi in the South Seas_
+- Mary Ann Evans - _Middlemarch_
 
 ### Comic Books / Graphic Novels
 
-- <del>Mary Safro - _Drugs & Wires_</del>
-- <del>John Pound - _Ran Dum_</del>
-- <del>Jamie Hernández - _Maggie The Mechanic_</del>
-- <del>Alex Robinson - _Our Expanding Universe_</del>
-- <del>Alex Robinson - _Box Office Poison_</del>
-- <del>Alex Robinson - _Tricked_</del>
-- <del>Alex Robinson - _Too Cool to be Forgotten_</del>
-- **Chris Ware - _Rusty Brown_**
-- Jamie Hernández - _The GIRL from H.O.P.P.E.R.S._
+- John Pound - _Ran Dum_
+- Alex Robinson - _Box Office Poison_
+- Alex Robinson - _Tricked_
+
+### Philosophy / Mythology / Critical Theory
+
+- R. K. Narayan - _The Ramayana_
+- J. A. B. Van Buitenen - _The Mahabharata, Volume 1_
+- Richard Harland - _Superstructuralism_
+- Peter Kropotkin - _The Conquest of Bread_
+- Robert A. F. Thurman - _The Holy Teaching of Vimalakīrti_
+- Michel Foucault - _The History of Sexuality, Volume 1_
+- Harischandra Kaviratna - _Dhammapada_
+- Si Kahn - _How People Get Power: Organizing Oppressed Communities for Action_
+- David Ogilvy - _Confessions of an Advertising Man_
+- Sigmund Freud - _The Joke and Its Relation to the Unconscious_
+- Robert Paul Wolff - _In Defense of Anarchism_
+- Frederic Jameson - _Postmodernism or, the Cultural Logic of Late Capitalism_
+
+### History
+
+- Roxanne Dunbar-Ortiz - _An Indigenous Peoples' History of the United States_
+- Howard Zinn - _A People's History of the United States_
+
+### Biography / Travelogue / Personal Essays
+
+- Tim Mackintosh-Smith - _Yemen_
+- David Revill - _The Roaring Silence_
 
 <hr>
 
@@ -37,12 +59,9 @@ Everything else is queued to read, or in some cases re-read.
 
 ### Music History / Theory / Practice
 
-- <del>Curtis Roads - _Composers and the Computer_</del>
-- <del>Martin Roberts - _Fantasma_</del>
-- Derek Bailey - _Improvisation_
-- Daphne Oram - _An Individual Note of Music, Sound and Electronics_
+- James Tenney - _META / HODOS and META Meta / Hodos_
+- Curtis Roads - _Composers and the Computer_
 - Annette Vande Gorne - _Treatise on Writing Acousmatic Music on Fixed Media_
-- Jliat - _Bad Music_
 
 <hr>
 
@@ -50,21 +69,10 @@ Everything else is queued to read, or in some cases re-read.
 
 ### Computer Music / DSP / Math / Physics / Electronics
 
-- Silvanus P. Thompson - _Calculus Made Easy_
+- Edward R. Scheinerman - _Mathematical Notation - A Guide for Engineers and Scientists_
 - Hermann Helmholtz - _On the Sensations of Tone_
-- Paul Orland - _Math for Programmers_
-- Shaun Mitchell - _SDL Game Development_
 
 ### Programming / Computer Science
 
-- <del>Ben Klemens - _21st Century C_</del>
-- **Jens Gustedt - _Modern C_**
-- Steve Oualline - _Practical C Programming_
-- Dominik Picheta - _Nim in Action_
-
-### Critical Theory
-
-- Ibram X. Kendi - _How to be an antiracist_
-- **Peter Kropotkin - _The Conquest of Bread_**
-
+- Jens Gustedt - _Modern C_
 

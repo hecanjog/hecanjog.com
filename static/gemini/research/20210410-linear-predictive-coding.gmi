@@ -328,6 +328,30 @@ polar form?
 I’m still also confused as to why this approach doesn’t need to do any
 windowing!
 
+### Lecture slides by Dan Ellis 
+
+Ellis, Dan. 2013. “Lecture 6: Linear Prediction (LPC).” E4896 Music
+Signal Processing, Columbia University.
+
+OK right away these slides make the connection between resonances and
+the poles of a filter, which is interesting…
+
+The pseudocode implementation of a second order IIR bandpass filter is
+the first example given of “simple resonance” – copied directly from the
+slide:
+
+slides covering more obvious aspects of LPC design
+
+OK, page 6 shows the actual LPC prediction equation…
+
+p is the number of filter poles. {ak} are the filter coefficients e[n]
+is the prediction error…
+
+After some help from W reading the sigma notation this actually makes a
+bit of sense…
+
+Re-written as python pseudocode:
+
 ## To read
 
 ### Dodge

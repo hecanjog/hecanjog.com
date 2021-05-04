@@ -214,6 +214,65 @@ I'm confused by that, it seems to imply they're using an FFT-based approach if t
 
 I'm still also confused as to why this approach doesn't need to do any windowing!
 
+
+### [Lecture slides by Dan Ellis](https://www.ee.columbia.edu/~dpwe/e4896/lectures/E4896-L06.pdf)
+
+> Ellis, Dan. 2013. "Lecture 6: Linear Prediction (LPC)." E4896 Music Signal Processing, Columbia University.
+
+OK right away these slides make the connection between *resonances* and the poles of a filter, which is interesting...
+
+The pseudocode implementation of a *second order IIR bandpass filter* is the first example given of "simple resonance" --
+copied directly from the slide:
+
+``` pseudocode
+Q = 10;
+omega = pi*0.1;
+r = 1 - omega/(2*Q);
+a = [1 -2*r*cos(omega) r*r];
+y = filter(1,a,[1,zeros(1,100)]);
+stem(y)
+```
+
+_slides covering more obvious aspects of LPC design_
+
+OK, page 6 shows the actual LPC prediction equation...
+
+*p* is the number of filter poles.
+<i>{a<sub>k</sub>}</i> are the filter coefficients
+<i>e[n]</i> is the prediction error...
+
+After some help from W reading the sigma notation this 
+actually makes a bit of sense...
+
+Re-written as python pseudocode:
+
+``` python
+
+length = 100
+poles = 3
+
+# prediction error
+e = [0] * length
+
+# filter coefficients
+a = [0] * poles
+
+# input
+s = [0] * length
+
+# output
+o = [0] * (length + poles + 1)
+
+for n in range(length):
+    value = 0
+    for k in range(p):
+        value += a[k] * s[max(0, n - k + 1)] + e[n]
+    o[i] = value
+
+```
+
+
+
 ## To read
 
 ### Dodge

@@ -4,7 +4,7 @@
     <head>
         <title>He Can Jog</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="/style.css?v=2021-5-1" />
+        <link rel="stylesheet" href="/style.css?v=2021-5-3" />
         <link rel="sweetheart" href="https://github.com/luvsound/pippi"/>
     </head>
 
@@ -201,6 +201,44 @@
 <p>They say the covariance method is also well known for producing unstable filter frames… to compensate they check each filter coefficient to see if the pole has a radius greater than 0.998, and move it to 0.998 if so…</p>
 <p>I’m confused by that, it seems to imply they’re using an FFT-based approach if they are able to convert the coefficient frequences into polar form?</p>
 <p>I’m still also confused as to why this approach doesn’t need to do any windowing!</p>
+<h3 id="lecture-slides-by-dan-ellis"><a href="https://www.ee.columbia.edu/~dpwe/e4896/lectures/E4896-L06.pdf">Lecture slides by Dan Ellis</a></h3>
+<blockquote>
+<p>Ellis, Dan. 2013. “Lecture 6: Linear Prediction (LPC).” E4896 Music Signal Processing, Columbia University.</p>
+</blockquote>
+<p>OK right away these slides make the connection between <em>resonances</em> and the poles of a filter, which is interesting…</p>
+<p>The pseudocode implementation of a <em>second order IIR bandpass filter</em> is the first example given of “simple resonance” – copied directly from the slide:</p>
+<pre class="pseudocode"><code>Q = 10;
+omega = pi*0.1;
+r = 1 - omega/(2*Q);
+a = [1 -2*r*cos(omega) r*r];
+y = filter(1,a,[1,zeros(1,100)]);
+stem(y)</code></pre>
+<p><em>slides covering more obvious aspects of LPC design</em></p>
+<p>OK, page 6 shows the actual LPC prediction equation…</p>
+<p><em>p</em> is the number of filter poles. <i>{a<sub>k</sub>}</i> are the filter coefficients <i>e[n]</i> is the prediction error…</p>
+<p>After some help from W reading the sigma notation this actually makes a bit of sense…</p>
+<p>Re-written as python pseudocode:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>length <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>poles <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># prediction error</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>e <span class="op">=</span> [<span class="dv">0</span>] <span class="op">*</span> length</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># filter coefficients</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> [<span class="dv">0</span>] <span class="op">*</span> poles</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># input</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> [<span class="dv">0</span>] <span class="op">*</span> length</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># output</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>o <span class="op">=</span> [<span class="dv">0</span>] <span class="op">*</span> (length <span class="op">+</span> poles <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> n <span class="kw">in</span> <span class="bu">range</span>(length):</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    value <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(p):</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>        value <span class="op">+=</span> a[k] <span class="op">*</span> s[<span class="bu">max</span>(<span class="dv">0</span>, n <span class="op">-</span> k <span class="op">+</span> <span class="dv">1</span>)] <span class="op">+</span> e[n]</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    o[i] <span class="op">=</span> value</span></code></pre></div>
 <h2 id="to-read">To read</h2>
 <h3 id="dodge">Dodge</h3>
 <p>I should re-read Charles Dodge’s chapter on <em>In Celebration</em> from the Roads book <em>Composers &amp; the Computer</em> which was my introduction to LPC…</p>

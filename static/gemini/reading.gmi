@@ -6,88 +6,106 @@
 
 # Reading Lists
 
-Items in bold text are currently being read. Items in strikethrough have
-been read. Everything else is queued to read, or in some cases re-read.
+This used to be a what I’m reading now list. Now, it’s a list of books
+I’ve enjoyed and would like to recommend by subject.
+
+Updated now & forever.
 
 ## Literature
 
-### Fiction & Mythology
+### Fiction
 
-* James Joyce - Finnegans Wake
+* Italo Calvino - If on a Winter’s Night A Traveler
 
-* J. A. B. Van Buitenen - The Mahabharata, Volume 1
+* Miguel de Cervantes - Don Quixote (the 2003 translation by Edith
+Grossman is lots of fun)
 
-* Italo Calvino - The Baron in the Trees
+* Thomas More - Utopia
 
-* Click Nilson - Collected Rewritings
+* Ray Bradbury - R is for Rocket
 
-### History
+* Voltaire - Candide
 
-* Herodotus - The Histories
+* Hermann Hesse - Siddhartha
+
+* Umberto Eco - Foucault’s Pendulum
+
+* Astrid Lindgren - Pippi Longstocking, Pippi Goes on Board, Pippi in
+the South Seas
+
+* Mary Ann Evans - Middlemarch
 
 ### Comic Books / Graphic Novels
 
-* Mary Safro - Drugs & Wires
-
 * John Pound - Ran Dum
-
-* Jamie Hernández - Maggie The Mechanic
-
-* Alex Robinson - Our Expanding Universe
 
 * Alex Robinson - Box Office Poison
 
 * Alex Robinson - Tricked
 
-* Alex Robinson - Too Cool to be Forgotten
+### Philosophy / Mythology / Critical Theory
 
-* Chris Ware - Rusty Brown
+* R. K. Narayan - The Ramayana
 
-* Jamie Hernández - The GIRL from H.O.P.P.E.R.S.
+* J. A. B. Van Buitenen - The Mahabharata, Volume 1
+
+* Richard Harland - Superstructuralism
+
+* Peter Kropotkin - The Conquest of Bread
+
+* Robert A. F. Thurman - The Holy Teaching of Vimalakīrti
+
+* Michel Foucault - The History of Sexuality, Volume 1
+
+* Harischandra Kaviratna - Dhammapada
+
+* Si Kahn - How People Get Power: Organizing Oppressed Communities for
+Action
+
+* David Ogilvy - Confessions of an Advertising Man
+
+* Sigmund Freud - The Joke and Its Relation to the Unconscious
+
+* Robert Paul Wolff - In Defense of Anarchism
+
+* Frederic Jameson - Postmodernism or, the Cultural Logic of Late
+Capitalism
+
+### History
+
+* Roxanne Dunbar-Ortiz - An Indigenous Peoples’ History of the United
+States
+
+* Howard Zinn - A People’s History of the United States
+
+### Biography / Travelogue / Personal Essays
+
+* Tim Mackintosh-Smith - Yemen
+
+* David Revill - The Roaring Silence
 
 ## Music
 
 ### Music History / Theory / Practice
 
+* James Tenney - META / HODOS and META Meta / Hodos
+
 * Curtis Roads - Composers and the Computer
-
-* Martin Roberts - Fantasma
-
-* Derek Bailey - Improvisation
-
-* Daphne Oram - An Individual Note of Music, Sound and Electronics
 
 * Annette Vande Gorne - Treatise on Writing Acousmatic Music on Fixed
 Media
-
-* Jliat - Bad Music
 
 ## Technical
 
 ### Computer Music / DSP / Math / Physics / Electronics
 
-* Silvanus P. Thompson - Calculus Made Easy
+* Edward R. Scheinerman - Mathematical Notation - A Guide for Engineers
+and Scientists
 
 * Hermann Helmholtz - On the Sensations of Tone
 
-* Paul Orland - Math for Programmers
-
-* Shaun Mitchell - SDL Game Development
-
 ### Programming / Computer Science
 
-* Ben Klemens - 21st Century C
-
 * Jens Gustedt - Modern C
-
-* Steve Oualline - Practical C Programming
-
-* Dominik Picheta - Nim in Action
-
-### Critical Theory
-
-* Ibram X. Kendi - How to be an antiracist
-
-* Peter Kropotkin - The Conquest of Bread
 
 => /twtxt.txt twtxt feed

@@ -13,35 +13,34 @@ FOLLOWING = [
     'https://hecanjog.com/twtxt.txt', # sanity check
 
     # we are twtxt folks
-    'https://timmorgan.org/twtxt.txt',
+    #'https://timmorgan.org/twtxt.txt',
     'https://feg-ffb.de/twtxt.txt',
     'https://www.frogorbits.com/twtxt.txt',
     'https://fundor333.com/twtxt.txt',
     'https://john.colagioia.net/twtxt.txt',
     'http://twt.nfld.uk/user/jlj/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
-    'https://tilde.town/~lucidiot/twtxt.txt',
+    #'https://tilde.town/~lucidiot/twtxt.txt',
     'https://tilde.club/~melyanna/twtxt.txt',
     'https://xandkar.net/twtxt.txt',
-    'http://eight45.net/oak.txt', 
 
-    # merveilles webring folx...
-    'https://pbat.ch/twtxt.txt', # paul
-    'https://wiki.xxiivv.com/links/tw.txt', # xxiivv
-    'https://cblgh.org/twtxt.txt', # cblgh
-    'https://wake.st/twtxt.txt', # wakest
-    'https://royniang.com/tw.txt', # royniang
-    'https://electro.pizza/twtxt.txt', 
-    'https://avanier.now.sh/tw.txt', 
-    'https://kaemura.com/twttxt.txt',
+    # merveilles webring folks...
+    'https://pbat.ch/twtxt.txt', 
+    'https://wiki.xxiivv.com/links/tw.txt', 
+    'https://cblgh.org/twtxt.txt', 
+    'https://wake.st/twtxt.txt', 
+    #'https://royniang.com/tw.txt', 
+    #'https://electro.pizza/twtxt.txt', 
+    #'https://avanier.now.sh/tw.txt', 
+    #'https://kaemura.com/twttxt.txt',
     'https://xvw.github.io/twtxt/hallway.txt', 
-    'https://2d4.dev/tw.txt', 
+    #'https://2d4.dev/tw.txt', 
     'https://drisc.io/hallway/twtxt.txt', 
     'https://phse.net/twtxt/merv.txt', 
-    'https://t.seed.hex22.org/twtxt.txt', 
+    #'https://t.seed.hex22.org/twtxt.txt', 
     'https://mboxed.github.io/sodatsu/tw.txt', 
     'https://feed.amorris.ca/hallway.txt', 
-    'https://kor.nz/twtxt.txt', 
+    #'https://kor.nz/twtxt.txt', 
     'https://lublin.se/twtxt.txt', 
     'https://txt.eli.li/twtxt/twtxt.txt', 
     'https://azlen.me/twtxt.txt', 
@@ -50,13 +49,15 @@ FOLLOWING = [
     'https://dotcomboom.somnolescent.net/twtxt.txt', 
     'https://xj-ix.luxe/.well-known/twtxt/xjix.txt', 
     'https://travisshears.com/apps/twtxt/twtxt.txt', 
-    'https://www.romainaubert.com/twtxt.txt', 
+    #'https://www.romainaubert.com/twtxt.txt', 
     'https://mineralexistence.com/tw.txt', 
     'https://0l.wtf/twtxt.txt', 
-    'https://darch.dk/twtxt.txt', 
-    'https://dom.ink/tw.txt', 
-    'https://eric.jetzt/twtxt.txt', 
+    #'https://darch.dk/twtxt.txt', 
+    #'https://twtxt.net/user/darch/twtxt.txt',
+    #'https://dom.ink/tw.txt', 
+    #'https://eric.jetzt/twtxt.txt', 
     'https://www.gr0k.net/twtxt.txt', 
+    #'https://twtxt.net/user/prologic/twtxt.txt',
 ]
 
 OLD = 90
