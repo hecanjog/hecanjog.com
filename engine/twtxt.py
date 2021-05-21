@@ -20,6 +20,9 @@ FOLLOWING = [
     'https://john.colagioia.net/twtxt.txt',
     'http://twt.nfld.uk/user/jlj/twtxt.txt',
     'http://lahvak.github.io/twtxt/twtxt.txt',
+
+
+
     #'https://tilde.town/~lucidiot/twtxt.txt',
     'https://tilde.club/~melyanna/twtxt.txt',
     'https://xandkar.net/twtxt.txt',
@@ -57,7 +60,9 @@ FOLLOWING = [
     #'https://dom.ink/tw.txt', 
     #'https://eric.jetzt/twtxt.txt', 
     'https://www.gr0k.net/twtxt.txt', 
-    #'https://twtxt.net/user/prologic/twtxt.txt',
+    'https://twtxt.net/user/prologic/twtxt.txt',
+
+
 ]
 
 OLD = 90

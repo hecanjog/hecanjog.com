@@ -1,0 +1,146 @@
+Title: Instrument building & astrid
+Date: 2018-12-2 20:00
+Tags: astrid, linux, improvisation, composition, performance practice
+Summary: Instrument building & astrid
+Status: draft
+
+
+It's been a couple years since I wrote here about Astrid. Since then, 
+I started the `libpippi` project, basically as a way to move all the 
+core functionality of pippi into very portable c89 modules [1] so I 
+can write instrument firmware for microcontrollers like the 
+Electro-Smith Daisy in a compositional style a little closer to the 
+way I'd write a pippi instrument for Astrid.
+
+I realized today I've never actually shared the most interesting aspects 
+of Astrid, [2] maybe since I was so focused on rewriting the surrounding engine 
+and thinking about new DAW-like extensions surrounding the instrument script 
+format...
+
+So, starting with an example I've shared previously -- what constitutes an 
+Astrid instrument script?
+
+Simply put: an instrument script is a standalone python module that can be 
+registered with Astrid. Once registered, Astrid will load the module at runtime, 
+facilitate command interaction via an `EventContext`, and reload the module between renders 
+if the file on disk is updated. (Which is about as far into "live coding" as 
+I care to go with Astrid -- still, it's a core feature of instrument scripts.)
+
+The most minimal instrument script contains a single function named `play` that 
+takes a single parameter (named anything you like, but I prefer to call it `ctx`) 
+which is an instance of an `EventContext` object that allows for communication with 
+the outside world, and mutating an external "session" state at will. 
+(More on the `EventContext` later.)
+
+Every time Astrid requests a new buffer from an instrument script (I'll go into when 
+that happens later) it creates a fresh `EventContext` for all of the players in the 
+instrument.
+
+Here's the most basic instrument script, which produces 1 second of silence any time 
+a render is requested:
+
+``` python
+from pippi import dsp
+
+def play(ctx):
+    out = dsp.buffer(length=1)
+    yield out
+```
+
+### In-Instrument Polyphony
+
+You probably noticed this function is actually a python *generator*. In the 
+example above the generator will yield exactly one buffer before it is exhausted 
+and the render event is completed.
+
+Instead of silence, lets render a 1 second chord of sinewaves at 200, 300, and 400 hertz.
+
+``` python
+from pippi import dsp, oscs
+
+def play(ctx):
+    freqs = [200, 300, 400]
+    for freq in freqs:
+        yield oscs.SineOsc(freq=freq, amp=0.2).play(1)
+```
+
+Internally, Astrid exhausts the generator by rendering each 1 second sinewave and then 
+schedules them all for simultaneous playback.
+
+Every render would sound like this:
+
+<audio src="{static}/sounds/astrid-inst-001.mp3" controls></audio>
+
+<details>
+<summary>Boring personal aside...</summary>
+
+I started experimenting with performing with Max/MSP in my high school fusion band in 1999 but it 
+wasn't until my freshman year of college circa 2001 when I got my first MIDI controller (the BCR-2000 
+-- aka knob heaven!) and bascially settled into the paradigm I'd explore for the next ten years or so.
+
+The computer (a laptop that would be rivaled by a raspberry pi today) would be the core sound engine in 
+the setup running a Max/MSP patch. Unless I was explicitly "live patching" [3] the computer would basically 
+never be touched during a performance. [4] The instrument then wasn't just the laptop and Max/MSP patch, but 
+an ever-changing pile of foley-style percussion (basically microphones and objects of various kinds) mixing boards, 
+guitar pedals, broken electronics, microcassette recorders, bells, and MIDI controllers etc.
+
+In this time I lived the idea Ellen Fullman has expressed so well: "instrument design is composition". Mostly 
+every performance I'd make a new Max/MSP patch, assemble an ensemble of stuff from the orchestra of rocks, bells, 
+toys etc [5] I'd collected over the years, and construct my instrument du jour from this. 
+
+Very much invested in the practice of improvision, I liked to deliberately pull myself out of my comfort zone by 
+changing up the setup as much as I could, of course over the years I developed some performance practice in unexpected 
+places (like the kindle, and a special little handheld microcassette recorder, but also my bowl of rocks and metals...) 
+but I loved the freehweeling experience of having no idea what would happen -- most especially when playing with others 
+who had the same philosophy. My tours with Jason Nanna and Brendan Landis during that era were particularly fun in that 
+sense since we'd be able to spend part of our days dreaming up together some new wrinkle to try out during the performance 
+that evening. We'd write loose "scores" [6] together for our newly devised instruments, or just jump in and see what would happen.
+
+When I think of "instrument building" this is the context that is most familiar to me -- somewhere in the liminal space between 
+composition, construction, and inter-exploration of musical spaces with friends.
+
+Sometime between 2011 when I wrote the first lines of Pippi and ~2013 when I wrote the first version of Astrid and started 
+dogfooding it full time I started to experiment with command-based interfaces, and trying to approach the computer "on its 
+own terms" -- in other words trying to get to know linux as an instument in its own right, and learn what I could from the 
+affordances it provided as a fantastic integrated development environment to apply to my interest in instrument design. 
+
+I had just switched to linux full time a few years earlier, replacing Max/MSP with Pure Data, Logic (and various other DAWs) 
+with Ardour, and so on. Sometime around this time I also switched from Pure:Dyne to Arch linux, but that was only because the 
+Pure:Dyne project was closed. I owe a lot to that distribution for introducing me to the world of linux multimedia, and a
+particular flavor of DIY-and-share philosphy that's still alive and well in some places like the lurk community etc -- and 
+which resonated perfectly with my background producing anarchist zines and general anti-capitalist philosphy...
+
+The project of approaching the computer on its own terms led me to dogfood astrid completely inside the box so to speak, 
+and for the first time deliberately approach the laptop as an all-in-one instrument in every sense of the word. Seeing 
+Majel Someone? perform at the first supercollider conference in 2009 and reading more about her approach to attempting to 
+expliot every sensing device in a modern laptop as an instrumental interface. [7]
+
+<< ramble ramble -- get to the point: libpippi is saying "ok, I'm ready to try all this again with that new thing in mind" aka command control + sprawling mess of junk & even "traditional" instruments >>
+
+[7] Stuff like network traffic, the webcam, of course the touchpad and keyboard and mic etc too... but also IIRC 
+exposing the internal signals of the system and sonifying OS background processes etc.
+
+[6] Sometimes in the literal sense -- Brendan and I toured on one graphical score as part of our set once, but as I 
+recall the score kinda got tossed out after X performances and we'd come to a sort of understanding of what we wanted to 
+try to do... but usually the score was more like "start noisy and then get pretty", etc etc.
+
+[5] My kindle was a common player once I introduced induction microphones into the mix -- the original wasn't 
+shielded all that well and it would *sing* through an induction mic when you interacted with the keyboard etc.
+
+[4] I even got into the habit of closing the lid for a while, but 
+that didn't last super long since the laptop screen is still a fantastic heads up display for seeing at 
+a glance what state internally your patch is in...
+
+[3] Except for one performance I can recall I mostly only did live patching with Max/MSP in private with 
+a close friend -- he described our relationship in these sessions as "sparring partners" -- we'd encourage 
+each other to go deeper into Max/MSP so part of those little sessions was kinda about showing off to your 
+friend as much as it was about just improvising together...
+
+
+[1] Very much inspired by the structure of Paul Batchelor's Soundpipe, with a pick-and-choose 
+module philosophy, single sample providers at the core and a module 
+lifecycle that supports a simple programming pattern.
+
+[2] Unless someone read the source code! There's a hello world style example of an 
+Astrid instrument in my previous post about GUIs, but it doesn't go into any of the 
+fun stuff.

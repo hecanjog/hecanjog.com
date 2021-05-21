@@ -1,0 +1,11 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+# Blog posts posts tagged _performance_
+
+
+
+=> /twtxt.txt twtxt feed
