@@ -10,6 +10,10 @@
 
 Posted on 2021-04-29
 
+=> /releases/20210429-solo-from-medium-2021.gmi Solo from MEDIUM [2021]
+
+Posted on 2021-04-29
+
 => /releases/20210217-keyspaces-2021.gmi Keyspaces [2021]
 
 Posted on 2021-02-17

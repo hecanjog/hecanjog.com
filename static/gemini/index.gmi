@@ -4,46 +4,40 @@
 => /blog/index.gmi Blog
 
 
-Guitar
+### What’s up?
 
 Solo
 
 from
 
-Three
-
-Walks
+MEDIUM
 
 [2021]
 
-Guitar
+Recorded
 
-outtakes
-
-from
+during
 
 the
 
-forthcoming
+2021
 
-Three
+three
 
-Walks
+day
 
-.
+MEDIUM.
 
 ### Upcoming Releases
 
-JMY Records :: He Can Jog - Collections of Colonies of Friends :: solo
-CD-r.
+JMY Records :: He Can Jog - Three Walks :: binaural orchestrations
 
 Audiobulb Records :: Various - Audiobulb & Friends Play He Can Jog ::
-double tape of remixes by new & old friends, and remixes of those
-remixes.
+remixes
 
-WhiteLabRecs :: Soft Generator - TBD :: collaboration with David Newman
-AKA Volume Objects.
+WhiteLabRecs :: Soft Generator - A Carefully Controlled Space ::
+collaboration with David Newman AKA Volume Objects.
 
-Beartown Records :: He Can Jog - TBD :: C30 solo tape.
+Beartown Records :: He Can Jog - TBD
 
 => /twtxt.txt twtxt feed

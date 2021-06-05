@@ -6,6 +6,10 @@
 
 # Blog posts posts tagged _recipes_
 
+=> /blog/20210522-kale-apple-cherry-drink.gmi Kale Apple Cherry Drink
+
+Posted on 2021-05-22 12:00
+
 
 
 => /twtxt.txt twtxt feed

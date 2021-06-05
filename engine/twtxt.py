@@ -29,7 +29,7 @@ FOLLOWING = [
 
     # merveilles webring folks...
     'https://pbat.ch/twtxt.txt', 
-    'https://wiki.xxiivv.com/links/tw.txt', 
+    #'https://wiki.xxiivv.com/links/tw.txt', 
     'https://cblgh.org/twtxt.txt', 
     'https://wake.st/twtxt.txt', 
     #'https://royniang.com/tw.txt', 
@@ -42,11 +42,11 @@ FOLLOWING = [
     'https://phse.net/twtxt/merv.txt', 
     #'https://t.seed.hex22.org/twtxt.txt', 
     'https://mboxed.github.io/sodatsu/tw.txt', 
-    'https://feed.amorris.ca/hallway.txt', 
+    #'https://feed.amorris.ca/hallway.txt', 
     #'https://kor.nz/twtxt.txt', 
     'https://lublin.se/twtxt.txt', 
     'https://txt.eli.li/twtxt/twtxt.txt', 
-    'https://azlen.me/twtxt.txt', 
+    #'https://azlen.me/twtxt.txt', 
     'https://chrismaughan.com/twtxt.txt', 
     'https://fundor333.com/twtxt.txt', 
     'https://dotcomboom.somnolescent.net/twtxt.txt', 
@@ -60,7 +60,7 @@ FOLLOWING = [
     #'https://dom.ink/tw.txt', 
     #'https://eric.jetzt/twtxt.txt', 
     'https://www.gr0k.net/twtxt.txt', 
-    'https://twtxt.net/user/prologic/twtxt.txt',
+    #'https://twtxt.net/user/prologic/twtxt.txt',
 
 
 ]

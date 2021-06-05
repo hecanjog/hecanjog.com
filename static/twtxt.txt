@@ -152,3 +152,8 @@
 2021-05-20T15:21:10-05:00	I really like refactoring. Clean(er) code feels nice.
 2021-05-20T22:57:01-05:00	O Menander, O life, O Cheers, O Frasier, which imitates which?
 2021-05-21T13:26:05-05:00	I feel like I've been sitting on a plane near a crying baby so long that I don't even remember when the baby started to cry, or why I'm on this flight in the first place. I was just sitting there on the tarmac, miserable. Now I'm off the plane, I'm back home in a quiet & peaceful spot, my thoughts free to explore ideas for days on end like it was when I was 16 years old.
+2021-05-22T15:20:21-05:00	When I hear the word productivity recently I hear it as wasting time. Maybe I'll revive the term busybody. There was never such a busybody as the productive person.
+2021-05-23T08:24:06-05:00	Oh happy day! A firmware update for my extremely crappy printer. Fingers crossed I'll be able to print from an SD card finally...
+2021-05-23T09:20:58-05:00	Sigh... printer is still just as broken as ever. Oh well. (At least it makes for a fine standalone xerox machine...)
+2021-06-01T07:59:52-05:00	The slower I move, the more I actually accomplish.
+2021-06-05T15:49:00-05:00	Just watched a very exciting update about the state of Nim... I'm trying to stay skeptical because it sounds too good to be true, but there's one way to find out I guess!
