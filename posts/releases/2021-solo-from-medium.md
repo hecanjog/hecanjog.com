@@ -1,5 +1,5 @@
 Title: Solo from MEDIUM [2021]
-Date: 2021-04-29
+Date: 2021-06-04
 Image: solo-from-medium-cover.jpg
 Bandcamp: https://hecanjog.bandcamp.com/album/solo-from-medium
 Tags: EP solo drone

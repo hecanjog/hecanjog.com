@@ -157,3 +157,4 @@
 2021-05-23T09:20:58-05:00	Sigh... printer is still just as broken as ever. Oh well. (At least it makes for a fine standalone xerox machine...)
 2021-06-01T07:59:52-05:00	The slower I move, the more I actually accomplish.
 2021-06-05T15:49:00-05:00	Just watched a very exciting update about the state of Nim... I'm trying to stay skeptical because it sounds too good to be true, but there's one way to find out I guess!
+2021-06-20T12:27:05-05:00	Debugging new firmware in a notebook by the river is fantastic, but some days I get more accomplished just sitting and looking out at the water.

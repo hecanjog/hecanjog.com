@@ -6,11 +6,11 @@
 
 # Releases posts tagged _solo_
 
+=> /releases/20210604-solo-from-medium-2021.gmi Solo from MEDIUM [2021]
+
+Posted on 2021-06-04
+
 => /releases/20210429-guitar-solo-from-three-walks-2021.gmi Guitar Solo from Three Walks [2021]
-
-Posted on 2021-04-29
-
-=> /releases/20210429-solo-from-medium-2021.gmi Solo from MEDIUM [2021]
 
 Posted on 2021-04-29
 

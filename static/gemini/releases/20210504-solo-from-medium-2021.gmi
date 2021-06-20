@@ -1,0 +1,13 @@
+=> /about.gmi About
+=> /reading.gmi Reading
+=> /listening/index.gmi Listening
+=> /blog/index.gmi Blog
+
+
+## Solo from MEDIUM [2021]
+
+Posted on 2021-05-04
+
+Recorded during the 2021 three day MEDIUM.
+
+=> /twtxt.txt twtxt feed

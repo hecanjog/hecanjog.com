@@ -10,7 +10,7 @@
 
 <hr/>
 
-### What's Upcoming?
+### What's upcoming?
 
 JMY Records :: _He Can Jog - Three Walks_ :: binaural orchestrations
 
